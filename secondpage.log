@@ -1,0 +1,43 @@
+This is pdfeTeX, Version 3.141592-1.30.4-2.2 (Web2C 7.5.5) (format=pdflatex 2006.11.6)  21 JAN 2007 21:54
+entering extended mode
+\write18 enabled.
+**secondpage.tex
+(./secondpage.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.2 \hspace{10cm}
+                 
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.2 \hspace{10cm}
+                 
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 6 strings out of 94424
+ 268 string characters out of 1172363
+ 2048354 words of memory out of 4500000
+ 3314 multiletter control sequences out of 10000+50000
+ 3640 words of font info for 14 fonts, out of 2000000 for 2000
+ 582 hyphenation exceptions out of 5000
+ 6i,0n,5p,30b,14s stack positions out of 5000i,500n,6000p,200000b,40000s
+PDF statistics:
+ 0 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 1 words of extra memory for PDF output out of 10000
+No pages of output.

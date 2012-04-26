@@ -1,0 +1,55 @@
+\section{Angular resolution and \emph{Seeing}\label{seeing}}
+When using any kind of an optical imaging system, the angular resolution in the focal plane is limited by the diffraction at the aperture of the instrument. On circular apertures a the image of point source is an Airy function with a certain Full Width at Half Maximum (FWHM). Two point sources closer than the FWHM of a certain instrument PSF  are therefore difficult to distinguish. Another common criterion to the measure the minimum angular distance for the clear separation of two point sources is that the image of the second point source should be at the position of the first dark ring surrounding the central Airy disc of the diffraction pattern from the first point. If one considers diffraction of telescope with a circular aperture of diameter $D$, the angular resolution limit is
+\begin{equation}
+\alpha_{min}=1,22 \, \frac{ \lambda}{D}.
+\label{ec:res}
+\end{equation}
+The factor 1.22 is approximately the first zero of the Bessel function involved in this calculation (first zero of $J_{1}$ divided by $\pi$) .This criteria is used to approximate the ability of the human eye to distinguish two separate point sources \footnote{The actual distance of photoreceptors in the eye is $\sim1\mu m$ wich leads to an angular resolution of $\approx1\arcsec$} depending on the overlap of their Airy discs: the frist minimum of intensity of the diffraction of one point source to be located at the maximum of the other. In the focal plane of such a telescope with a focal length $f$ the spatial resolution is therefore (for such small angles) $d=1,22 \, \lambda\, f/D$. For optimal sampling this should correspond to the resolution element of the detector (2 pixels).
+
+Unfortunately all imaging systems on the ground are subject to the influence of the ever changing turbulent atmosphere of the Earth, resulting in a much lower spatial resolution than the diffraction limit. The refraction index of the air changes from one point to another and also in time. Theses changes produces aberrations of the wavefronts from the object to be observed and therefore degrade the quality of the image. Since the time scale variation of the aberrations is usually smaller than the integration time, it also produces smoothing of the image details. Thus, the information at small scales is lost.
+
+In solar physcis we usually measure the average quality of the atmosphere during a observation estimating the diameter of a telescope that would produce the same diffraction-limited FWHM of a point source image as the atmospheric turbulence would even with a much larger aperture. This is called the Fried's parameter ($r_{0}$). The relation of the FWHM of such a telescope and $r_{0}$ is then
+ \begin{equation}
+FWHM=0.98\frac{\lambda}{r_{0}}.
+\end{equation}
+
+
+$r_{0}$ depends on many factors, as we will explain in the following section. The most important one is the day-night difference. Typically, upper limits for the ``Observatorio del Teide'' are $r_{0} \approx 15$\, cm, during night-time  and $r_{0} \approx 7$\, cm during daylight.
+
+
+\subsubsection*{Parameters influencing the quality of solar images}
+The light we observe from the solar photosphere takes around 8 minutes to arrive at the Earth. It travels unperturbed along approximately 150 million km, but during the last few microseconds before detection it becomes distorted due to its interaction with the Earth's atmosphere. Here we shortly introduce the effects of this interaction on the image quality in solar observations.
+
+%The Earth's atmosphere  is a mixture of gases (78\% nitrogen, 20\% oxygen, 1\% water vapor and others ). 75\% of its mass is below 11 km, but goes beyond 100 km. The dynamics of the atmosphere in global scale is mainly driven by the Solar radiation (absorbing most of the high energy wavelengths) and the Earth rotation (which creates day-night variations and strong winds). 
+
+
+
+The image degradation by the atmosphere is related with the refractive index of the air, which is very close to 1 at optical wavelengths:
+\begin{equation}
+n \approx 1 +  77.6 \cdot 10^{-6} \frac{P}{T}
+\end{equation}
+where $P$ is pressure and $T$ temperature. Changes in space of the refractive index create the distortions of the image and changes in time modify the distortions. When recording an image, if the integration time of the image is longer than the temporal variation it also produces blurring of the image.
+%
+The ever changing inhomogeneities of the refractive index are the consequence of the atmosphere being a highly turbulent medium (Reynolds number Re $\sim 10^{6}$). 
+%omit?
+The scale of these inhomogeneities evolve in time to smaller turbulent eddies, and are finally dissipated in the viscosity of the medium producing thermal heating. This process induce temporal and space dependence of the wavefront aberrations. 
+%
+The turbulent state of the air masses through which the light is passing varies with direction and with time. This produces an anisoplanatism of the wavefronts arriving at the telescope, with angular sizes of the isoplanatic patches not larger $\approx 10\arcsec$ and with time scales of $\approx 10 ms$.
+
+This turbulence of the atmosphere is created and maintained by thermal gradients, humidity fluctuations  and wind shears. For more information on the influence of the atmosphere in hte quality of the images we refer to e.g.  \citealt{2002RvMP...74..551S}. The sources of turbulence are mainly:
+\begin{itemize}
+\item The friction of the air flow with the Earth's irregular surface, resulting in velocity gradients.
+\item Heating of the surface triggers convection on the first few km of the atmosphere, which defines the troposphere layer. Differential heating of the surface increase turbulence.
+\item Condensation and crystallization of water vapor, formation of clous.
+\item Interaction between airmasses with different parameters.
+\item Shears produced by the strong winds on the stratosphere, which is located above the troposphere, where the temperature gradient is not enough to sustain convection.
+\end{itemize}
+
+The total image degradation is due several factors, and the atmospheric turbulence is a common factor for all solar observations. Local factors can be influenced to improve the quality of the image:
+\begin{description}
+\item[Surroundings of the observing site.] The location of the observing site and shape of the building should be aerodynamically optimal for reducing wind-related turbulence. Convection around the building and the dome can be minimized reducing the heating of the surfaces by painting them white.
+\item[\emph{Internal seeing.}] Convection along the light path in the telescope triggered by heated optical surfaces can be avoided with an open-air or evacuated estructure of the telespce. Differential heating of the optical elements have to be minimized, as well as vibrations of the elements and the telescope, as a whole.
+\end{description}
+
+
+Besides these structural requirements for best \emph{seeing} conditions, nowadays there are methods for correcting the images for seeing distortions to obtain near diffraction limited resolution. In this thesis we have used different methods: We correct partially the aberrations in real time using adaptive optics (Sec. \ref{obs:kaos}) and we apply also post-proccesing methods of image reconstruction (Sec. \ref{datared}).

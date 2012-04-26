@@ -1,0 +1,44 @@
+\contentsline {chapter}{Summary}{7}{chapter*.2}
+\contentsline {chapter}{\numberline {1}Introduction}{9}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Sun}{9}{section.1.1}
+\contentsline {section}{\numberline {1.2}The chromosphere}{13}{section.1.2}
+\contentsline {section}{\numberline {1.3}Aim and outline of this work}{15}{section.1.3}
+\contentsline {chapter}{\numberline {2}Spectral lines}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Radiative transfer and spectral line formation}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}Hydrogen Balmer-$\alpha $ line (H$\alpha $)}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}\ion {He}{i} 10830 \r A\, multiplet }{19}{section.2.3}
+\contentsline {chapter}{\numberline {3}Observations}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Angular resolution and \emph {Seeing}}{21}{section.3.1}
+\contentsline {section}{\numberline {3.2}Telescope}{23}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Kiepenheuer Adaptive Optics System}{24}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}High spatial resolution}{26}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Instrument}{27}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Observations}{29}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Data reduction}{31}{subsection.3.3.3}
+\contentsline {subsubsection}{\numberline {3.3.3.a}Speckle interferometry of the broadband images}{33}{subsubsection.3.3.3.1}
+\contentsline {subsubsection}{\numberline {3.3.3.b}Speckle reconstruction of the narrow-band images}{34}{subsubsection.3.3.3.2}
+\contentsline {subsubsection}{\numberline {3.3.3.c}Multi object multi frame blind deconvolution}{36}{subsubsection.3.3.3.3}
+\contentsline {section}{\numberline {3.4}Infrared spectrometry}{38}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Instrument}{38}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Observations}{40}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}Data reduction}{41}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {4}High resolution imaging of the chromosphere}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Dark clouds}{45}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fast events and waves}{49}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Observations and data reduction}{49}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Physical parameters}{51}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Fast events in H$\alpha $}{55}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Magnetoacoustic waves}{59}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Summary on some properties of the active chromosphere}{73}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Comparison between speckle interferometry and blind deconvolution }{74}{section.4.3}
+\contentsline {chapter}{\numberline {5}Spicules at the limb}{81}{chapter.5}
+\contentsline {section}{\numberline {5.1}Spicule emission profiles observed in \ion {He}{i} 10830 \r A}{81}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Observational intensity profiles and intensity ratio}{82}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Results}{84}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Conclusions}{86}{subsection.5.1.3}
+\contentsline {section}{\numberline {5.2}High resolution imaging of spicules}{86}{section.5.2}
+\contentsline {chapter}{\numberline {6}Conclusions and outlook }{91}{chapter.6}
+\contentsline {chapter}{Bibliography}{95}{section*.27}
+\contentsline {chapter}{Publications}{103}{chapter*.28}
+\contentsline {chapter}{Acknowledgements}{105}{chapter*.29}
+\contentsline {chapter}{Lebenslauf}{107}{chapter*.30}

@@ -1,0 +1,74 @@
+\chapter{Conclusions and outlook \label{ch:conclusions}}
+%\begin{comment}
+We have studied the dynamics of the solar chromosphere, both on the disc and above the limb, using two spectral regions (H$\alpha$ in visible light and the infrared \ion{He}{i} 10830 \AA\, multiplet). By means of real-time correction and different post-processing techniques we have reduced the image degradation induced by the Earth's atmosphere achieving resolutions in H$\alpha$ up to $0\farcs5$ and better. This Chapter summarize the main conclusions of this work.
+%The H$\alpha$ spectral line in combination with the ``G\"ottingen''-FPI provides mean to image the chromosphere both inside the disc and at the limb with very high spatial, spectral and temporal resolution. Using the ``Tenerife Infrared Polarimeter'' we can measure the infrared emission if the spicules above the limb in the  \ion{He}{i} 10830 \AA\, multiplet.
+
+\subsubsection*{Observations and analysis}
+The basic results from the observations taken from the disc are:
+\begin{itemize}
+\item Data taken in the combination with the ``G\"ottingen''-Fabry Perot Interferometer (G-FPI), adaptive optics and speckle interferometry have high quality. We have obtained a time sequence in H$\alpha$ of 55 min from the active region AR 10875 at  heliocentric angle $\vartheta\approx36\degr$. The time cadence is 22 seconds, and its field of view  $77\arcsec\times94\arcsec$. For each interpolated time step we can retrieve 23 filtergrams along the H$\alpha$ spectral line with 45 m\AA\, FWHM and spatial resolution better than $0\farcs5$ . Simultaneous broadband images at 6300\,\AA\,were also obtained, with spatial resolution of $0\farcs25$, close to the telescopic diffraction limit.
+
+\item We have observed the dynamics of a small surge in detail: It showed repetitive occurrence with a rate of some 10 min. The surge developed from initial small active fibrils to a straight, thin structure of approximately 15~Mm length, then retreated back to its mouth to reappear again two times. The gas velocities reach approximately 100~km\,s$^{-1}$. The rebound shock model by \citet{1989ApJ...343..985S} seems to be a viable explanation.
+
+\item The region was very active during the observations. We studied two small-scale, synchronous, possibly related flashes, or mini-flares. The simultaneity is within seconds, while their total evolution time was $\sim45$s. The brightenings were separated by $\sim14$ Mm. The used scanning parameters of the G-FPI were slow for this fast evolution, yet we could follow it with a temporal resolution of 2~s by analysing filtergrams taken consecutively at different wavelengths across the H$\alpha$ line. One of the two flashes showed an apparent proper motion with a speed up to 200~km\,s$^{-1}$, while developing a high emission in H$\alpha$, above the continuum intensity.
+
+\item For the observations of waves we restricted our study to two areas exhibiting long fibrils. Yet the results likely represent the typical behavior of chromospheric magnetoacoustic waves within this active region.  By means of high-pass frequency filtering, we observe waves running parallel to the fibrils, thus presumably also parallel to the magnetic field. They were mostly solitary waves, although sometimes repetitive wave trains could be seen with periods of 100--180~s. Most pulses start with velocities on the order of 12--14~km\,s$^{-1}$ and get accelerated to reach phase speeds of approximately 30~km\,s$^{-1}$.  Furthermore, we observe that the slow waves have strong transversal (LOS) velocity components with $\sim$3~km\,s$^{-1}$, i.e. are not purely longitudinal, and that the fast waves consist of short (1\arcsec--2\arcsec), thin ($\sim$0\farcs5) blobs and apparently move along sinuous lines. 
+\end{itemize}
+
+%\subsubsection*{Observations of spicules in the limb}
+Further, we have analyzed observations of spicules inside the disc and above the limb with the G-FPI data. Given the properties for this kind of observations we could not use the speckle interferometry method to reduce the atmospheric distortions. Instead we have used the blind deconvolution approach, in particular the version developed at the Swedish Institute for Solar Physics for multiple simultaneous objects with multiple frames per object \citep{2005SoPh..228..191V}. The observations and analysis yielded the following main results:
+\begin{itemize}
+\item It is possible to successfully use multi-object multi-frame blind deconvolution methods with the G-FPI to reduce atmospheric distortions. This is specially important for on-limb observations, where the current speckle interferometry method is not applicable.
+ 
+\item We have observed spicules in H$\alpha$ at both solar polar caps. Compared with the solar north pole, we find much stronger spicular emission at the south pole that could be related to the presence of a coronal hole. The maximum projected height reaches 8250 km, while we see inclinations of the spicules up to 70\degr\, form the local vertical. We can resolve the detailed structure of the spicules as well as the presence of kinks or bends in some cases. The width of a single spicule ranges from 1\,000 km down to the resolution limit of around 250~km.
+\item Using the retrieved spectral profile we can observe that spicules outside the limb continue as dark fibrils inside the disc, as shown in Fig.  \ref{fig:spicules}. This answers a long standing question, e.g. cited by \citet{1992A&A...264..236G}.
+
+\end{itemize}
+Thus, we have used two different post-processing approaches to reduce the image degradation with the H$\alpha$ spectral line data. Since both methods are based on different approaches, we have reduced the same observational data with both techniques and compared the results. These are the main conclusions:
+\begin{itemize}
+\item The agreement of the images from both approaches is high. The achieved resolution comes close to the diffraction limit in both cases. Even though both methods split the image into isoplanatic subfields for individual reconstruction, there is no difference of subfield re-composition when comparing the results.
+\item In general, the biggest advantage of speckle interferometry over blind deconvolution is the small computational time required. A complete restoration of one full H$\alpha$ scan like the ones used in this work is roughly $\sim400$ times faster with speckle interferometry than with blind deconvolution methods.
+\item The main advantage of blind deconvolution methods is their versatility. It can be applied with only few frames, with one or few simultaneous objects, or both at the same time. This method is highly advisable when aiming for e.g., fast evolving targets, or limb observations. The perfect sub-alignment of simultaneous objects avoids spurious signals on deduced quantities, like magnetograms.
+\item For the broadband channel we find that the speckle interferometry gives images with high contrast. Only when forcing the blind deconvolution method to reconstruct up to high  ($100$) Karhunen-Loeve modes, the results are similar. We note that the speed of the reconstruction is proportional to the number of modes.
+\item The narrow-band images are clearly better reconstructed with the blind deconvolution, even with only 17  Karhunen-Loeve modes. The noise treatment gives smoother images with details at smaller scales (of the order of $\approx 0\farcs3$).
+\end{itemize}
+Further, we have obtained and analysed spectroscopic measurements in the infrared. We have centered our studies here on the intensity profiles of the \ion{He}{i} 10830 \AA\, multiplet above the limb.
+\begin{itemize}
+\item Recent work, like e.g. by \citet{truj05, Centeno06}, has demonstrated the importance of the intensity ratio between the blue and red component of this triplet as tracer of the coronal irradiance. In this work we present novel observations showing the variation of this parameter with distance to the limb with a resolution of $0\farcs35$ up to 7\arcsec\, above the solar visible limb (See Fig. \ref{fig:ratios}).
+\end{itemize}
+
+\subsubsection*{Interpretation of observations}
+
+For the interpretation of the observed data we have used several models and previous theoretical results to compare with the presented data. The main results from this analysis are:
+\begin{itemize}
+\item From the intensity profiles of the H$\alpha$ spectral line inside the disc we can infer many physical parameters. We have applied the lambdameter method as a fast and easy way to retrieve qualitative velocity maps. Also we have used Beckers's \citeyear{1964PhDT........83B} cloud model. Our simple non-LTE inversion code provides the possibility to infer many physical parameters, e.g. hydrogen and electron density, mass density, temperature,~\dots The results are in agreement with the data given in the current literature.
+
+\item From the linearization of the MHD problem, we discuss the interpretation of the observed waves as magnetoacoustic waves.  We assume estimates with reasonable magnetic field strengths  in the chromosphere of the active region of 30--100~Gauss and reasonable mass densities in the fibrils of 2$\times10^{-13}$~g\,cm$^{-3}$. The observed wave speeds are much lower than the expected Alfv\'en velocities. We conclude from these findings that a linear theory of wave propagation in straight magnetic flux tubes is not sufficient. 
+
+
+\item From the infrared observations we have calculated the ratio of amplitudes in the two main components of the \ion{He}{i} 10830 \AA\, multiplet. \cite{Centeno06} has modelled synthetic limb observations according to the current theories of formation of this triplet and chromospheric models. The agreement is only qualitative. The failure to reproduce the observed profiles is very likely due to the density stratification not being adequate for spicule modelling used %by  \cite{Centeno06}
+and to the limited vertical extension of the atmospheric models. Modelling of the intensity ratio should account for the fact that the solar chromosphere is inhomogeneous on small scales and that the spicules are small-scale intrusions of chromospheric matter into the hot corona. Future models of the solar chromosphere should be constrained by the observational evidences presented within this work.
+
+\end{itemize}
+
+%\pagebreak
+\subsubsection*{Outlook}
+
+The solar chromosphere represents a lively and exciting field of research. The wealth of structures, its dynamics and the wide range of evolution timescales are the consequence of the peculiar properties of this atmospheric layer. Current instruments like the ones used here, are able to observe and study in great detail new phenomena, that test current models and, as a consequence, helps our understanding of the solar atmosphere. This thesis aimed at contributing to the understanding. Yet, work to extend this research is already in progress. Here we shortly describe some of this work and give an outlook to further steps to be undertaken next.
+\begin{itemize}
+\item
+The blind convolution method provides a practical way to study the spicules in H$\alpha$ near and above the limb. Data from a short time sequence, taken under very good seeing conditions, are currently under reconstruction with phase diversity methods. The analysis will shed light onto the dynamic phenomena in spicules.
+\item
+We have learned that the sequential scanning, with the G-FPI, with cadence of 22~s is not fast enough in some cases. For future
+observations, we can design scanning modes of 2--3 second resolution taking images at fewer wavelength positions in a spectral line, like H$\alpha$.
+
+\item New infrared data of spicules near the solar poles and the equator, below coronal 
+holes or in coronal active regions will help us to understand the detailed 
+formation process of the \ion{He}{i} 10830~\AA\ lines.
+
+\item Full Stokes spectropolarimetric data of the \ion{He}{i} 10830 \AA\, multiplet are available from an earlier  observing campaign. Scans above the limb were performed under very good seeing conditions. We can therefore extend our present analysis and study the polarization. We aim to investigate the Hanle effect as suggested by \cite{truj05} and make use of available inversion techniques like e.g. from \cite{2004A&A...414.1109L}.
+
+\item The new Gregor telescope  \citep{2007ASPC..368..605B} will host the G-FPI from the coming year on. The combination of this new facility with other instruments like Hinode  \citep{2007SoPh..243....3K}, will provide new exciting resources for further research.
+\end{itemize}
+%\end{comment}
+

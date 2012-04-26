@@ -1,0 +1,472 @@
+\chapter{Observations}
+
+For the present work we mainly used data from 2 different instruments, both mounted on the same telescope, the \emph{ Vacuum Tower Telescope} (VTT, Sec. \ref{sec:telescope}) at Iza\~na, Tenerife. One of the instrument, the \emph{G\"ottingen Fabry-Perot Interferometer} (G-FPI, Sec. \ref{obs:fpi}) is able to achieve very high spatial resolution while the \emph{Tenerife Infrared Polarimeter} (TIP, Sec. \ref{obs:tip}) is able to obtain full Stokes spectopolarimetric data with very high spectral resolution. Both, in combination with the \emph{Kiepenheuer Adaptive Optics System} (KAOS, Sec. \ref{obs:kaos}), provided the data for this work.
+
+On this chapter we will describe the telescope, instrumentation, observations, and the reduction techniques to remove as much instrumental effects as possible. 
+
+\section{Telesope\label{sec:telescope}}
+The \emph{Vacuum Tower Telescope} \citep[VTT,][]{1985spit.conf.1191S} telescope (Fig. \ref{fig:foto:vtt}) is located at the spanish ``Observatorio del Teide'' (2400 m above sea level, 16\fdg  30' W, 28\fdg 18' N) in Tenerife, Canary Island.
+
+\begin{wrapfigure}[19]{r}{0.4\textwidth}
+\vspace{-0.4cm}
+\begin{center}
+\includegraphics[height=7cm]{../figures/VTT.jpg}
+\caption{The solar \emph{Vacuum Tower Telescope}, in Tenerife.}
+\label{fig:foto:vtt}
+\end{center}
+\end{wrapfigure}
+It is operated by the Kiepenheuer-Institut f\"ur Sonnenphysik in combination with the ``Institut f\"ur Astrophysik G\"ottingen'', ``the Max Planck-Institut for Solar System Research'' and the ``Astrophysikalisches Institut Potsdam''.
+
+The VTT optical setup is described in Fig. \ref{fig:vtt:optical}). At the dome, an altazimutal celostast follows the path of the Sun on the sky, redirecting the sunlight beam to the entrance window using a set of 2 high reflectance mirrors. One of them rotates clockwise around the Earth's North-South axis, reflecting always the image of the sun towards the secondary mirror. This last part of the celostat redirects the light into main tank trough the entrance windows, which is a thick glass 70 cm wide (and therefore limit our spatial resolution to $r=1,22 \lambda/D\approx0\farcs2$, due to diffraction of the circular aperture).
+
+Inside the main tank the sunbeam is focused using a parabolic mirror, with a focal length of 46 meters. In order to avoid the turbulence produced by heating due to the concentration of sunlight, the whole light path until the focus is kept in vacuum (down to 1mbar of pressure).
+
+Before the primary mirror, part of the sunlight is directed towards a secondary imaginary device that uses 4 ccd's to track the solar disc movement on the sky. Pointing the field of view inside the solar disc is done moving this tracking device as a whole.
+
+After the main vacuum tank, the adaptive optic (Sec.\ref{obs:kaos}) device is located. This optical system is able to correct in real time the first low order aberrations of the light beam due to the turbulence in the earth's atmosphere. After the optional adaptive optics section, a folding mirror can be used to direct the light to the different science instruments available.
+\begin{figure}[t]
+\begin{center}
+\includegraphics[height=10cm]{../figures/VTT-dia.jpg}
+\caption{Optical setup of the VTT. The celostat (mirrors \emph{m1,m2}) follows the path of the Sun on the sky and directs the light to the entrance window of the vacuum tank (blue shaded). Mirror \emph{m3} redirects part of the pupil image light towards an secondary tank with the correlation tracker and pointing system. Focusing mirror \emph{m5} produces the focus near the exit window of the vacuum tank, where a folding mirror (not shown) can redirect the light to the optical laboratories to the instruments. The adaptive optic system (see Sec. \ref{obs:kaos}) is optionally used and located after the vaccum tank. \emph{m4, m7} are folding mirrors to reduce the physical size of the instrument.}
+\label{fig:vtt:optical}
+\end{center}
+\end{figure}
+
+
+\subsection{KAOS\label{obs:kaos}}
+As mentioned in the section \ref{intro:sun} the atmosphere of the Earth degrades the quality of the image during our observations. KAOS \citep[Kiepenheuer Adaptive Optics System, ][]{1985spit.conf.1191S} is a realtime correction device that calculates and corrects the instantaneous aberration of the wavefront using special deformable mirrors.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[height=9cm]{../figures/KAOS.jpg}
+\caption{Typical AO optical setup diagram. Inside the closed loop, a fraction of the incoming light is directed to the KAOS camera (semitransparent mirror \emph{m1}), where a lenslet (\emph{ll}) produces many subfield focus images of different parts of the pupil in the wavefront sensor. The calculated instantaneous aberration is compensated using the 2 (tip\&tilt  and deformable) mirrors, every 0.4 ms.}
+\label{fig:kaos:optical}
+\end{center}
+\end{figure}
+
+The optical setup of a typical adaptive optical system is shown in the Fig. \ref{fig:kaos:optical}. The light enter the system and part of the sunbeam is directed to the wavefront sensor. The pupil image is focused into the camera using a lenslet array, producing several focus images from different parts of the pupil plane. Using a reference image and a correlation algorithm it is possible to compute the displacement of each subimage and from them estimate the aberration of the wavefront.
+Every aberration can be expressed as the coefficients of a set polynomies (for example the Zernike polynoms), being each of them a specific type of aberration (tilt, focus, astigmatismus...). The AO is able to correct most of the first orders of the  aberration.
+To do so it has 2 active optical surfaces (both of them in main lightbeam, so the correction is done in a closed loop). In the case of KAOS consist in a tip-tilt mirror which is able to tilt the whole image, tracking the reference feature (that corresponds to the first 2 Zernike polynomies). The second optical device is a morphing deformable mirror with 32 actuators which creates the aberration in the mirror surface that corrects the incoming wavefront (up to the $27^{th}$ Zernike polinomy), as seen by the wavefront camera.
+This correction is done in a fast closed loop at 2100 Hz, which is smaller than the typical time scale variation of the turbulence in the atmosphere.
+
+As already mentioned, the aberration of the wavefront is anisoplanatic in the field of view, so the wavefront camera has a restricted FoV of 12\arcsec where this assumption is valid, the so called \emph{lockpoint}. This is one of the main limitions of current AO systems. The corrections are calculated for the lockpoint feature we are tracking and applied to the whole FoV of the Telescope, therefore the correction is less and less aqurate as we go further from the lockpoint. The quality of the image is degraded outwards from the center when using the AO systems. Fortunately this can be taken into account using post-facto image reconstruction (either with speckle of diversity methods).
+
+In night-time astronomy AO lock into a star, so the displacements of the subfiedls produces by the lenslet are easly calculated. On solar telescopes there is always an extended source, making these calculations much more difficult. For these reason a reference image is taken and updated regularly while operation, and a correlation from this image to the subfield images is used. One limitation of this method is that we need some contrast feature inside the FoV to lock the algorithm, either a pore or visible granulation patterns. Moreover, the wavefront sensor can only work on whitelight, so is not possible to lock for example H$\alpha$ features. Also, as we explain in Sec.\ref{obs:tip}, near or off-limb observations are difficult as the tracking algorithm is not prepared for that kind of references.
+
+
+
+
+\section{High spatial resolution}
+For our study of the dynamics of chromospheric features where are interested in having as much spatial resolution as possible, with the highest temporal cadence, and as much spectral information as possible. For that purpose we used the G\"ottingen Fabry-P\'erot Interferometer \citep[G-FPI, ][]{2006A&A...451.1151P}.
+
+Basically, this instrument is able to produce an image from select a wavelenght range with only 55 m\AA\, FWHM spectral passband. It can be also tuned to almost any desired wavelength, being able to scan a desired spectral line, producing 2D spectrograms (images) at, e.g., 20 spectral position along a line. If we scan iteratively one spectral line we will end up with a time sequence of very high spatial resolution, at several spectral positions and with a cadence which would be the time required to scan the full line, which is typically the order of 18 seconds for our data.
+
+The main limitation of this kind of observational procedure is that the images corresponding a single scan are not simultaneous, as each of them are taken consecutively. This is of special important when we compare the wings of a spectral line, as the feature under study might have change during the time needed to scan between these positions. This should we taken into account when studying features whose typical timescale variation is comparable to the scanning time. On Sec.\ref{hr:alfven} we will see that this limitation can be partly compensated when we have a long temporal serie.
+
+\subsection{Instrument\label{obs:fpi}}
+The G\"ottingen Fabry-P\'erot Interferometer is a speckle-ready Fabry-P\'erot 2D spectrograph. It is able to scan a spectral line at several positions producing a set of speckle images at each spectral position with a narrow spectral FWHM, while taking simultaneous broadband images, needed for the post-facto image reconstruction.
+
+\subsubsection*{Fabry-P\'erot interferometer (FPI)}
+A Fabry-P\'erot is an interference filter composed of 3 plane parallel high reflectance layers, so when the lights enters the filter is mostly reflected between the plane parallel inner faces of the filter (\emph{ethalons}). This reflections will produce  destructive interference for outcoming light at all wavelength but the ones having a wavelength multiple of the separation of the filter faces (see Fig. \ref{fig:gfpi:transimance}). This effect gives rise to a final Airy intensity function \citep{Born:1999lr}.
+\begin{equation}
+I=I_{max}\frac{1}{1+\frac{4R}{(1-R)^{2}}sin^{2}\frac{\delta}{2}}
+\end{equation}
+\noindent
+where the maximum intensity, $I_{max}=\frac{T^{2}}{(1-R)^{2}}$ and the dependence on wavelength and incoming angle is
+\begin{equation}
+\delta=\frac{4\pi}{\lambda}nd\,cos\Theta
+\end{equation}
+
+
+The central transmittance of the filter ($\lambda$ equal to twice the distance between plates) can be therefore tuned to any desired wavelength. In order to reduce the transmittance at all other secondary peaks, the G-FPI has another Fabry-P\'erot in which the separation of transmittance peaks (called free spectral range,  \emph{FSR}) is different. Both FP need to synchronized when scanning in order to keep a common central transmittance peak. The combination of 2 FPI with different \emph{FSR} will effectively removed the secondary peaks. An additional filter is used to reduce the incoming spectral range to our spectral line. The combination of these 3 elements produces a single narrow central peak, as seen in Fig. \ref{fig:gfpi:transimance}. 
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=\textwidth]{../figures/airy_filtro.pdf}
+\caption{Transmission functions for the narrow band channel of the G-FPI with the $H\alpha$ setup. The periodic Airy function of the narrow band FPI (dashed line) is coincide in the central wavelength with the broad band FPI (strong dashed green line). The global transmission of both FPI has one single strong and narrow peak at the central wavelength (purple strong line). An additional interference filter (yellow line) is placed to restrict the light to the scanned spectral line.}
+\label{fig:gfpi:transimance}
+\end{center}
+\end{figure}
+
+
+
+For the post-facto image reconstruction (Sec. \ref{datared}) we need to aquire simultaneous short exposure images from the narrow band channel and broad band channel. For this purpose be used a special set of CCD cameras with high sensitivy to be able to aquire a high cadence of short exposure images. All the process (simultaneous exposures, synchronous FPI scanning and observations parameters) is controled by a central computer.
+The optical setup of the instrument (as seen in Fig. \ref{fig:gfpi:optical}) is as follows. The incoming light, in pupil, is restricted to the size of the lenses using a field stop and then is divided in 2 beams using a beamsplitter. One of the beams is directed towards a neutral filter to reduce the intensity, a cold glass removes the infrared emission and a selected broadband filter (typically 50 \AA wide). Finally a lens focus the image to the fast recording CCD. This is the broadband channel and is used mainly to support the post-facto image reconstruction.
+As for the other channel, the light beam is directed through another cold glass and a selected narrowband filter (typically FWHM 20 \AA centered in the spectral line we want to observe). The lights goes then troguht both FP, where the total transmission has a narrow (55 m\AA FWHM) tunable spectral range. The FPI are located in pupil image to avoid the so called peel-pattern seen in other similar instruments. Finally the light is focused into the CCD. This is the narrow band channel that scans the spectral lines, in figure \ref{fpi:scan} we show an example of the scanning process.
+\begin{figure}[t]
+\centering
+  \subfloat{
+    \includegraphics[width=0.45\textwidth]{../figures/scan-im.jpg}}%
+  \quad%
+  \subfloat{
+    \includegraphics[width=0.4\textwidth]{../figures/fts_fpiha.pdf}}
+\caption{Example frame of the narrow band scanning proccess using the G-FPI. On the left is an example frame of a narrow band 2D spectrogram. Right is the corresponding  $H\alpha$ spectral line, with the FTS atlas (solid black line), the atlas convoled with the airy function of the instrument (blue line) and the observed quiet sun profile (dashed line) with  the 21 spectral postions (rhombus). The yellow line is the Airy function located at the position of the left image (scaled to 1). }
+\label{fpi:scan}
+\end{figure}
+
+The instrument has also secondary devices for calibration and adjustment, like a laser beam and continuum source to test the scanning parameters, and a multimeter to find the spectral line.
+
+Recently  the instrument was upgraded with new CCD cameras, and a new control hardware and software, provinding a much more stable, fast, sensitive and also easier to operate.
+
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[height=7cm]{../figures/G-FPI.jpg}
+\caption{The Gottingen Fabri-P\'erot Interferometer optical setup diagram. The light from the prime focus of the telescope, and after the AO correction, enters the instrument. A beam splitter divides the beam in 2 channels. About 5\% of the light is directed to the broad-band channel. The part consist in an interference filter (\emph{Filter I}) with a FWHM of 50 \AA\, and a neutral filter to avoid the saturation of the speckle CCD camera (\emph{CCD1}). In the narrow band channel another interference filter (\emph{Filter II}) select only the spectral region to be scanned. The 2 FPI synchronous operation scans the selected spectral line with a resulting FWHM of 55 m\AA\, every $\sim100m\AA$. The interference filter situated before removes also the transmittance of far secondary maxima. The speckle CCD2 camera on the narrow band operates simultaneously with the broad-band camera.}
+\label{fig:gfpi:optical}
+\end{center}
+\end{figure}
+
+\subsection{Observations}
+
+For the study of the chromospheric dynamics using high resolution data we have used 3 data sets. In the Table \ref{table:obs:HR} we have summarized the details for each data set:
+\begin{itemize}
+\item Dataset \textit{mosaic} focus on the study of a wide region, were we find fast moving dark clouds, as we discuss in Sec. \ref{hr:darkclouds}. This data was obtained before the instrument upgrading with the old cameras, so the integration time is 6 times larger and the FoV of a single frame is half the new version of the G-FPI. The observers of this data were M\'onica S\'anchez Cuberes, Klaus Puschmann and Franz Kneer.
+
+\item \textit{Sigmoid} dataset uses the last improvements of the instrument and was observed during excellent seeing conditions. During the time span and the FoV of our observations at least one flare was recorded, has we report on Sec. \ref{hr:flare}. Our focus on this data is the study of alfven waves, in Sec. \ref{hr:alfven}. Examples of this data were used also to compare the results from different post facto image reconstruction, as we show in Sec. \ref{sec:comp}.
+
+\item With dataset \textit{limb} and on Sec. \ref{sec:comp} we use phase diversity methods (Sec. \ref{momfbd}) from the renewed G-FPI to study with very high spacial resolution the evolution of the spicules in the H$\alpha$ profile.
+\end{itemize}
+
+
+\begin{table}[htdp]
+\begin{center}\begin{tabular}{|r|c|c|c|}\hline
+\textbf{ Dataset name}  & \textit{``mosaic''} & \textit{``sigmoid''} & \textit{``limb''} \\\hline\hline
+  Date			 & May,31$^{th} $,2004  &  April,26$^{th} $,2006 & May,4$^{th}$, 2005  \\\hline 
+  Object			  & AR0621  & AR10875  & limb  \\\hline 
+  Heliocentric angle	 & $\mu=0.68$  &$\mu=0.59$  & $\mu=1$  \\\hline 
+  Scans \#			 & 5  & 157  & 30?  \\\hline 
+  Cadence			 & 45 s  & $\sim22$ s (see Sec. ??)  & $\sim19$ s  \\\hline 
+  Time span  		 & 4 min  & 55 min  & 10 min ?  \\\hline 
+  Line positions	\#	&  18 & 21 & 22  \\\hline
+  FWHM 			& \multicolumn{3}{|c|}{50 \AA\, broadband / 55 m\AA\, narrowband}  \\\hline   
+  Broadband filter  & \multicolumn{3}{|c|}{6300 \AA}   \\\hline  
+  Stepwidth		& 125 m\AA  & 100\,m\AA & 93 m\AA  \\\hline   
+  Exposure time	& 30 ms  &  \multicolumn{2}{|c|}{5 ms} \\\hline   
+  Seeing condition	& good  & $\le32$ cm $r_{0}$  & $\le20$ cm $r_{0}$  \\\hline   
+ KAOS support & \multicolumn{3}{|c|}{yes}  \\\hline 
+  Image reconstruction& speckle & AO ready speckle  &  MFMOBD  \\\hline 
+   Field of view		 & 33\arcsec x23\arcsec (total 103\arcsec x94\arcsec  )  &  \multicolumn{2}{|c|}{77\arcsec x58\arcsec}  \\\hline 
+  \end{tabular} \caption{Characteristics of the data sets taken with the G-FPI used in this work}
+\end{center}
+\label{table:obs:HR}
+\end{table}
+
+
+ 
+\subsection{Data Reduction\label{datared}}
+After the recording of the data, several steps have to be carried out in order to minimize the instrumental effects. These are mainly to take into account the differential sensitivity of the CCD from one pixel to another or the fixed imperfections on the optical surfaces when they are near the focus point. On this step we also remove an imposed bias signal applied electronically to every frame. This is the usual treatment on any CCD data.
+
+For this purpose we take flat fields, dark, continuum and target images (See Fig. \ref {fig:obs:red}).
+\begin{figure}[t]
+  \centering
+  \subfloat[Broand-band raw frame]{
+    \includegraphics[width=0.45\textwidth]{../figures/raw.jpg}}%
+  \quad%
+  \subfloat[Flat-field frame ]{
+    \includegraphics[width=0.45\textwidth]{../figures/flat.jpg}}
+    \\
+  \quad%
+    \subfloat[Dark frame ]{
+    \includegraphics[width=0.45\textwidth]{../figures/dark.jpg}}
+  \quad%
+  \subfloat[Reduced frame]{
+    \includegraphics[width=0.45\textwidth]{../figures/redu.jpg}}
+    \caption{Examples of the standar data reduction process. Every frame taken with the CCD  (Fig. a) includes instrumental artifacts like dust particles in the CCD array or the filters near the focus (Fig. b) and the intrinsed differential signal of each pixel (Fig. c). substracting the dark signal and dividing by the flat response provides a clean frame (Fig. d).}
+\label{fig:obs:red}
+
+\end{figure}
+
+
+\emph{Target}. A target grid is located before the instrument, in focal plane. Target frames therefore display in both channel a grid of lines that are used to focus and align the cameras in both channel, as it is crucial for the image reconstruction. 
+
+\emph{Continuum} data is taken with the same scanning parameters as with sunlight but using a continuum source, so we can test the transmision of the scanning narrowband channel. 
+
+\emph{Dark} frames are taken with the same integration time but blocking the incident light, so they have information of the differential and total response of the CCD array without light, in order to remove them on the scientific data. 
+
+\emph{Flat fields}  are frames with the same scanning parameters and sun light, but without solar structures. In this way we can see the imperfections and dust on the optical surfaces fixed on every frame taken with the instrument, and remove them dividing our data with this flat frames. To avoid having any solar structure, the telescope makes a random path in the center of the Sun disc far from active region.
+
+Therefore to reduce the instrumental effect we use the following formula, for each channel and for each spectral position independently:
+\begin{equation}
+ reduced frame=\frac{raw\,frame  - mean\,dark}{mean\,flatfield - mean\,dark}
+\end{equation}
+
+
+Provided that our instrument produces dataset that can be reduced using posfacto image reconstruction, we have also applied speckle or diversity methods to minimize the aberrations of the wavefront and achieve theoretical diffraction limited resolution imposed by the aperture of the telescope. 
+
+The aberrations are changing in time and space. In a long exposure image, the temporal dependence will produce the summation of different aberration, blurring the small details of the image.  For this reason all post processing image reconstruction method need input \emph{speckle} frames with integration times lower than the typical timescale of the turbulence, where the objects are distorted but not blurred. Another common characteristic of these methods is the way to address the field dependence of the aberration. In a wide FoV each part of the frame is affected from different turbulences. That is, inside the atmospheric column affecting the image, there are spatial changes in the wavefront aberration. For this reason the FoV is divided into a set of overlapping subfields smaller than the typical angular scale of the aberrations (5\arcsec-8\arcsec).
+
+In this Section we introduce the theoretical methods used and provide some examples and further references.
+
+
+\subsubsection{Speckle interferometry for the broad band}
+With speckle iterferometry we refer here to the postprocessing technique that is able to remove the atmospheric aberrations on the wavefront that degrades the quality of the images, based on a statistical approach to deduce the influence of the atmosphere. It was developed following the idea from \cite{1992A&A...261..321K,1996A&AS..120..195D}. The code used for our data was developed at the  Universit\"ats-Sternwarte Goettingen. The \emph{sigmoid} dataset use the latest improvements to take into account the field dependence of the correction from the AO systems \citep{2006A&A...454.1011P}.
+
+In what follows we present a brief overview of the method:
+The observed image (\emph{i}) is the convolution ( $\star$ ) of the true object (\emph{o}) and how every point is affected, the \emph{Point Spread function, PSF}, which depends on space, time and wavelength. The Fourier transform ($\mathscr{F}$)of the PSF is the \emph{OTF, Optical Transfer Function}
+\begin{equation}
+\mathscr{F} ( i ) = \mathscr{F} (o \star PSF ) \hspace{0.5cm} \rightarrow \hspace{0.5cm} I=O \cdot OTF
+\label{ec:obs:obser}
+\end{equation}
+
+A normal long exposure image would be just the summation of N speckle images:
+
+
+\begin{equation}
+\frac{1}{N}\sum^{N}_{i=0} I_{i} = O \cdot \frac{1}{N} \sum^{N}_{i=0} OTF_{i}
+\label{ec:obs:long}
+\end{equation}
+
+Since the OTF are continuously changing, we loose information. The induces phases changes will, upon this sum, reduce or even cancel the complex amplitudes at higher frequencies. \cite{1970A&A.....6...85L} proposed the use of the square modulus, to avoid cancellations (but it also removes the phases information, so they have to be calculated afterwards):
+
+\begin{equation}
+\frac{1}{N}\sum^{N}_{i=0} |I_{i}|^2 = O \cdot \frac{1}{N} \sum^{N}_{i=0} |OTF_{i}|^2 =  O \cdot STF
+\label{ec:obs:stf}
+\end{equation}
+\noindent
+\emph{STF} is the \emph{Speckle Transfer Function}, and stores the information of the wavefront aberrations during N speckle images. Deduce this STF is therefore the aim of the Speckle method. In solar observations we dont have point sources, so it is not easy to calculate this function. There are ,however, models of STF for extended sources that depends only on the seeing condicions, trought the \emph{Fried} parameter $r_{0}$ \citep{1973JOSA...63..971K}. This parameter can be calculated \emph{statistically} using the spectral ratio method \citep{von-der-Luehe:1984fk}. As this is an statistical approach, a minimum number of speckle frames must be used, more than for example 100 frames.
+
+To recover the phases of the original object the code uses a Speckle masking method \citep{1983OptL....8..389W}. It recursively recovers the phases from lower to higher frequencies.
+
+Finally a noise filter is applied, canceling all the amplitudes of frequencies higher than a certain value, which depends on each case on the quality of the data.
+\begin{figure}[t]
+  \centering
+    \subfloat[Average of 330 speckle images (total integration time $\sim1,6$ s) ]{\label{fig:tiger}%
+    \includegraphics[width=0.4\textwidth]{../figures/broad-int.jpg}}
+  \quad%
+  \subfloat[Single speckle frame, 5 ms integration time]{\label{fig:gull}%
+    \includegraphics[width=0.4\textwidth]{../figures/broad-speckle.jpg}}%
+    \\
+  \quad%
+    \subfloat[Reconstructed broad-band image, using 330 speckle frames. ]{\label{fig:tiger}%
+    \includegraphics[width=0.7\textwidth]{../figures/broad-redu.jpg}}
+    \caption{Examples of the broad-band speckle reconstruction image improvement. Achieved spatial resolution is diffraction limited, $\sim 0\farcs2$.}
+\label{fig:obs:red}
+
+\end{figure}
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=\textwidth]{../figures/power-speckle.jpg}
+\caption{Power spectra showing the influence of the post-proccesing reconstruction. Ordinates is the relative power, in logarithmic scale and abscises is the wavenumber, from a constant value in the whole frame (origin) to the smallest frequency, the Nyquist limit, corresponding to 2 pixels. A long exposure image (black dotted line), taking the average of all speckle images, has a very low noise, but the power is also lower at all frequencies (blurring efect). A single speckle frame ( dashed blue line) has much more power at lower frequencies, but also much more noise (almost 2 orders of magnitude). The speckle reconstructed frame keeps the noise low while increases the power of the rest of the frequencies, where the spatial information of smaller structures is stored.}
+\label{fig:obs:speckle:power}
+\end{center}
+\end{figure}
+\subsubsection*{Influence of the AO in the speckle interferometry}
+
+As exlained in Sec. \ref{obs:kaos} the AO systems provide a realtime correction of the lower order aberrations (up to a certain order of Zernike polynomials). Nonetheless, given the anisoplanatism of the large field of view, the corrections are calculated for the lockpoint and applied to the whole frame, resulting in a degradation of the image correction from the lockpoint outwards.
+The problems strives in the different atmospheric column for each part of the field of view. This creates, after the AO correction, a annular dependence of the correction and therefore a annular dependence of the STF when processing the speckle interferometry. \cite{2006A&A...454.1011P} provided a modified version of the code that compute different STF for annular regions around the lockpoint, providing a more accurate treatment for the consequent aberration structure over the field of view.
+
+The \emph{sigmoid} dataset was reduced using this last code, improving substantially the quality of the results. Both AO and speckle interferometry work best with good seeing, and this data set was recorded under very good seeing conditions.
+
+\subsubsection{Speckle method for the narrow band}
+The narrowband channel scans the observed spectral line, taking several ($\sim 20$) images per spectral position. The statistical approach of the above explained method is not possible applicable given the low number of realizations per spectral position. 
+To reconstruct this channel we use a mehod proposed by \cite{1992A&A...261..321K} and implemented by \cite{2003PhDT.........2J}. For each frame on the narrowband, there is a simultaneous frame on the broadband channel, so the aberration in the wave front is the same (the wavelength broadband channel is 200 \AA far from the narrowband, so we neglect the wavelength dependence of the aberration.)
+For each position in the spectral line, for each subfield, we have a set of pairs of simultaneous speckle images from the narrow and broadband channel, with a common OTF for each realization on both channels:
+\begin{eqnarray}
+  I_{Broad} = O_{Broad} \cdot OTF\\
+   I_{Narrow} = O_{Narrow} \cdot OTF
+  \label{ec:obs:narrow1}
+\end{eqnarray}
+We are now interested in calculating $O_{Narrow}$, so we can write
+\begin{equation}
+O_{Narrow} = \frac{I_{Narrow} \cdot OTF^{*}}{|OTF|^{2}}
+  \label{ec:obs:narrow2}
+\end{equation}
+But since the $OTF$ is the same, we can insert the Broadband channel information isntead of the $OTF$, thus
+\begin{equation}
+  O_{Narrow} = H\cdot \frac{I_{Narrow} \cdot I_{Broad}^{*}}{|I_{Broad}|^{2}} \cdot O_{Broad} 
+  \label{ec:obs:narrow3}
+\end{equation}
+where we have added a noise optimum filter ($H$) to remove the power of the frecuencies higher that a certain threshold calculated from the flatfields.
+
+\subsubsection[Multi object multi frame blind deconvolution]{Multi object multi frame blind deconvolution (MOMFBD)\label{momfbd}}
+The speckle interferometry method presented relies on an statistical average influence of the wavefront aberration. On this section we shortly present another approach that we have also used on this work. It basically relies on the simultaneous calculation of the object and the aberration in a maximum likehood sense using different simultaneous channels and several speckle frames. For more information see e.g. \citep{2005SoPh..228..191V}.
+
+The method used is called \emph{Multi object multi frame blind deconvolution} (MOMFBD), which is a modification of the Joint Phase Diverse Speckle image restoration. The original method relies in the possibility of separating the aberrations from the object if we observe simultaneously in two channels introducing a known aberration, like defocusing the image, in one of them. Using a model of the optics, including its unknown pupil image, it is possible, then, to jointly calculate the unaberrated object and the aberration, in a maximum likehood sense.
+
+Coming back to Eq. \ref{ec:obs:obser} for a single isoplanatic speckle subfield,  the Optical Transfer Function (OTF) is the Fourier transform of the Point Spread Function (PSF), which is the Fourier transform of the pupil function (P), that can be generalized with a expression like
+\begin{equation}
+P= A\cdot exp(i\phi)
+\label{ec:momfbd:pupil}
+\end{equation}
+where $A$ stands for the geometrical extent of the phase $\phi$. This unknown phase  $\phi$ can be then parametrized using a polynomial expansion:
+\begin{equation}
+\phi = \sum_{m\in M} \alpha_{m} \psi_{m}
+\label{eq:momfdb:expan}
+\end{equation}
+where $m \in M$, is a set of a certain basis functions ($\psi_{m}$). The MOMFBD use a combination of Zernike polynomials \citep{1976JOSA...66..207N} for tilts aberrations and Karhunen-Lo\`eve for blurring effects, as they seem to be a good model for atmospheric blurring effects \citep{1990SPIE.1237..668R} . The $\{\alpha_{m} \}$ coefficients have therefore the information of the instantaneous wavefront aberration, whether it comes from seeing conditions, telescope aberrations or AO influence. It is interesting to note that the expansion of the phase aberration is therefore finite ($m \in M$) in our calculation, that leads to a systematic underestimation of the wings of the PSF 
+\citep{2005SoPh..228..191V}
+
+For the calculation of the solution, the MOMFBD code use a metric cuantity that dependes only on the $\{\alpha_{m} \}$ parameters and is expressed as the least square difference between the speckle $j$ data frame, $D_{j} $ , and the estimated $ \widehat{OTF} $  (where the hat \,$\widehat{}$\, stands for the estimation) . 
+
+\begin{equation}
+L(\alpha_{m})= \sum_{u} \Big[ \sum_{j}^{J} |D_{m,j}|^2 - \frac{|\sum_{j}^{J}D^{*}_{mj}\widehat{OTF}_{mj}|^2}{\sum_{j}^{J}|\widehat{OTF}_{mj}|^{2}+\gamma_{m}}\Big]
+\end{equation} 
+where the $\gamma_{m}$ term accounts for the noise and correspond to a optimum low pass filter \citep{1998ApJ...495..965L} and the $u$ index for the several speckle images of the same object. 
+
+This mathematical expression, from \cite{1996ApJ...466.1087P}, to solve the blind deconvolution problem depends on the noise model used. On our case the MOMFBD assumes an additive Gaussian statistics, which gives the simplest form of $L$ and the fastest code, and turns to be appropriate for low contrast objects  \citep{2005SoPh..228..191V}).
+
+The solution of the problem is to find the set of $\{\alpha_{m} \}$ that minimize the metric, providing an estimation of the OTF, and from there the new estimation of the Object. Details on the process and optimization used can be found on \cite{Lofdahl:2002qy}. The final converging solution provides thus the real object and instantaneous aberration simultaneously.
+
+With only one channel the $\{\alpha_{m} \}$ are independent, but if we can specify linear equality constrains (LEC) to this parameters we can reduce the number of unknown coefficients. 
+
+The Phase Diversity method is one example of LEC. By defocusing one of the cameras on a simultaneous channel we introduce a known phase contribution in the expansion on Eq. \ref{eq:momfdb:expan}. This creates a set of pairs of $\{\alpha_{m} \}$ that are identical besides that known phase difference.  Typically with $\lesssim10$ realization of these pairs of images is enough for a good restoration \citep{2005SoPh..228..191V}.
+
+Different simultaneous channel observing on different close to each other wavelengths can be used also to constrain the $\{\alpha_{m} \}$, as the instantaneous aberration can be considered the same for all channels. In our case we have several speckle images per position and 2 simultaneous channels,one of them scans the spectral band so we have a set of  21 pairs of different simultaneous objects.
+
+One interesting outcome of this multi object approach is that the resulting images are then perfectly aligned between simultaneous channels, which greatly reduced possible artifacts on derived quantities as Dopplergrams or magnetograms \citep{2005SoPh..228..191V}
+
+On this work we have used this MOMFBD approach to process the data where our usual speckle interferometry method was not aplicable. This mainly applies for on-limb observations, as the limb darkening gradient on the field of view influences the statistics. Also, with the actual presence of the off-limb sky, the data is not suitable for the narrow band speckle reconstruction, as we don«t have a broad band counterpart for the emission features present off the limb.
+
+The \emph{limb} data set was reduced using this code (see Sec. \ref{sec:limb:ha}), as well as some other data frames for comparison purposes with the speckle interferometry  (Sec. \ref{sec:comp}).
+
+The MFMOBD code was implemented by \cite{Lofdahl:2002qy} and freely available at \verb"www.momfbd.org". Given the high processing power needed it is written and greatly optimized on \verb"C++". It is developed to run in a multithread clustering environment, where the work is split in workunits and sent back from the slaves machines to the master once the processing is done. A typical run with one of our $H\alpha$ scans in broad and narrow band channel takes $\sim7$ hours to process with 20 CPU cores of $3.2$GHz.
+
+
+
+\section{Spectropolarimetry}
+
+For this work we have also used espectropolarimetric data on the infrared region, to study the spicular emission on the \ion{Helium}{i} 10830 \AA\, multiplet (see Sec. \ref{intro:lineas}). For this purpose we used the Echelle spectrograph on the VTT telescope and the Tenerife Infrared Polarimeter (TIP).
+
+On this section we summarized the instrument characteristic, setup and the observations done for the study of the spicule emission profiles, on Chapter \ref{ch:spicules}
+
+
+\subsection{Instrument\label{inst:tip}}
+This instrument was developed at the IAC  \citep{Martinez-Pillet:1999lr} and recently upgraded with a new larger camera \citep{Collados:2007fk}. It is able to obtain simultaneous Full Stokes profiles with very high spectral resolution in the infrared region from 1 to 2.3 microns, with a fast cadence and very high spatial resolution along the slit.
+
+The optical setup of the instrument is shown is Fig. \ref{fig:tip:optical}. After the main tank and the AO system, a mirror with a narrow ($\sim100 \,\mu$m) slit is placed at the prime focus of the Telescope. The reflected light go to an imaging system to provide the slit-jaw images, to point and place the image of the slit over the region of interest. The small fraction of light after the slit goes trough  the polarimeter, where the polarization is modulated. After it, the predisperser and spectrograph  decompose the light into its spectral components. The optical path ends in the detector, a CCD camera that is cooled below 100 K temperature to reduce the infrared background emission of the detector.
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{../figures/tip-opt.jpg}
+\caption{Optical diagram of the Tenerife Infrared Polarimeter (TIP). The light from the prime focus of the telescope, and after the AO correction, enters the instrument trough the slit. The reflected light is with video cameras to create context frames (\emph{slitjaw}).  After the slit ,the polarimeter with the ferroelectric liquid crystals, modulate the polarization of the light beam. The predisperser selects, with mask (p1), the spectral region to observe, and the spectrograph disperse the light into its spectral components. The Nitrogen-cooled CCD camera records the modulated polarization of the spectra. d1 and d2 are the Echelle diffraction nets.}
+\label{fig:tip:optical}
+\end{center}
+\end{figure}
+
+\subsubsection*{The polarimeter\label{polarimeter}}
+TIP is able to obtain simultaneously the full Stokes parameters that determines the polarization of the light, for each point of the slit. This is performed by means of two ferroelectric liquid crystals (FLC). These are electro-optic materials with fixed optical retardation, whose axis can be switched between two positions using an electrical current. This amplitude of the rotation of the retardation axis is dependent on the temperature, and $\sim 45^{\circ}$ at $20-25^{\circ}$C. With two FLC, with two possible states each, we can create four different combinations. Each of these modulations are a different linear composition of \{I,Q,U,V\} with different weights on each parameter. With four consecutive measurements we can therefore calculate the components of the Stokes vector; and thus, we can say that TIP is able to obtain simultaneously the 4 components of the polarization for each full cycle of the polarimeter. Although TIP is able to make a full cycle of the FLC in less than one second, we have to accumulate several images in order to increase the signal to noise ratio, specially with weak signals like the polarization of spicules when observing outside the limb.
+
+The physical setup of the polarimeter consist of first an UV filter to protect the FLC from high energy radiation. Then, the first FLC has a retardation of $\lambda/2$ and the second $\lambda/4$. Finally a Savart plate splits the incoming light in 2 orthogonal linearly polarized beams.
+
+As part of the instruments we need a calibration optic subsystem (see explanation on Sec.  \ref{tip:reduc}) to model the influence of the mirrors inside the telescope. For this reason, before the AO system, there is a calibration optic subsystem than can be placed on the light path. It is composed by an optical $\lambda/4$ retarder and fixed linear polarizer. The retarder rotates a full cycle with a measurements every 5 degrees, creating a set of 73 modulations of the light beam that are used to model the influence of the optics between the AO and the detector.
+
+
+\subsection{Observations\label{obs:tip}}
+
+Table \ref{table:obs:tip} summarizes the details of the observing campaigns used in this work. They all  focus on studying the emission profile observed on spicules in the \ion{He}{i} 10830 \AA multiplet. 
+
+The strong darkening close to the solar limb and the actual presence of the
+limb make difficult the use KAOS for off-limb observations, since the
+correlation algorithm was not developed for this kind of observations. 
+
+In all cases we scanned the full height of the spicules extension, with different parameters, starting inside the disc:
+\begin{itemize}
+\item \emph{intensity} data set is one single scan with long integration time per position. The \emph{lockpoint} of the AO was placed on a nearby facuale. Besides the facuale used for AO tracking, it was a quiet sun region. On this data set we focus only on the Intensity Stokes vector.
+\item For the \emph{fotometric} data set we removed the polarimeter from the instrument, so we only obtain intensity spectra, but with much higher sensitivity ( $\sim 10$ times more photons) and we double the field of view. This allows much faster and wider scans. KAOS was working correcting only the first 2 modes (Tip-tilt mirror).
+\item \emph{polarimetric} data set consist on several scans under very good seeing conditions and with improved support of the KAOS system. On this case we made the flatfielding of the KAOS system on the disc but at high heliocentric angle, near the observations location, so the reduced wavefront sensor image does not see the limb darkening and the correlation algorithm can track better any feature. This simple procedure proof to give a better and much more stable correction.
+
+\end{itemize}
+
+
+\begin{table}[t]
+\begin{center}\begin{tabular}{|r|c|c|c|}\hline
+\textbf{ Dataset name}  & \textit{``intensity''} & \textit{``fotometric''} & \textit{``polarimetric''} \\\hline\hline
+  Date			 & Dec,4$^{th} $,2005  &  Oct,14$^{th} $,2006 & May,20$^{th}$, 2007  \\\hline 
+  Type of data			  & Intensity  & I (photometry mode)  & Full Stokes  \\\hline 
+ Location			  & NE limb  & ??  & ??  \\\hline 
+   Spectral sampling \#			 & \multicolumn{3}{|c|}{10.9 m\AA/px}    \\\hline 
+   Time span  		 & 1 scan in 66 min.   & 7 scans in 19.6 min.  &  4 scans in 23 min  \\\hline 
+  Slit area (long x wide)	&  40\arcsec x 0\farcs5 &$\sim$80\arcsec x 0\farcs67 &$\sim$ 40\arcsec x 0\farcs5  \\\hline
+  Integration time 			& 5 x 2.5 s& \multicolumn{2}{|c|}{3 s} \\\hline   
+  Step size  & 0\farcs35 & \multicolumn{2}{|c|}{0\farcs5} \\\hline  
+  Max. high off-limb		& 7\arcsec  & \multicolumn{2}{|c|}{$\sim$13 \arcsec}  \\\hline      
+  Seeing condition	& $\sim7$cm (max 12 cm) & $\sim5.5$cm (max 8 cm)  &  $\sim8$cm (max 12 cm) \\\hline   
+ KAOS support &  \multicolumn{2}{|c|}{yes} & yes (improved)  \\\hline 
+
+  \end{tabular} \caption{Characteristics of the data sets taken with the TIP used in this work.}
+\end{center}
+\label{table:obs:tip}
+\end{table}
+
+
+
+
+ 
+
+
+
+\subsection{Data Reduction\label{tip:reduc}}
+As for the G-FPI case, the data reduction process aims to remove the instrumental effects as well as the atmospheric influence. For TIP data involves 3 steps, the first is common to all CDD observations and consist in removing instrumental effects, the second is the polarimetric calibration of the signal and the third is the spectrosposcopic calibration. 
+
+\subsubsection*{CCD effects reduction}
+
+This is basically the same for all CCD observations, remove the dark signal and correct the differencial sensitivity of the pixel matrix with the gain table (using the flat fields). The only difference with G-FPI reduction is when creating the flat-fields. The mean flat field frames is not \emph{flat} since, altought being an average, they are still all spectra. To retain only the gain table information we divide the flat field by the mean spectra, so that only the differencial response of the pixels is left (see Fig. \ref{tip:flat})
+
+\begin{figure}[t]
+  \centering
+  \subfloat[Data raw frame]{
+    \includegraphics[width=0.35\textwidth]{../figures/rawtip.jpg}}%
+  \quad%
+  \subfloat[Flat field ]{
+    \includegraphics[width=0.35\textwidth]{../figures/flattip.jpg}}
+    \\
+  \quad%
+    \subfloat[Dark frame ]{
+    \includegraphics[width=0.35\textwidth]{../figures/darktip.jpg}}
+  \quad%
+  \subfloat[Reduced frame]{
+    \includegraphics[width=0.35\textwidth]{../figures/redtip.jpg}}
+    \caption{Examples of the standar data reduction process for spectral data. The Flat-field frame (b) is calculated dividing average flat field data by the mean spectra of the average. This example frames correspond to the \emph{fotometric} data set, with doubled slit lenght.}
+
+\label{tip:flat}
+
+\end{figure}
+
+
+\subsubsection*{Polarimetric calibration}
+The signal recorded on the CCD is not directly the Stokes parameters. With two FEC we have four different combinations that makes one full cycle. For each configuration of the cycle, we have a particular linear combination of \{I,Q,U,V\} with different weights, so we can solve the equation system. Also, for each frame, we have two orthogonal linearly polarized beams (see Sec. \ref{inst:tip}).
+
+An important problem in polarimetric observations is that each reflective surface on the telescope changes the polarization status of the incoming light. So the optical path, with all the reflecting surfaces from the celostat to the CCD, induces a complex modulation of the incoming polarization. At the VTT there is a polarization calibration unit (PCU) located before the AO system. This device can modulate the polarization of the incoming light in a known way. So, once we have a set of Stokes parameters with different configurations of the PCU, we can obtain the modulation induced by the optical path, the Muller matrix $ \mathbb{M}$,  from the PCU to the polarimeter:
+\begin{equation}
+\left(\begin{array}{c}I \\Q \\U\\V\end{array}\right)_{polarimeter} = \mathbb{M} \cdot \left(\begin{array}{c}I \\Q \\U\\V\end{array}\right)_{input}
+\end{equation}
+The inverse  of $\mathbb{M}$ matrix will therefore relate the polarization status of the light that reaches the polarimeter with the incoming light at the PCU position. However, the light path from the celostat to the PCU (before the AO) cannot be therefore calibrated with this system, so the reduction rutines use a theoretical model of this section of the telescope.
+
+When one of the components of the Stokes vector induces a signal into the others (for example I over Q,U or V) we have a contamination of those components, or \emph{xtalk}. After the polarimetric reduction process there can be still some residual \emph{xtalk} which can be removed using statistical methods \citep{Collados:2003lr} . Unfortunately this method is not appropriate for our limb observations, since it is based on assumptions that valid only near the disc center. In our case we remove the residual \emph{xtalk} under this considerations (all other \emph{xtalks}, like V over Q, are order of magnitude lower and are not treated):
+\begin{itemize}
+\item \emph{xtalk} $I_{disc}$ over \{Q,U,V\} : Although we are observing off the limb, at small distances to the disc there is an important contribution of the disc spectra to the data, due to the scattering of the atmosphere and the seeing conditions. This disc profile can also contaminate the other Stokes profiles. Along with the spectral line, the region observed has also continuum emission. Since the polarization in this continuum regions should be zero, all non-zero polarization must come from the contamination of I, so we know the strenght of the disc signal that should we substracted.
+\item \emph{xtalk} $I_{off-the-limb}$ over \{Q,U,V\} : The Intensity signal of the emission profiles can also produce false signals on other Stokes components. To remove them, where any signal can be observed, we use the fact that the blue component of the  \ion{He}{i} 10830 \AA multiplet does not have polarization and therefore should not be present on Q,U or V. Since we know that Q,U should be symetric and  V antisymetric, we can therefore stimate the xtalk with I.
+
+\end{itemize}
+
+After all this process we finally rotate the axis of definition of Q,U (see Sec. \ref{intro:polarimetry}) so that they are parallel to the limb. Given the definition of the Stokes parameters this transformation is simply:
+\begin{eqnarray}
+Q_{limb} = cos(2\alpha) \cdot Q_{N} + sin(2\alpha) \cdot U_{N} 
+\cr
+U_{limb} = -sin(2\alpha) \cdot Q_{N} + cos(2\alpha) \cdot U_{N}
+\end{eqnarray}
+where $\alpha$ is the angle of the observations to the North-South axis, used for the definition of the Q,U components at the instrument (subscript N).
+
+\subsubsection*{Spectroscopic reduction}
+
+The last type of reduction procedure is related to the nature of spectroscopic data and is basically the calibration in wavelength, the continuum correction and a low pass filtering to remove noise.
+
+To calibrate in wavelength our data we make use of the two telluric lines present in our spectral range of TIP data. Solar lines suffer from local and rotational Doppler shifts. However, telluric lines are formed on the Earth atmosphere, and therefore they are always narrow and fixed in position. This provides a fixed reference coordinate that we use with the FTS atlas \citep{Neckel:1999lr}. Comparing both spectra we can accurately measure the spectral sampling which is for all data set $10.9 m\AA$\,. See ordinates index on Fig. \ref{fig:tip:cont}.
+
+For the correction of the continuum signal, we use several spectral position without spectral lines to calculate the ratio between the data and the FTS atlas, and we interpolate to create the continuum correction (see green dashed line on Fig. \ref{fig:tip:cont}).
+
+An electronic signal was also found on some data sets with a certain frequency near the noise level, so we used for all data a low pass frequency filter which removes the power of all frequencies higher than a threshold, leaving untouched the spectral information.
+
+Once we have filtered and corrected the signal for all instrumental effects we to remove finally the scattered light.  We define the position of the solar limb as the height of the first scanning position where the helium line appears in emission. For increasing distances to the solar limb a decreasing amount of sunlight is added by scattering in the Earth's atmosphere and by the telescope optical surfaces to the signal. Since the true off-limb continuum must be close to zero, i.e. below our detection limit, the observed continuum signal measures the spurious light.  Therefore, we removed the spurious continuum intensity level by using the information given by a nearby average disc spectrogram. This first subtraction estimates the continuum level on a region 6 \AA \, away from the  \ion{He}{i} 10830~\AA \, emission lines.  After this correction with a coarse estimate of the spurious light, a second correction was applied to remove the residual continuum level 
+seen around the emission lines. This was needed since the transmission 
+curve of the used prefilter is not flat but variable with wavelength.
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=\textwidth]{../figures/tipcont.pdf}
+\caption{Example intensity calibrated spectra from the \emph{polarimetric} data set on the disc near the limb. Raw spectra (blue line) has to be corrected for the continuum level. Using the continuum at several position we can estimate the continuum correction (green dashed line). The corrected data (not filtered) is shown in orange. For the wavelength calibration we use the 2 $H_{2}O$ teluric line (labeled in the figure). The region of the \ion{Helium}{i} 10830 \AA multiplet is also labeled, as well as some other lines in the range (Si, Ca I, Na I).}
+\label{fig:tip:cont}
+\end{center}
+\end{figure}
+
+

@@ -1,0 +1,122 @@
+\chapter{Spectropolarimetry}
+blabla Spectropolarimetry
+
+\section{Spectral lines\label{intro:lineas}}
+In this section we introduce the origin of the spectral lines, which are the carriers of most of the information we can measure from the Sun and any other celestial object.
+The electromagnetic radiation we receive from the Sun comes from the last emission process of the atoms a the top of the solar surface. Inside the Sun we may surely adopt the approximation of local thermodynamic equilibrium (LTE), which means that the thermal velocity distributions, ionizations and atomic excitations depend only on the local thermal properties of each point. In such an equilibrium, where all incoming radiation is re-emitted, the spectral radiance (the emitted spectrum) follow the Planck's law\footnote{This law emerge when we assume that the radiated energy is limited to a set of discrete, integer multiples of a fundamental units of energy, \emph{quantum}}:
+\begin{equation}
+I(\lambda,T)=\frac{2hc^{2}}{\lambda^{5}}\frac{1}{e^{\frac{hc}{\lambda k T}}-1}
+\end{equation}
+where $\lambda$ is the wavelength of the radiation, $T$ is the Temperature, $h$ is the Planck constant (quantum unity), and $k$ is the Bolzmann's constant (relates temperature and energy).
+This Equation shows that the emitted spectrum depends only on the temperature. In our case means that the spectral emission profile observed from the Sun indicates the temperate of the physical layer from where the energy is emitted, the photosphere. If the assumptions of LTE  were strictly correct this would be all the spectral information we could get. $5780 K$ is the temperature that fits best the solar spectrum ( the same total power, given by the integral over the spectrum, also known as the \emph{solar constant}, which fluctuates  about $1370 W/m^2$).
+
+The LTE equilibrium is not strictly correct and the spectral emission profile differs from the black body radiation at low and high frequencies. Moreover, the emission profile is not a continuum line, there are many frequencies with an excess or deficiency of photons with that energy, the \emph{spectral lines}. This is a consequence of the temperature gradient decreasing outwards. When the hotter continuum backgrounds incide in a higher cooler atom the photons are absorbed and afterwards reemitted, with a different spectral profile, given the lower temperature. This absorption and remission process is selective in a set of wavelength characteristic on the energy levels of the different atoms. Observing a set of lines indicates the presence and density of a certain atomic species. Therefore the observed emission profile is a combination of the background continuum emission from the lower photosphere and sets of spectral lines coming from the different atomic species from the last reemission process at a higher altitudes. Moreover the solar spectrum present the effects of other processes not associated with absorption-reemision.
+
+Atomic energy levels from where the transition occurs can be sensible to the intensity and direction of a external magnetic field. This creates a split of the energy levels with a consequent split of the spectral lines. Photons coming from different split energy levels have different quantum properties, like the direction of vibration of the photons, called \emph{polarization}. 
+
+In the following sections we introduce some basic concepts on spectropolarimetry (Sec. \ref{intro:polarimetry}) and on the main two spectral lines used on the realization of this work, H$\alpha$ line and the \ion{He}{I} 10830 \AA. 
+
+
+
+\begin{figure}[t]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{../figures/sunblackbody.png}
+\caption{Solar Irradiance at the top of the atmosphere vs Blackbody Spectra. The orange thick line is the solar spectrum while the red thin line shows the spectrum of a blackbody with temperature of $5780 K$. From \cite{Climate:2007kx}.}
+\label{fig:chromosphere}
+\end{center}
+\end{figure}
+\subsubsection*{H$\alpha$}
+FRANZ- I need some help with this. like for example why Ha is so strong or the relation between width and density... i don«t know something more...
+
+
+The Hydrogen is the most abundant element trough the Sun (and in general in the Universe). The neutral Hydrogen atom is formed by an electron and a proton at the nucleus of the atom.  Although being the most simple atom, quantum theory is still not able to understand it completelly. 
+
+The electron is bound with certain quantized energy level. If these levels are ordered from low energy (stronger binding) to high energy (weaker binding, including continuum, meaning free electron) as n=1,2,3,\dots , the set of transition from any upper level to n=2 is called the Balmer emission series. In particular, the first one (from n=3 to n=2) is called Balmer-$\alpha$ or H$\alpha$. It is therefore an emission line from the third lowest bind energy to the second.
+
+The amount of energy to promote an electron from n=1 to n=3 is approximately the same as to ionize it. Therefore most of these electrons are ionized and, after recombination of the captured electron will include (approximately half the time) the transition from n=3 to n=2. This means that the H$\alpha$ line is observed when the Hydrogen is being ionized.
+Often is the most prominent spectral line in astrophysics. 
+
+In solar physic is a good imaging tracer of the chromosphre. As we already mentioned, only in strong lines like H$\alpha$ can be observed
+....
+
+
+H$\alpha$ has a wavelength of $\lambda=6562.81\AA$, which correspond to the visible dark red color. 1.048
+....
+
+
+TO ADD. Some properties of $H\alpha$ and why is so strong.
+
+
+
+ It is very difficult to generate bright features in H-alpha. The structures get bright when the absorption is low so the photospheric emission is not absorved, or when
+the profile is broad, so the line centre absorption gets lower. Also, flaring activity can create strong electron currents along the reconnected field lines, producing a brigth emission profile.
+
+
+\subsubsection*{\ion{He}{I} 10830 \AA\, multiplet}
+Helium is the second most abundant element in the Universe, also in the Sun. It is a fairly simple possible atom, with a nucleus containing two protons and two neutrons (for $^{4}He$) and two electrons orbiting the nucleus. It was first discovered in the Sun in 1868 (from where it was named after the greek word of Sun). 
+%? franz discuss this paragraph
+At the typical chromospheric temperatures there is not enough energy to promote levels to the upper levels from where these transitions occur. However, Helium lines intensities are significantly enhanced relative to other lines \citep{1975MNRAS.170..429J}. Nonetheless, in coronal holes  the helium lines are substantially weaker compared with the quiet Sun but, still remain enhanced relative to other lines \citep{2001MNRAS.328.1098J}.
+
+
+The energy levels that take part in these transitions are basically populated via
+an ionization-recombination process \citep{1994isp..book...35A}. The much hotter corona irradiates at high energies both outwards to the space and inwards, to the chromosphere. The EUV coronal irradiation (CI)  at 
+wavelengths lambda $\lambda<504$~\AA\ ionizes the neutral helium, and subsequent recombinations of singly ionized helium with free electrons lead to an overpopulation of the upper levels of the \ion{Helium}{I} 10830 multiplet.
+
+Alternative theories suggest other mechanisms that might also contribute to the formation of the helium lines relying on the collisional excitation of the electrons in regions with higher temperature \citep[eg,][]{1997ApJ...489..375A}
+
+
+\begin{wrapfigure}[15]{r}{0.4\textwidth}
+\vspace{-1.1cm}
+\begin{center}
+\includegraphics[width=0.4\textwidth]{../figures/diagrams005.png}
+\caption{Grotrian diagram for the \ion{He}{i} 10830~\AA\ multiplet emission lines.}
+\label{fig:he:levels}
+\end{center}
+\end{wrapfigure}
+
+The \ion{He}{i} 10830~\AA\ multiplet consists of the three transitions of the orthohelium (total spin of the nucleus $S$=1) energy levels, from the upper term with angular momentum $L=1$ to the lower with $L=0$, in particular from  $^3$P$_{2,1,0}$, which has three sublevels ($J=2,1,04$),  to the lower metastable term $ ^3$S$_{1}$, which has one single level ($J=1$) (see Fig. \ref{fig:he:levels}). The two transitions from the J=2 and J=1 upper levels appear blended at typical chromospheric temperatures, and form the so-called red component, at 10830.3 \AA. (The two red
+ transitions are only 0.09~\AA\ apart.  The blue component, at 10829.1 \AA,  corresponds to the transition from the upper level with J=0  to the lower level with J=1. 
+
+
+The formation height of this levels is believed to be between 1500 and 200 Km, although, as we already mentioned, the chromosphere can be significantly warped. The land\'e factor of the transition lines is not zero, meaning that these lines are sensible to external magnetic fields.
+
+A more detailed description about the properties of the \ion{Helium}{I} 10830 multiplet, in particular related to the emission profiles and polarization of spicules over the limb is discussed on Chapter \ref{ch:spicules}.
+
+
+\section{Polarimetry\label{intro:polarimetry}}
+The electromagnetic radiation is the propagation of energy as a periodic perturbation of the electric and magnetic fields in the plane perpendicular to the direction of propagation. In this perpendicular plane, the direction of propagation of the electrical field vector defines the polarization of the wave, and can be decomposed in the X-Y reference axis as
+\begin{eqnarray}
+E_{x}=A_{x}cos(2\pi\nu t), & E_{y}=A_{y}cos(2\pi\nu t - \phi),
+\end{eqnarray}
+where $A_{x}$ and $A_{y}$ are the amplitudes, $\phi$ the phase difference between the two components and $\nu$ is the frequency. If the perturbation occurs only in one axis, the wave is said to be \emph{linearly} polarized with 0  or 90 degrees (along the x or y axis,respectively), as is the case when in general, both phases are equal (linear polarization with a certain angle). However, when there is phase difference, the vector field describe ellipses (circumferences when the difference is $90^{\circ}$), and the wave is said to be circularly polarized.
+
+With a beam of many photons, the most common case is to have a different polarization for each wave, so the total polarization is cancelled, creating an unpolarized beam. On special cases there is preference axis of vibration, defining a partial or total polarization (when all photons vibrate on the same axis). The \emph{Stokes Parameters} defines the status of polarization as
+\begin{eqnarray}
+I := A_{x}^{2}+A_{y}^{2}, & U:=2A_{x}A_{y}\cos\phi,\\
+Q:= A_{x}^{2}+A_{y}^{2}, & V:=2A_{x}A_{y}\sin\phi
+\end{eqnarray}
+completely  characterizing the polarization state of the radiation.
+\pagebreak
+\begin{table}[h!!]
+\begin{center}
+\begin{tabular}{m{0.3\textwidth}m{0.6\textwidth}}
+{\includegraphics[width=0.3\textwidth]{../figures/I.png}}& {\bf I}, Photons with all possible vibration axis, total Intensity. \\
+{\includegraphics[width=0.3\textwidth]{../figures/Q.png}}& {\bf Q}, Relation between waves propagating on the $x$ axis minus waves propagating on the $y$ axis. Linear polarization over the $x-y$ axis \\
+{\includegraphics[width=0.3\textwidth]{../figures/U.png}}& {\bf U}, Relation between waves propagating on a $45^{\circ}$ axis minus waves propagating on a $-45^{\circ}$ axis, over $x$. Linear oblique polarization.\\
+{\includegraphics[width=0.3\textwidth]{../figures/V.png}}& {\bf V}, Relation over circularly clockwise polarized light minus circularly anticlockwise polarized light . Global states of circular polarization.
+\end{tabular}
+\end{center}
+\end{table}%
+
+
+Therefore when the light is unpolarized $Q=U=V=0$ and when is fully polarized $I^{2}=Q^2+U^2+V^2$. We note that the the photoreceptors at human eye ,and the CCD chips used for astrophysical observations are not sensible to the polarization, so can only see the $I$ component.
+
+When a photon is emitted, its polarization is determined by change of the magnetic quantum number $M$ \footnote{The magnetic quantum number $M$ is the proyection, over the axis of quantization, of the total angular momentum,$J$, of the atomic levels of the transition where the photon is originated} of the leleves implied in the transition. The most common type of transition (first electrical mutipole, the electrical dipole) permits changes of $M$ to be $0,\pm1$, which leads to the following polarization states:
+\begin{itemize}
+\item Transitions with $\Delta M=0$ defines the $\pi$-component, or linearly polarized light, in the direction of the quantization axis describing the system.
+\item Transitions with $\Delta M=+1$ defines the $+\sigma$ component, or clockwise circularly polarized light.
+\item  Transitions with $\Delta M=-1$ defines the $+\sigma$ component, or anticlockwise circularly polarized light.
+\end{itemize} 
+
+In absence of external magnetic fields or isotropic radiation, the selection rules populate equally all sub-levels, so the emitted radiation is unpolarized. However, an external magnetic field can split the sublevels, and therefore the energy transitions, no with different polarizations (Zeeman effect). Also the mere  anisotropic radiation pumping can produce population imbalances and therefore polarization signals (Hanle effect), as we will show in Sec. \ref{hanle}.
+

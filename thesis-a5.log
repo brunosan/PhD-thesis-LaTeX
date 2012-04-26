@@ -1,0 +1,627 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2008.4.9)  14 APR 2008 23:18
+entering extended mode
+\write18 enabled.
+**thesis-a5.tex
+(./thesis-a5.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(/opt/local/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(/opt/local/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./pdfpages.sty
+Package: pdfpages 2002/12/14 v0.2l Insert pages of external PDF documents (AM)
+
+(/opt/local/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/opt/local/share/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 1998/07/07 v4.1b Infix arithmetic (KKT,FJ)
+\calc@Acount=\count88
+\calc@Bcount=\count89
+\calc@Adimen=\dimen105
+\calc@Bdimen=\dimen106
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 59.
+LaTeX Info: Redefining \addtolength on input line 60.
+\calc@denominator=\count90
+)
+(/opt/local/share/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2002/11/16 v1.1b eso-pic (RN)
+
+(/opt/local/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+\AM@toc@title=\toks15
+\c@AM@survey=\count91
+) (./thesis-a5.aux)
+\openout1 = `thesis-a5.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
+(/opt/local/share/texmf-dist/tex/context/base/supp-pdf.tex
+(/opt/local/share/texmf-dist/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count92
+\scratchcounter=\count93
+\scratchtoks=\toks16
+\scratchdimen=\dimen107
+\scratchskip=\skip45
+\scratchmuskip=\muskip10
+\scratchbox=\box26
+\scratchread=\read1
+\scratchwrite=\write3
+\zeropoint=\dimen108
+\onepoint=\dimen109
+\onebasepoint=\dimen110
+\minusone=\count94
+\thousandpoint=\dimen111
+\onerealpoint=\dimen112
+\emptytoks=\toks17
+\nextbox=\box27
+\nextdepth=\dimen113
+\everyline=\toks18
+\!!counta=\count95
+\!!countb=\count96
+\recursecounter=\count97
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen114
+\MPnumerator=\count101
+\everyMPtoPDFconversion=\toks19
+) ABD: EveryShipout initializing macros
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+LaTeX Info: Redefining \color on input line 71.
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+<thesis.pdf, id=2, page=1, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+ <use thesis.pdf, page 1>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 1>
+File: thesis.pdf Graphic file (type pdf)
+ <use thesis.pdf, page 1> [1
+
+ <./thesis.pdf{/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}>]
+
+<thesis.pdf, id=22, page=2, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+ <use thesis.pdf, page 2>
+[2 <./thesis.pdf>] <thesis.pdf, id=68, page=3, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 3> [3 <./thesis.pdf>]
+<thesis.pdf, id=72, page=4, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+ <use thesis.pdf, page 4>
+[4 <./thesis.pdf>] <thesis.pdf, id=76, page=5, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 5> [5 <./thesis.pdf>]
+<thesis.pdf, id=94, page=6, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+ <use thesis.pdf, page 6>
+[6 <./thesis.pdf>] <thesis.pdf, id=98, page=7, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 7> [7 <./thesis.pdf>]
+<thesis.pdf, id=208, page=8, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 8> [8 <./thesis.pdf>]
+<thesis.pdf, id=212, page=9, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 9> [9 <./thesis.pdf>]
+<thesis.pdf, id=223, page=10, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 10> [10 <./thesis.pdf>]
+<thesis.pdf, id=235, page=11, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 11> [11 <./thesis.pdf>]
+<thesis.pdf, id=254, page=12, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 12> [12 <./thesis.pdf>]
+<thesis.pdf, id=279, page=13, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 13> [13 <./thesis.pdf>]
+<thesis.pdf, id=298, page=14, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 14> [14 <./thesis.pdf>]
+<thesis.pdf, id=303, page=15, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 15> [15 <./thesis.pdf>]
+<thesis.pdf, id=314, page=16, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 16> [16 <./thesis.pdf>]
+<thesis.pdf, id=318, page=17, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 17> [17 <./thesis.pdf>]
+<thesis.pdf, id=329, page=18, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 18> [18 <./thesis.pdf>]
+<thesis.pdf, id=340, page=19, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 19> [19 <./thesis.pdf>]
+<thesis.pdf, id=345, page=20, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 20> [20 <./thesis.pdf>]
+<thesis.pdf, id=357, page=21, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 21> [21 <./thesis.pdf>]
+<thesis.pdf, id=368, page=22, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 22> [22 <./thesis.pdf>]
+<thesis.pdf, id=379, page=23, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 23> [23 <./thesis.pdf>]
+<thesis.pdf, id=384, page=24, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 24> [24 <./thesis.pdf>]
+<thesis.pdf, id=389, page=25, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 25> [25 <./thesis.pdf>]
+<thesis.pdf, id=395, page=26, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 26> [26 <./thesis.pdf>]
+<thesis.pdf, id=399, page=27, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 27> [27 <./thesis.pdf>]
+<thesis.pdf, id=407, page=28, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 28> [28 <./thesis.pdf>]
+<thesis.pdf, id=418, page=29, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 29> [29 <./thesis.pdf>]
+<thesis.pdf, id=425, page=30, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 30> [30 <./thesis.pdf>]
+<thesis.pdf, id=430, page=31, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 31> [31 <./thesis.pdf>]
+<thesis.pdf, id=435, page=32, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 32> [32 <./thesis.pdf>]
+<thesis.pdf, id=443, page=33, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 33> [33 <./thesis.pdf>]
+<thesis.pdf, id=454, page=34, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 34> [34 <./thesis.pdf>]
+<thesis.pdf, id=461, page=35, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 35> [35 <./thesis.pdf>]
+<thesis.pdf, id=486, page=36, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 36> [36 <./thesis.pdf>]
+<thesis.pdf, id=497, page=37, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 37> [37 <./thesis.pdf>]
+<thesis.pdf, id=509, page=38, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 38> [38 <./thesis.pdf>]
+<thesis.pdf, id=513, page=39, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 39> [39 <./thesis.pdf>]
+<thesis.pdf, id=518, page=40, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 40> [40 <./thesis.pdf>]
+<thesis.pdf, id=522, page=41, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 41> [41 <./thesis.pdf>]
+<thesis.pdf, id=537, page=42, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 42> [42 <./thesis.pdf>]
+<thesis.pdf, id=541, page=43, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 43> [43 <./thesis.pdf>]
+<thesis.pdf, id=553, page=44, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 44> [44 <./thesis.pdf>]
+<thesis.pdf, id=575, page=45, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 45> [45 <./thesis.pdf>]
+<thesis.pdf, id=579, page=46, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 46> [46 <./thesis.pdf>]
+<thesis.pdf, id=583, page=47, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 47> [47 <./thesis.pdf>]
+<thesis.pdf, id=620, page=48, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 48> [48 <./thesis.pdf>]
+<thesis.pdf, id=659, page=49, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 49> [49 <./thesis.pdf>]
+<thesis.pdf, id=668, page=50, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 50> [50 <./thesis.pdf>]
+<thesis.pdf, id=676, page=51, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 51> [51 <./thesis.pdf>]
+<thesis.pdf, id=680, page=52, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 52> [52 <./thesis.pdf>]
+<thesis.pdf, id=685, page=53, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 53> [53 <./thesis.pdf>]
+<thesis.pdf, id=689, page=54, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 54> [54 <./thesis.pdf>]
+<thesis.pdf, id=693, page=55, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 55> [55 <./thesis.pdf>]
+<thesis.pdf, id=711, page=56, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 56> [56 <./thesis.pdf>]
+<thesis.pdf, id=715, page=57, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 57> [57 <./thesis.pdf>]
+<thesis.pdf, id=719, page=58, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 58> [58 <./thesis.pdf>]
+<thesis.pdf, id=736, page=59, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 59> [59 <./thesis.pdf>]
+<thesis.pdf, id=751, page=60, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 60> [60 <./thesis.pdf>]
+<thesis.pdf, id=755, page=61, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 61> [61 <./thesis.pdf>]
+<thesis.pdf, id=760, page=62, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 62> [62 <./thesis.pdf>]
+<thesis.pdf, id=764, page=63, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 63> [63 <./thesis.pdf>]
+<thesis.pdf, id=768, page=64, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 64> [64 <./thesis.pdf>]
+<thesis.pdf, id=780, page=65, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 65> [65 <./thesis.pdf>]
+<thesis.pdf, id=796, page=66, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 66> [66 <./thesis.pdf>]
+<thesis.pdf, id=805, page=67, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 67> [67 <./thesis.pdf>]
+<thesis.pdf, id=822, page=68, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 68> [68 <./thesis.pdf>]
+<thesis.pdf, id=838, page=69, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 69> [69 <./thesis.pdf>]
+<thesis.pdf, id=842, page=70, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 70> [70 <./thesis.pdf>]
+<thesis.pdf, id=846, page=71, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 71> [71 <./thesis.pdf>]
+<thesis.pdf, id=850, page=72, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 72> [72 <./thesis.pdf>]
+<thesis.pdf, id=854, page=73, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 73> [73 <./thesis.pdf>]
+<thesis.pdf, id=859, page=74, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 74> [74 <./thesis.pdf>]
+<thesis.pdf, id=863, page=75, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 75> [75 <./thesis.pdf>]
+<thesis.pdf, id=885, page=76, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 76> [76 <./thesis.pdf>]
+<thesis.pdf, id=907, page=77, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 77> [77 <./thesis.pdf>]
+<thesis.pdf, id=926, page=78, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 78> [78 <./thesis.pdf>]
+<thesis.pdf, id=930, page=79, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 79> [79 <./thesis.pdf>]
+<thesis.pdf, id=935, page=80, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 80> [80 <./thesis.pdf>]
+<thesis.pdf, id=952, page=81, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 81> [81 <./thesis.pdf>]
+<thesis.pdf, id=963, page=82, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 82> [82 <./thesis.pdf>]
+<thesis.pdf, id=991, page=83, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 83> [83 <./thesis.pdf>]
+<thesis.pdf, id=1005, page=84, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 84> [84 <./thesis.pdf>]
+<thesis.pdf, id=1017, page=85, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 85> [85 <./thesis.pdf>]
+<thesis.pdf, id=1030, page=86, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 86> [86 <./thesis.pdf>]
+<thesis.pdf, id=1049, page=87, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 87> [87 <./thesis.pdf>]
+<thesis.pdf, id=1053, page=88, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 88> [88 <./thesis.pdf>]
+<thesis.pdf, id=1070, page=89, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 89> [89 <./thesis.pdf>]
+<thesis.pdf, id=1087, page=90, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 90> [90 <./thesis.pdf>]
+<thesis.pdf, id=1117, page=91, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 91> [91 <./thesis.pdf>]
+<thesis.pdf, id=1122, page=92, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 92> [92 <./thesis.pdf>]
+<thesis.pdf, id=1126, page=93, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 93> [93 <./thesis.pdf>]
+<thesis.pdf, id=1130, page=94, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 94> [94 <./thesis.pdf>]
+<thesis.pdf, id=1134, page=95, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 95> [95 <./thesis.pdf>]
+<thesis.pdf, id=1138, page=96, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 96> [96 <./thesis.pdf>]
+<thesis.pdf, id=1142, page=97, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 97> [97 <./thesis.pdf>]
+<thesis.pdf, id=1147, page=98, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 98> [98 <./thesis.pdf>]
+<thesis.pdf, id=1151, page=99, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 99> [99 <./thesis.pdf>]
+<thesis.pdf, id=1155, page=100, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 100> [100 <./thesis.pdf>]
+<thesis.pdf, id=1159, page=101, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 101> [101 <./thesis.pdf>]
+<thesis.pdf, id=1163, page=102, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 102> [102 <./thesis.pdf>]
+<thesis.pdf, id=1167, page=103, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 103> [103 <./thesis.pdf>]
+<thesis.pdf, id=1186, page=104, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 104> [104 <./thesis.pdf>]
+<thesis.pdf, id=1190, page=105, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 105> [105 <./thesis.pdf>]
+<thesis.pdf, id=1194, page=106, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 106> [106 <./thesis.pdf>]
+<thesis.pdf, id=1198, page=107, 597.50786pt x 845.0468pt>
+File: thesis.pdf Graphic file (type pdf)
+
+<use thesis.pdf, page 107> [107 <./thesis.pdf>] (./thesis-a5.aux) ) 
+Here is how much of TeX's memory you used:
+ 1775 strings out of 94500
+ 25006 string characters out of 1174974
+ 69501 words of memory out of 1000000
+ 4964 multiletter control sequences out of 10000+50000
+ 11777 words of font info for 68 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 32i,13n,30p,248b,336s stack positions out of 1500i,500n,5000p,200000b,5000s
+PDF statistics:
+ 1201 PDF objects out of 300000
+ 0 named destinations out of 131072
+ 541 words of extra memory for PDF output out of 65536
+</opt/local/
+share/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></opt/local/share/texmf-di
+st/fonts/type1/public/txfonts/rtxi.pfb></opt/local/share/texmf-dist/fonts/type1
+/public/txfonts/rtxsc.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfon
+ts/rtxsc.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb>
+</opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></opt/local/s
+hare/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></opt/local/share/texmf-di
+st/fonts/type1/public/txfonts/rtxsc.pfb></opt/local/share/texmf-dist/fonts/type
+1/public/txfonts/rtxb.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/symb
+ols/msbm10.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb
+></opt/local/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/local/sha
+re/texmf-dist/fonts/type1/hoekwater/rsfs/rsfs10.pfb></opt/local/share/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb></opt/local/share/texmf-dist/fonts/type1/bl
+uesky/symbols/msam10.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utm
+bi8a.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt
+/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/local/share/t
+exmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/local/share/texmf-dist/font
+s/type1/public/txfonts/rtxsc.pfb></opt/local/share/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb
+></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/local/s
+hare/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/local/share/texmf-dis
+t/fonts/type1/urw/times/utmri8a.pfb></opt/local/share/texmf-dist/fonts/type1/ur
+w/times/utmri8a.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtx
+r.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/loca
+l/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/local/share/texmf-di
+st/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type1/pu
+blic/txfonts/rtxr.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmr8a
+.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/loc
+al/share/texmf-dist/fonts/type1/public/txfonts/rtxsc.pfb></opt/local/share/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/
+rtxr.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></opt/lo
+cal/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/local/share/texm
+f-dist/fonts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type
+1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmr8
+a.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/loca
+l/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/local/share/texmf-di
+st/fonts/type1/public/txfonts/rtxsc.pfb></opt/local/share/texmf-dist/fonts/type
+1/public/txfonts/rtxmi.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfo
+nts/txsy.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb><
+/opt/local/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/local/share
+/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb></opt/local/share/texmf-dist/f
+onts/type1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type1/urw/ti
+mes/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></
+opt/local/share/texmf-dist/fonts/type1/urw/times/utmb8a.pfb>
+Output written on thesis-a5.pdf (107 pages, 14588055 bytes).

@@ -1,0 +1,1495 @@
+This is pdfeTeX, Version 3.141592-1.21a-2.2 (Web2C 7.5.4) (format=pdflatex 2008.4.9)  7 JUL 2008 11:15
+entering extended mode
+\write18 enabled.
+**thesis.tex
+(./thesis.tex
+LaTeX2e <2003/12/01>
+Babel <v3.8d> and hyphenation patterns for american, french, german, ngerman, b
+ahasa, basque, bulgarian, catalan, croatian, czech, danish, dutch, esperanto, e
+stonian, finnish, greek, icelandic, irish, italian, latin, magyar, norsk, polis
+h, portuges, romanian, russian, serbian, slovak, slovene, spanish, swedish, tur
+kish, ukrainian, nohyphenation, loaded.
+(./thesis.cls
+Document Class: thesis 2007/04/17 1.5 (DS)
+(/opt/local/share/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2004/02/16 v1.4f Standard LaTeX document class
+(/opt/local/share/texmf-dist/tex/latex/base/bk12.clo
+File: bk12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2001/07/07 v1.0n Standard LaTeX Graphics (DPC,SPQR)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/graphics.cfg
+File: graphics.cfg 2005/02/03 v1.3 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 80.
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/pdftex.def
+File: pdftex.def 2002/06/19 v0.03k graphics/color for pdftex
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+
+(/opt/local/share/texmf-dist/tex/latex/graphics/color.cfg
+File: color.cfg 2005/02/03 v1.3 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 125.
+)
+(/opt/local/share/texmf-dist/tex/latex/txfonts/txfonts.sty
+Package: txfonts 2005/01/03 v3.2
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 20.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 21.
+\symitalic=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 25.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 27.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 28.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 28.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 30.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 39.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 39.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 39.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 40.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 49.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 50.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 57.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 57.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 57.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 58.
+\symlettersA=\mathgroup5
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 66.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 76.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 76.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 77.
+\symAMSa=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 93.
+\symAMSb=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 102.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 112.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 119.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 120.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 128.
+LaTeX Info: Redefining \not on input line 1042.
+) (./natbib.sty
+Package: natbib 2003/06/06 7.1 (PWD)
+\bibhang=\skip43
+\bibsep=\skip44
+LaTeX Info: Redefining \cite on input line 518.
+\c@NAT@ctr=\count89
+)
+(./fancyhdr.sty
+\fancy@headwidth=\skip45
+\f@ncyO@elh=\skip46
+\f@ncyO@erh=\skip47
+\f@ncyO@olh=\skip48
+\f@ncyO@orh=\skip49
+\f@ncyO@elf=\skip50
+\f@ncyO@erf=\skip51
+\f@ncyO@olf=\skip52
+\f@ncyO@orf=\skip53
+) (./tocbibind.sty
+Package: tocbibind 2003/03/13 v1.5g extra ToC listings
+
+
+Package tocbibind Note: The document has chapter divisions.
+
+
+Package tocbibind Note: Using chapter style headings, unless overridden.
+
+) (/opt/local/share/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+
+(/opt/local/share/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(/opt/local/share/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2004/03/15  ver 3.1  Verb mode for urls, etc.
+)
+(/opt/local/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2002/01/22 v2.2d
+
+(/opt/local/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2001/10/25 v2.2f
+\@emptytoks=\toks15
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 85.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/msa/m/n on input line 85.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/msa/m/n on input line 85.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 86.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/msb/m/n on input line 86.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/msb/m/n on input line 86.
+LaTeX Font Info:    Redeclaring math delimiter \ulcorner on input line 100.
+LaTeX Font Info:    Redeclaring math delimiter \urcorner on input line 101.
+LaTeX Font Info:    Redeclaring math delimiter \llcorner on input line 102.
+LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 103.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 131.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 132.
+LaTeX Font Info:    Redeclaring math alphabet \mathbb on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \square on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \lozenge on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleright on input line 166
+.
+LaTeX Font Info:    Redeclaring math symbol \vartriangleleft on input line 167.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglerighteq on input line 168.
+
+LaTeX Font Info:    Redeclaring math symbol \trianglelefteq on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \rightsquigarrow on input line 170.
+
+)
+LaTeX Font Info:    Redeclaring math symbol \boxdot on input line 60.
+LaTeX Font Info:    Redeclaring math symbol \boxplus on input line 61.
+LaTeX Font Info:    Redeclaring math symbol \boxtimes on input line 62.
+LaTeX Font Info:    Redeclaring math symbol \blacksquare on input line 64.
+LaTeX Font Info:    Redeclaring math symbol \centerdot on input line 65.
+LaTeX Font Info:    Redeclaring math symbol \blacklozenge on input line 67.
+LaTeX Font Info:    Redeclaring math symbol \circlearrowright on input line 68.
+
+LaTeX Font Info:    Redeclaring math symbol \circlearrowleft on input line 69.
+LaTeX Font Info:    Redeclaring math symbol \leftrightharpoons on input line 72
+.
+LaTeX Font Info:    Redeclaring math symbol \boxminus on input line 73.
+LaTeX Font Info:    Redeclaring math symbol \Vdash on input line 74.
+LaTeX Font Info:    Redeclaring math symbol \Vvdash on input line 75.
+LaTeX Font Info:    Redeclaring math symbol \vDash on input line 76.
+LaTeX Font Info:    Redeclaring math symbol \twoheadrightarrow on input line 77
+.
+LaTeX Font Info:    Redeclaring math symbol \twoheadleftarrow on input line 78.
+
+LaTeX Font Info:    Redeclaring math symbol \leftleftarrows on input line 79.
+LaTeX Font Info:    Redeclaring math symbol \rightrightarrows on input line 80.
+
+LaTeX Font Info:    Redeclaring math symbol \upuparrows on input line 81.
+LaTeX Font Info:    Redeclaring math symbol \downdownarrows on input line 82.
+LaTeX Font Info:    Redeclaring math symbol \upharpoonright on input line 83.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonright on input line 85.
+
+LaTeX Font Info:    Redeclaring math symbol \upharpoonleft on input line 86.
+LaTeX Font Info:    Redeclaring math symbol \downharpoonleft on input line 87.
+LaTeX Font Info:    Redeclaring math symbol \rightarrowtail on input line 88.
+LaTeX Font Info:    Redeclaring math symbol \leftarrowtail on input line 89.
+LaTeX Font Info:    Redeclaring math symbol \leftrightarrows on input line 90.
+LaTeX Font Info:    Redeclaring math symbol \rightleftarrows on input line 91.
+LaTeX Font Info:    Redeclaring math symbol \Lsh on input line 92.
+LaTeX Font Info:    Redeclaring math symbol \Rsh on input line 93.
+LaTeX Font Info:    Redeclaring math symbol \leftrightsquigarrow on input line 
+95.
+LaTeX Font Info:    Redeclaring math symbol \looparrowleft on input line 96.
+LaTeX Font Info:    Redeclaring math symbol \looparrowright on input line 97.
+LaTeX Font Info:    Redeclaring math symbol \circeq on input line 98.
+LaTeX Font Info:    Redeclaring math symbol \succsim on input line 99.
+LaTeX Font Info:    Redeclaring math symbol \gtrsim on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \gtrapprox on input line 101.
+LaTeX Font Info:    Redeclaring math symbol \multimap on input line 102.
+LaTeX Font Info:    Redeclaring math symbol \therefore on input line 103.
+LaTeX Font Info:    Redeclaring math symbol \because on input line 104.
+LaTeX Font Info:    Redeclaring math symbol \doteqdot on input line 105.
+LaTeX Font Info:    Redeclaring math symbol \triangleq on input line 107.
+LaTeX Font Info:    Redeclaring math symbol \precsim on input line 108.
+LaTeX Font Info:    Redeclaring math symbol \lesssim on input line 109.
+LaTeX Font Info:    Redeclaring math symbol \lessapprox on input line 110.
+LaTeX Font Info:    Redeclaring math symbol \eqslantless on input line 111.
+LaTeX Font Info:    Redeclaring math symbol \eqslantgtr on input line 112.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqprec on input line 113.
+LaTeX Font Info:    Redeclaring math symbol \curlyeqsucc on input line 114.
+LaTeX Font Info:    Redeclaring math symbol \preccurlyeq on input line 115.
+LaTeX Font Info:    Redeclaring math symbol \leqq on input line 116.
+LaTeX Font Info:    Redeclaring math symbol \leqslant on input line 117.
+LaTeX Font Info:    Redeclaring math symbol \lessgtr on input line 118.
+LaTeX Font Info:    Redeclaring math symbol \backprime on input line 119.
+LaTeX Font Info:    Redeclaring math symbol \risingdotseq on input line 120.
+LaTeX Font Info:    Redeclaring math symbol \fallingdotseq on input line 121.
+LaTeX Font Info:    Redeclaring math symbol \succcurlyeq on input line 122.
+LaTeX Font Info:    Redeclaring math symbol \geqq on input line 123.
+LaTeX Font Info:    Redeclaring math symbol \geqslant on input line 124.
+LaTeX Font Info:    Redeclaring math symbol \gtrless on input line 125.
+LaTeX Font Info:    Redeclaring math symbol \bigstar on input line 133.
+LaTeX Font Info:    Redeclaring math symbol \between on input line 134.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangledown on input line 13
+5.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleright on input line 1
+36.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangleleft on input line 13
+7.
+LaTeX Font Info:    Redeclaring math symbol \vartriangle on input line 138.
+LaTeX Font Info:    Redeclaring math symbol \blacktriangle on input line 139.
+LaTeX Font Info:    Redeclaring math symbol \triangledown on input line 140.
+LaTeX Font Info:    Redeclaring math symbol \eqcirc on input line 141.
+LaTeX Font Info:    Redeclaring math symbol \lesseqgtr on input line 142.
+LaTeX Font Info:    Redeclaring math symbol \gtreqless on input line 143.
+LaTeX Font Info:    Redeclaring math symbol \lesseqqgtr on input line 144.
+LaTeX Font Info:    Redeclaring math symbol \gtreqqless on input line 145.
+LaTeX Font Info:    Redeclaring math symbol \Rrightarrow on input line 146.
+LaTeX Font Info:    Redeclaring math symbol \Lleftarrow on input line 147.
+LaTeX Font Info:    Redeclaring math symbol \veebar on input line 148.
+LaTeX Font Info:    Redeclaring math symbol \barwedge on input line 149.
+LaTeX Font Info:    Redeclaring math symbol \doublebarwedge on input line 150.
+LaTeX Font Info:    Redeclaring math symbol \measuredangle on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \sphericalangle on input line 154.
+LaTeX Font Info:    Redeclaring math symbol \varpropto on input line 155.
+LaTeX Font Info:    Redeclaring math symbol \smallsmile on input line 156.
+LaTeX Font Info:    Redeclaring math symbol \smallfrown on input line 157.
+LaTeX Font Info:    Redeclaring math symbol \Subset on input line 158.
+LaTeX Font Info:    Redeclaring math symbol \Supset on input line 159.
+LaTeX Font Info:    Redeclaring math symbol \Cup on input line 160.
+LaTeX Font Info:    Redeclaring math symbol \Cap on input line 162.
+LaTeX Font Info:    Redeclaring math symbol \curlywedge on input line 164.
+LaTeX Font Info:    Redeclaring math symbol \curlyvee on input line 165.
+LaTeX Font Info:    Redeclaring math symbol \leftthreetimes on input line 166.
+LaTeX Font Info:    Redeclaring math symbol \rightthreetimes on input line 167.
+
+LaTeX Font Info:    Redeclaring math symbol \subseteqq on input line 168.
+LaTeX Font Info:    Redeclaring math symbol \supseteqq on input line 169.
+LaTeX Font Info:    Redeclaring math symbol \bumpeq on input line 170.
+LaTeX Font Info:    Redeclaring math symbol \Bumpeq on input line 171.
+LaTeX Font Info:    Redeclaring math symbol \lll on input line 172.
+LaTeX Font Info:    Redeclaring math symbol \ggg on input line 174.
+LaTeX Font Info:    Redeclaring math symbol \circledS on input line 176.
+LaTeX Font Info:    Redeclaring math symbol \pitchfork on input line 177.
+LaTeX Font Info:    Redeclaring math symbol \dotplus on input line 178.
+LaTeX Font Info:    Redeclaring math symbol \backsim on input line 179.
+LaTeX Font Info:    Redeclaring math symbol \backsimeq on input line 180.
+LaTeX Font Info:    Redeclaring math symbol \complement on input line 181.
+LaTeX Font Info:    Redeclaring math symbol \intercal on input line 182.
+LaTeX Font Info:    Redeclaring math symbol \circledcirc on input line 183.
+LaTeX Font Info:    Redeclaring math symbol \circledast on input line 184.
+LaTeX Font Info:    Redeclaring math symbol \circleddash on input line 185.
+LaTeX Font Info:    Redeclaring math symbol \lvertneqq on input line 187.
+LaTeX Font Info:    Redeclaring math symbol \gvertneqq on input line 188.
+LaTeX Font Info:    Redeclaring math symbol \nleq on input line 189.
+LaTeX Font Info:    Redeclaring math symbol \ngeq on input line 190.
+LaTeX Font Info:    Redeclaring math symbol \nless on input line 191.
+LaTeX Font Info:    Redeclaring math symbol \ngtr on input line 192.
+LaTeX Font Info:    Redeclaring math symbol \nprec on input line 193.
+LaTeX Font Info:    Redeclaring math symbol \nsucc on input line 194.
+LaTeX Font Info:    Redeclaring math symbol \lneqq on input line 195.
+LaTeX Font Info:    Redeclaring math symbol \gneqq on input line 196.
+LaTeX Font Info:    Redeclaring math symbol \nleqslant on input line 197.
+LaTeX Font Info:    Redeclaring math symbol \ngeqslant on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \lneq on input line 199.
+LaTeX Font Info:    Redeclaring math symbol \gneq on input line 200.
+LaTeX Font Info:    Redeclaring math symbol \npreceq on input line 201.
+LaTeX Font Info:    Redeclaring math symbol \nsucceq on input line 202.
+LaTeX Font Info:    Redeclaring math symbol \precnsim on input line 203.
+LaTeX Font Info:    Redeclaring math symbol \succnsim on input line 204.
+LaTeX Font Info:    Redeclaring math symbol \lnsim on input line 205.
+LaTeX Font Info:    Redeclaring math symbol \gnsim on input line 206.
+LaTeX Font Info:    Redeclaring math symbol \nleqq on input line 207.
+LaTeX Font Info:    Redeclaring math symbol \ngeqq on input line 208.
+LaTeX Font Info:    Redeclaring math symbol \precneqq on input line 209.
+LaTeX Font Info:    Redeclaring math symbol \succneqq on input line 210.
+LaTeX Font Info:    Redeclaring math symbol \precnapprox on input line 211.
+LaTeX Font Info:    Redeclaring math symbol \succnapprox on input line 212.
+LaTeX Font Info:    Redeclaring math symbol \lnapprox on input line 213.
+LaTeX Font Info:    Redeclaring math symbol \gnapprox on input line 214.
+LaTeX Font Info:    Redeclaring math symbol \nsim on input line 215.
+LaTeX Font Info:    Redeclaring math symbol \ncong on input line 216.
+LaTeX Font Info:    Redeclaring math symbol \diagup on input line 217.
+LaTeX Font Info:    Redeclaring math symbol \diagdown on input line 218.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneq on input line 219.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneq on input line 220.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteqq on input line 221.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteqq on input line 222.
+LaTeX Font Info:    Redeclaring math symbol \subsetneqq on input line 223.
+LaTeX Font Info:    Redeclaring math symbol \supsetneqq on input line 224.
+LaTeX Font Info:    Redeclaring math symbol \varsubsetneqq on input line 225.
+LaTeX Font Info:    Redeclaring math symbol \varsupsetneqq on input line 226.
+LaTeX Font Info:    Redeclaring math symbol \subsetneq on input line 227.
+LaTeX Font Info:    Redeclaring math symbol \supsetneq on input line 228.
+LaTeX Font Info:    Redeclaring math symbol \nsubseteq on input line 229.
+LaTeX Font Info:    Redeclaring math symbol \nsupseteq on input line 230.
+LaTeX Font Info:    Redeclaring math symbol \nparallel on input line 231.
+LaTeX Font Info:    Redeclaring math symbol \nmid on input line 232.
+LaTeX Font Info:    Redeclaring math symbol \nshortmid on input line 233.
+LaTeX Font Info:    Redeclaring math symbol \nshortparallel on input line 234.
+LaTeX Font Info:    Redeclaring math symbol \nvdash on input line 235.
+LaTeX Font Info:    Redeclaring math symbol \nVdash on input line 236.
+LaTeX Font Info:    Redeclaring math symbol \nvDash on input line 237.
+LaTeX Font Info:    Redeclaring math symbol \nVDash on input line 238.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglerighteq on input line 239
+.
+LaTeX Font Info:    Redeclaring math symbol \ntrianglelefteq on input line 240.
+
+LaTeX Font Info:    Redeclaring math symbol \ntriangleleft on input line 241.
+LaTeX Font Info:    Redeclaring math symbol \ntriangleright on input line 242.
+LaTeX Font Info:    Redeclaring math symbol \nleftarrow on input line 243.
+LaTeX Font Info:    Redeclaring math symbol \nrightarrow on input line 244.
+LaTeX Font Info:    Redeclaring math symbol \nLeftarrow on input line 245.
+LaTeX Font Info:    Redeclaring math symbol \nRightarrow on input line 246.
+LaTeX Font Info:    Redeclaring math symbol \nLeftrightarrow on input line 247.
+
+LaTeX Font Info:    Redeclaring math symbol \nleftrightarrow on input line 248.
+
+LaTeX Font Info:    Redeclaring math symbol \divideontimes on input line 249.
+LaTeX Font Info:    Redeclaring math symbol \varnothing on input line 250.
+LaTeX Font Info:    Redeclaring math symbol \nexists on input line 251.
+LaTeX Font Info:    Redeclaring math symbol \Finv on input line 252.
+LaTeX Font Info:    Redeclaring math symbol \Game on input line 253.
+LaTeX Font Info:    Redeclaring math symbol \eth on input line 256.
+LaTeX Font Info:    Redeclaring math symbol \eqsim on input line 257.
+LaTeX Font Info:    Redeclaring math symbol \beth on input line 258.
+LaTeX Font Info:    Redeclaring math symbol \gimel on input line 259.
+LaTeX Font Info:    Redeclaring math symbol \daleth on input line 260.
+LaTeX Font Info:    Redeclaring math symbol \lessdot on input line 261.
+LaTeX Font Info:    Redeclaring math symbol \gtrdot on input line 262.
+LaTeX Font Info:    Redeclaring math symbol \ltimes on input line 263.
+LaTeX Font Info:    Redeclaring math symbol \rtimes on input line 264.
+LaTeX Font Info:    Redeclaring math symbol \shortmid on input line 265.
+LaTeX Font Info:    Redeclaring math symbol \shortparallel on input line 266.
+LaTeX Font Info:    Redeclaring math symbol \smallsetminus on input line 267.
+LaTeX Font Info:    Redeclaring math symbol \thicksim on input line 268.
+LaTeX Font Info:    Redeclaring math symbol \thickapprox on input line 269.
+LaTeX Font Info:    Redeclaring math symbol \approxeq on input line 270.
+LaTeX Font Info:    Redeclaring math symbol \succapprox on input line 271.
+LaTeX Font Info:    Redeclaring math symbol \precapprox on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowleft on input line 273.
+LaTeX Font Info:    Redeclaring math symbol \curvearrowright on input line 274.
+
+LaTeX Font Info:    Redeclaring math symbol \digamma on input line 275.
+LaTeX Font Info:    Redeclaring math symbol \varkappa on input line 276.
+LaTeX Font Info:    Redeclaring math symbol \Bbbk on input line 277.
+LaTeX Font Info:    Redeclaring math symbol \hslash on input line 278.
+LaTeX Font Info:    Redeclaring math symbol \backepsilon on input line 281.
+)
+(/opt/local/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/opt/local/share/texmf-dist/tex/latex/tools/array.sty
+Package: array 2003/12/17 v2.4a Tabular extension package (FMi)
+\col@sep=\dimen105
+\extrarowheight=\dimen106
+\NC@list=\toks16
+\extratabsurround=\skip54
+\backup@length=\skip55
+)
+(/opt/local/share/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2004/02/14 v1.6e multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen107
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen108
+\page@free=\dimen109
+\premulticols=\dimen110
+\postmulticols=\dimen111
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen112
+\multicolovershoot=\dimen113
+\multicolundershoot=\dimen114
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+))
+(/opt/local/share/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2003/11/30 v6.74m Hypertext links for LaTeX
+\@linkdim=\dimen115
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+(/opt/local/share/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2003/11/30 v6.74m Hyperref: PDFDocEncoding definition (HO)
+)
+(/opt/local/share/texmf-dist/tex/latex/hyperref/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive and teTeX
+)
+Package hyperref Info: Option `linktocpage' set `true' on input line 1830.
+Package hyperref Info: Hyper figures OFF on input line 1880.
+Package hyperref Info: Link nesting OFF on input line 1885.
+Package hyperref Info: Hyper index ON on input line 1888.
+Package hyperref Info: Plain pages ON on input line 1893.
+Package hyperref Info: Backreferencing OFF on input line 1900.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2004.
+LaTeX Info: Redefining \url on input line 2143.
+\Fld@menulength=\count100
+\Field@Width=\dimen116
+\Fld@charsize=\dimen117
+\Choice@toks=\toks17
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 2618.
+Package hyperref Info: Link nesting OFF on input line 2623.
+Package hyperref Info: Hyper index ON on input line 2626.
+Package hyperref Info: backreferencing OFF on input line 2633.
+Package hyperref Info: Link coloring OFF on input line 2638.
+\c@Item=\count101
+\c@Hfootnote=\count102
+)
+*hyperref using default driver hpdftex*
+(/opt/local/share/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2003/11/30 v6.74m Hyperref driver for pdfTeX
+
+(/opt/local/share/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2004/09/15 PSNFSS-v9.2 Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/opt/local/share/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/opt/local/share/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\Fld@listcount=\count103
+\@outlinefile=\write3
+)
+(/opt/local/share/texmf-dist/tex/latex/fancybox/fancybox.sty
+Package: fancybox 2000/09/19 1.3
+
+Style option: `fancybox' v1.3 <2000/09/19> (tvz)
+\@fancybox=\box52
+\shadowsize=\dimen118
+\@Sbox=\box53
+\do@VerbBox=\toks19
+\the@fancyput=\toks20
+\this@fancyput=\toks21
+\EndVerbatimTokens=\toks22
+\Verbatim@Outfile=\write4
+\Verbatim@Infile=\read1
+) (/opt/local/share/texmf-dist/tex/latex/multirow/multirow.sty
+\bigstrutjot=\dimen119
+)
+(/opt/local/share/texmf-dist/tex/latex/jknappen/mathrsfs.sty
+Package: mathrsfs 1996/01/01 Math RSFS package v1.0 (jk)
+\symrsfs=\mathgroup10
+)
+(/opt/local/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen120
+\WF@size=\dimen121
+\c@WF@wrappedlines=\count104
+\WF@box=\box54
+\WF@everypar=\toks23
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/opt/local/share/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2004/01/28 ver: 1.2 subfig package
+
+(/opt/local/share/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2004/07/16 v3.0c Customising captions (AS)
+\captionmargin=\dimen122
+\captionwidth=\dimen123
+\captionindent=\dimen124
+\captionparindent=\dimen125
+\captionhangindent=\dimen126
+)
+\c@KVtest=\count105
+\sf@farskip=\skip58
+\sf@captopadj=\dimen127
+\sf@capskip=\skip59
+\sf@nearskip=\skip60
+\c@subfigure=\count106
+\c@subfigure@save=\count107
+\c@lofdepth=\count108
+\c@subtable=\count109
+\c@subtable@save=\count110
+\c@lotdepth=\count111
+\sf@top=\skip61
+\sf@bottom=\skip62
+)
+(/opt/local/share/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (/opt/local/share/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks24
+\verbatim@line=\toks25
+\verbatim@in@stream=\read2
+)
+(/opt/local/share/texmf-dist/tex/latex/rotating/rotating.sty
+Package: rotating 1997/09/26 v2.13 Rotation package
+\c@r@tfl@t=\count112
+\rot@float@box=\box55
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 17.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 17.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 17.
+ (./thesis.aux
+(./firstpage.aux) (./Introduction.aux) (./Spectropolarimetry.aux)
+(./Observations.aux) (./HR.aux
+
+LaTeX Warning: Label `eq:contrast' multiply defined.
+
+) (./Spicules.aux) (./Conclusions.aux) (./acknowledgments.aux))
+\openout1 = `thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/txmi/m/it on input line 37.
+LaTeX Font Info:    Try loading font information for OML+txmi on input line 37.
+
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/omltxmi.fd
+File: omltxmi.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/txsy/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+txsy on input line 37.
+
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/omstxsy.fd
+File: omstxsy.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/txex/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for OMX+txex on input line 37.
+
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/omxtxex.fd
+File: omxtxex.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/txexa/m/n on input line 37.
+LaTeX Font Info:    Try loading font information for U+txexa on input line 37.
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/utxexa.fd
+File: utxexa.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Try loading font information for T1+txr on input line 37.
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/t1txr.fd
+File: t1txr.fd 2000/12/15 v3.1
+)
+(/opt/local/share/texmf-dist/tex/context/base/supp-pdf.tex
+(/opt/local/share/texmf-dist/tex/context/base/supp-mis.tex
+loading : Context Support Macros / Miscellaneous (2004.10.26)
+\protectiondepth=\count113
+\scratchcounter=\count114
+\scratchtoks=\toks26
+\scratchdimen=\dimen128
+\scratchskip=\skip63
+\scratchmuskip=\muskip11
+\scratchbox=\box56
+\scratchread=\read3
+\scratchwrite=\write5
+\zeropoint=\dimen129
+\onepoint=\dimen130
+\onebasepoint=\dimen131
+\minusone=\count115
+\thousandpoint=\dimen132
+\onerealpoint=\dimen133
+\emptytoks=\toks27
+\nextbox=\box57
+\nextdepth=\dimen134
+\everyline=\toks28
+\!!counta=\count116
+\!!countb=\count117
+\recursecounter=\count118
+)
+loading : Context Support Macros / PDF (2004.03.26)
+\nofMPsegments=\count119
+\nofMParguments=\count120
+\MPscratchCnt=\count121
+\MPscratchDim=\dimen135
+\MPnumerator=\count122
+\everyMPtoPDFconversion=\toks29
+)
+Package hyperref Info: Link coloring ON on input line 37.
+ (/opt/local/share/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2003/12/03 v2.21 Cross-referencing by name of section
+\c@section@level=\count123
+)
+LaTeX Info: Redefining \ref on input line 37.
+LaTeX Info: Redefining \pageref on input line 37.
+ (./thesis.out)
+(./thesis.out)
+\openout3 = `thesis.out'.
+
+ (/opt/local/share/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2003/03/25 v2.04 ragged2e Package (MS)
+
+(/opt/local/share/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 1999/06/08 v1.03 EverySelectfont Package (MS)
+LaTeX Info: Redefining \selectfont on input line 125.
+)
+\CenteringLeftskip=\skip64
+\RaggedLeftLeftskip=\skip65
+\RaggedRightLeftskip=\skip66
+\CenteringRightskip=\skip67
+\RaggedLeftRightskip=\skip68
+\RaggedRightRightskip=\skip69
+\CenteringParfillskip=\skip70
+\RaggedLeftParfillskip=\skip71
+\RaggedRightParfillskip=\skip72
+\JustifyingParfillskip=\skip73
+\CenteringParindent=\skip74
+\RaggedLeftParindent=\skip75
+\RaggedRightParindent=\skip76
+\JustifyingParindent=\skip77
+)
+Package caption Info: rotating package v2.0 (or newer) detected on input line 3
+7.
+ [1
+
+
+{/opt/local/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for T1+txtt on input line 40.
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/t1txtt.fd
+File: t1txtt.fd 2000/12/15 v3.1
+)
+Overfull \hbox (3.79703pt too wide) in paragraph at lines 40--40
+\T1/txr/m/n/14.4 Na-tion-al-bib-li-ografie; de-tail-lierte bib-li-ografis-che D
+aten sind im In-ter-net über
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--40
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+txr on input line 40.
+(/opt/local/share/texmf-dist/tex/latex/txfonts/omstxr.fd
+File: omstxr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <14.4> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 40.
+ [2]
+\openout2 = `firstpage.aux'.
+
+ (./firstpage.tex
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 11.
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+txmia on input line 11.
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/utxmia.fd
+File: utxmia.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+
+(/opt/local/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+(/opt/local/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2002/01/19 v2.2g AMS font definitions
+)
+LaTeX Font Info:    Try loading font information for U+txsyc on input line 11.
+
+(/opt/local/share/texmf-dist/tex/latex/txfonts/utxsyc.fd
+File: utxsyc.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 11.
+
+(/opt/local/share/texmf-dist/tex/latex/jknappen/ursfs.fd
+File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
+))
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 4--40
+[]$[]$ 
+ []
+
+[3
+
+] [4
+
+
+] (./thesis.toc [5])
+\tf@toc=\write6
+\openout6 = `thesis.toc'.
+
+ [6] [7
+
+]
+\openout2 = `Introduction.aux'.
+
+ (./Introduction.tex [8
+
+
+]
+ 1.
+<../figures/sol.jpg, id=289, 335.2525pt x 176.66pt>
+File: ../figures/sol.jpg Graphic file (type jpg)
+ <use ../figures/sol.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 16--26
+\T1/txr/m/n/12 in-te-rior. 
+ []
+
+[9] <../figures/mosaicb.png, id=297, 365.6862pt x 338.2236pt>
+File: ../figures/mosaicb.png Graphic file (type png)
+
+<use ../figures/mosaicb.png> [10 <../figures/sol.jpg>] [11 <../figures/mosaicb.
+png>] [12] <../figures/mosaicn.png, id=316, 386.4036pt x 326.6604pt>
+File: ../figures/mosaicn.png Graphic file (type png)
+
+<use ../figures/mosaicn.png> [13]
+Underfull \vbox (badness 1303) has occurred while \output is active []
+
+ [14 <../figures/mosaicn.png>]) [15]
+\openout2 = `Spectropolarimetry.aux'.
+
+ (./Spectropolarimetry.tex [16
+
+
+
+]
+ 2.
+[17]
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [18]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\alpha' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\alpha' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 62.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \kern 2.00006pt
+(hyperref)                removed on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/txr/m/sc/17.28' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\spaceskip' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\z@' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\@EverySelectfont@AtNextHook' on input line
+ 81.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \kern 2.00006pt
+(hyperref)                removed on input line 81.
+
+[19] <../figures/diagrams005.png, id=383, 551.05875pt x 532.99126pt>
+File: ../figures/diagrams005.png Graphic file (type png)
+
+<use ../figures/diagrams005.png>) [20 <../figures/diagrams005.png>]
+\openout2 = `Observations.aux'.
+
+
+(./Observations.tex
+ 3.
+[21
+
+
+
+] [22] <../figures/VTT.jpg, id=428, 196.5744pt x 288.1164pt>
+File: ../figures/VTT.jpg Graphic file (type jpg)
+
+<use ../figures/VTT.jpg>
+<../figures/diagrams001.png, id=429, 470.75874pt x 666.49pt>
+File: ../figures/diagrams001.png Graphic file (type png)
+
+<use ../figures/diagrams001.png>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23 <../figures/VTT.jpg>]
+<../figures/diagrams002.jpg, id=442, 500.87125pt x 448.67625pt>
+File: ../figures/diagrams002.jpg Graphic file (type jpg)
+
+<use ../figures/diagrams002.jpg>
+Underfull \vbox (badness 2165) has occurred while \output is active []
+
+ [24 <../figures/diagrams001.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <../figures/diagrams002.jpg>] [26]
+<../figures/scan-im.jpg, id=489, 2459.1875pt x 1451.4225pt>
+File: ../figures/scan-im.jpg Graphic file (type jpg)
+
+<use ../figures/scan-im.jpg>
+<../figures/fts_fpiha.pdf, id=490, 426.59375pt x 341.275pt>
+File: ../figures/fts_fpiha.pdf Graphic file (type pdf)
+
+<use ../figures/fts_fpiha.pdf>
+
+LaTeX Warning: Command \r invalid in math mode on input line 128.
+
+[27]
+
+LaTeX Warning: Command \r invalid in math mode on input line 135.
+
+[28 <../figures/scan-im.jpg> <../figures/fts_fpiha.pdf>]
+<../figures/airy_filtro.pdf, id=531, 580.1675pt x 341.275pt>
+File: ../figures/airy_filtro.pdf Graphic file (type pdf)
+
+<use ../figures/airy_filtro.pdf>
+<../figures/diagrams003.png, id=532, 697.60625pt x 353.32pt>
+File: ../figures/diagrams003.png Graphic file (type png)
+
+<use ../figures/diagrams003.png>
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 158.
+
+LaTeX Font Info:    Font shape `OMS/txr/m/n' in size <12> not available
+(Font)              Font shape `OMS/txsy/m/n' tried instead on input line 166.
+[29 <../figures/airy_filtro.pdf>]
+Overfull \hbox (28.72993pt too wide) in paragraph at lines 175--193
+ [] 
+ []
+
+
+Underfull \vbox (badness 1242) has occurred while \output is active []
+
+ [30 <../figures/diagrams003.png>] <../figures/raw.jpg, id=553, 690.58pt x 513.
+92pt>
+File: ../figures/raw.jpg Graphic file (type jpg)
+
+<use ../figures/raw.jpg> <../figures/flat.jpg, id=554, 690.58pt x 513.92pt>
+File: ../figures/flat.jpg Graphic file (type jpg)
+
+<use ../figures/flat.jpg> <../figures/dark.jpg, id=555, 690.58pt x 513.92pt>
+File: ../figures/dark.jpg Graphic file (type jpg)
+
+<use ../figures/dark.jpg> <../figures/redu.jpg, id=556, 690.58pt x 513.92pt>
+File: ../figures/redu.jpg Graphic file (type jpg)
+
+<use ../figures/redu.jpg> [31] [32 <../figures/raw.jpg> <../figures/flat.jpg> <
+../figures/dark.jpg> <../figures/redu.jpg>] [33]
+<../figures/broad-int.jpg, id=608, 350.30875pt x 194.7275pt>
+File: ../figures/broad-int.jpg Graphic file (type jpg)
+
+<use ../figures/broad-int.jpg>
+<../figures/broad-speckle.jpg, id=609, 347.2975pt x 194.7275pt>
+File: ../figures/broad-speckle.jpg Graphic file (type jpg)
+
+<use ../figures/broad-speckle.jpg>
+<../figures/broad-redu.jpg, id=610, 348.30125pt x 193.72375pt>
+File: ../figures/broad-redu.jpg Graphic file (type jpg)
+
+<use ../figures/broad-redu.jpg>
+Overfull \hbox (3.0pt too wide) in paragraph at lines 282--285
+ [][] 
+ []
+
+<../figures/power-speckle.pdf, id=611, 774.895pt x 383.4325pt>
+File: ../figures/power-speckle.pdf Graphic file (type pdf)
+
+<use ../figures/power-speckle.pdf> [34]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [35 <../figures/broad-int.jpg> <../figures/broad-speckle.jpg> <../figures/broa
+d-redu.jpg>]
+Overfull \hbox (4.89346pt too wide) in paragraph at lines 329--330
+[]\T1/txr/m/n/12 The method used is called \T1/txr/m/it/12 Multi Ob-ject Multi 
+Frame Blind De-con-vo-lu-tion \T1/txr/m/n/12 (MOMFBD),
+ []
+
+[36 <../figures/power-speckle.pdf>] [37] [38]
+<../figures/tip-opt.png, id=722, 710.655pt x 537.00626pt>
+File: ../figures/tip-opt.png Graphic file (type png)
+
+<use ../figures/tip-opt.png> [39 <../figures/tip-opt.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40]
+<../figures/rawtip.jpg, id=743, 799.98875pt x 803.0pt>
+File: ../figures/rawtip.jpg Graphic file (type jpg)
+
+<use ../figures/rawtip.jpg>
+<../figures/flattip.jpg, id=744, 799.98875pt x 803.0pt>
+File: ../figures/flattip.jpg Graphic file (type jpg)
+
+<use ../figures/flattip.jpg>
+<../figures/darktip.jpg, id=745, 799.98875pt x 803.0pt>
+File: ../figures/darktip.jpg Graphic file (type jpg)
+
+<use ../figures/darktip.jpg>
+<../figures/redtip.jpg, id=746, 799.98875pt x 803.0pt>
+File: ../figures/redtip.jpg Graphic file (type jpg)
+
+<use ../figures/redtip.jpg> [41]
+Underfull \vbox (badness 1496) has occurred while \output is active []
+
+ [42 <../figures/rawtip.jpg> <../figures/flattip.jpg> <../figures/darktip.jpg> 
+<../figures/redtip.jpg>] <../figures/tipcont.pdf, id=770, 460.60568pt x 335.240
+34pt>
+File: ../figures/tipcont.pdf Graphic file (type pdf)
+
+<use ../figures/tipcont.pdf>) [43] [44 <../figures/tipcont.pdf>]
+\openout2 = `HR.aux'.
+
+ (./HR.tex
+ 4.
+[45
+
+
+
+] <../figures/mosbroad2.pdf, id=832, 394.2pt x 358.91666pt>
+File: ../figures/mosbroad2.pdf Graphic file (type pdf)
+
+<use ../figures/mosbroad2.pdf>
+<../figures/mosnarr2.pdf, id=833, 817.85536pt x 760.02751pt>
+File: ../figures/mosnarr2.pdf Graphic file (type pdf)
+
+<use ../figures/mosnarr2.pdf>
+<../figures/cloud.pdf, id=834, 705.26517pt x 768.99417pt>
+File: ../figures/cloud.pdf Graphic file (type pdf)
+
+<use ../figures/cloud.pdf>
+<../figures/fe-sp.pdf, id=835, 510.3613pt x 525.80081pt>
+File: ../figures/fe-sp.pdf Graphic file (type pdf)
+
+<use ../figures/fe-sp.pdf> Adding sideways figure on  right hand page [46]
+[47 <../figures/mosbroad2.pdf> <../figures/mosnarr2.pdf>] [48 <../figures/cloud
+.pdf> <../figures/fe-sp.pdf>]
+<../figures/Broad_overview.pdf, id=925, 526.96875pt x 404.51125pt>
+File: ../figures/Broad_overview.pdf Graphic file (type pdf)
+
+<use ../figures/Broad_overview.pdf>
+<../figures/Line_right500.pdf, id=926, 526.96875pt x 404.51125pt>
+File: ../figures/Line_right500.pdf Graphic file (type pdf)
+
+<use ../figures/Line_right500.pdf> [49
+
+ <../figures/Broad_overview.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50 <../figures/Line_right500.pdf>]
+Underfull \vbox (badness 3108) has occurred while \output is active []
+
+ [51]
+<../figures/diagrams006.png, id=973, 580.1675pt x 481.8pt>
+File: ../figures/diagrams006.png Graphic file (type png)
+
+<use ../figures/diagrams006.png>
+Overfull \hbox (42.68173pt too wide) in paragraph at lines 129--130
+ [] 
+ []
+
+[52 <../figures/diagrams006.png>] [53] [54]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 237.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\alpha' on input line 237.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 237.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 238.
+
+<../figures/longfibril.pdf, id=1035, 412.2394pt x 338.92728pt>
+File: ../figures/longfibril.pdf Graphic file (type pdf)
+
+<use ../figures/longfibril.pdf> [55 <../figures/longfibril.pdf>]
+<../figures/flash.pdf, id=1060, 1093.94328pt x 228.56677pt>
+File: ../figures/flash.pdf Graphic file (type pdf)
+
+<use ../figures/flash.pdf> Adding sideways figure on  right hand page [56]
+[57] [58 <../figures/flash.pdf>]
+<../figures/flashprof.pdf, id=1110, 521.61592pt x 535.68987pt>
+File: ../figures/flashprof.pdf Graphic file (type pdf)
+
+<use ../figures/flashprof.pdf> [59
+
+ <../figures/flashprof.pdf>] [60] [61]
+[62]
+Underfull \hbox (badness 10000) in paragraph at lines 494--495
+
+ []
+
+[63] <../figures/power_vel.pdf, id=1245, 401.5pt x 226.8475pt>
+File: ../figures/power_vel.pdf Graphic file (type pdf)
+
+<use ../figures/power_vel.pdf>
+Overfull \hbox (29.6232pt too wide) in paragraph at lines 534--535
+\T1/txr/m/n/12 Time runs from bot-tom to top with $\OML/txmi/m/it/12 t \OT1/txr
+/m/n/12 = 0$ \T1/txr/m/n/12 at the start of the se-ries. The in-ter-rup-tions/i
+nterpolations
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 536.
+
+<../figures/Fig_Stripes1.pdf, id=1246, 303.1325pt x 676.13516pt>
+File: ../figures/Fig_Stripes1.pdf Graphic file (type pdf)
+
+<use ../figures/Fig_Stripes1.pdf>
+
+LaTeX Warning: Float too large for page by 14.18987pt on input line 544.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 545.
+
+<../figures/Fig_Stripes2.pdf, id=1247, 316.18124pt x 703.62875pt>
+File: ../figures/Fig_Stripes2.pdf Graphic file (type pdf)
+
+<use ../figures/Fig_Stripes2.pdf>
+
+LaTeX Warning: Float too large for page by 6.00327pt on input line 553.
+
+<../figures/Fig_Stripes3.pdf, id=1248, 331.2375pt x 524.37881pt>
+File: ../figures/Fig_Stripes3.pdf Graphic file (type pdf)
+
+<use ../figures/Fig_Stripes3.pdf>
+<../figures/Fig_Stripes4.pdf, id=1249, 418.27412pt x 412.99025pt>
+File: ../figures/Fig_Stripes4.pdf Graphic file (type pdf)
+
+<use ../figures/Fig_Stripes4.pdf> [64 <../figures/power_vel.pdf>] [65 <../figur
+es/Fig_Stripes1.pdf>] [66 <../figures/Fig_Stripes2.pdf>] [67 <../figures/Fig_St
+ripes3.pdf>]
+Underfull \vbox (badness 1874) has occurred while \output is active []
+
+ [68 <../figures/Fig_Stripes4.pdf>] [69] [70] [71] [72] [73]
+Overfull \hbox (9.2864pt too wide) in paragraph at lines 723--723
+[]\T1/txr/bx/n/17.28 Comparison be-tween speckle in-ter-fer-om-e-try and blind
+ []
+
+
+Overfull \hbox (1.5127pt too wide) in paragraph at lines 727--728
+\T1/txr/m/n/12 field-ing) and the re-con-structed im-age from this chan-nel to 
+ob-tain the re-con-structed narrow-
+ []
+
+<../figures/comp-ima-ccd1.pdf, id=1446, 505.89pt x 361.35pt>
+File: ../figures/comp-ima-ccd1.pdf Graphic file (type pdf)
+
+<use ../figures/comp-ima-ccd1.pdf>
+<../figures/compccd1.pdf, id=1447, 505.89pt x 361.35pt>
+File: ../figures/compccd1.pdf Graphic file (type pdf)
+
+<use ../figures/compccd1.pdf>
+<../figures/comp-ima-ccd2.pdf, id=1448, 505.89pt x 361.35pt>
+File: ../figures/comp-ima-ccd2.pdf Graphic file (type pdf)
+
+<use ../figures/comp-ima-ccd2.pdf>
+<../figures/compccd2.pdf, id=1449, 505.89pt x 361.35pt>
+File: ../figures/compccd2.pdf Graphic file (type pdf)
+
+<use ../figures/compccd2.pdf>
+
+LaTeX Warning: Float too large for page by 9.1888pt on input line 768.
+
+
+Underfull \vbox (badness 5985) has occurred while \output is active []
+
+ [74
+
+]
+[75 <../figures/comp-ima-ccd1.pdf> <../figures/compccd1.pdf>] [76 <../figures/c
+omp-ima-ccd2.pdf> <../figures/compccd2.pdf>]
+<../figures/comp-idet-ccd2.pdf, id=1502, 476.27634pt x 241.77599pt>
+File: ../figures/comp-idet-ccd2.pdf Graphic file (type pdf)
+
+<use ../figures/comp-idet-ccd2.pdf> [77 <../figures/comp-idet-ccd2.pdf>]
+Underfull \vbox (badness 1975) has occurred while \output is active []
+
+ [78]
+Overfull \hbox (2.97658pt too wide) in paragraph at lines 825--827
+\T1/txr/m/n/12 where $\OML/txmi/m/it/12 I[]\OT1/txr/m/n/12 (\OML/txmi/m/it/12 ^
+^U\OT1/txr/m/n/12 )$ \T1/txr/m/n/12 and $\OML/txmi/m/it/12 I[]\OT1/txr/m/n/12 (
+\OML/txmi/m/it/12 ^^U\OT1/txr/m/n/12 )$ \T1/txr/m/n/12 cor-re-spond to the re-c
+on-structed im-ages us-ing the SI+AO
+ []
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 833.
+
+<../figures/comp-prof.pdf, id=1535, 427.02567pt x 321.24864pt>
+File: ../figures/comp-prof.pdf Graphic file (type pdf)
+
+<use ../figures/comp-prof.pdf>) [79] [80 <../figures/comp-prof.pdf>]
+\openout2 = `Spicules.aux'.
+
+
+(./Spicules.tex
+ 5.
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string:
+(hyperref)                \kern 2.00006pt
+(hyperref)                removed on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\f@series' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\font@name' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\T1/txr/m/sc/17.28' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\spaceskip' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\z@' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\<def>-command' on input line 11.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\@EverySelectfont@AtNextHook' on input line
+ 11.
+
+[81
+
+
+
+] <../figures/perfiles.pdf, id=1597, 487.41982pt x 345.45709pt>
+File: ../figures/perfiles.pdf Graphic file (type pdf)
+
+<use ../figures/perfiles.pdf> [82 <../figures/perfiles.pdf>]
+<../figures/3d-tip.pdf, id=1620, 455.29684pt x 323.09306pt>
+File: ../figures/3d-tip.pdf Graphic file (type pdf)
+
+<use ../figures/3d-tip.pdf> [83 <../figures/3d-tip.pdf>]
+<../figures/he05red.pdf, id=1640, 478.14998pt x 318.76665pt>
+File: ../figures/he05red.pdf Graphic file (type pdf)
+
+<use ../figures/he05red.pdf> [84 <../figures/he05red.pdf>]
+<../figures/he05rel.pdf, id=1654, 505.89pt x 361.35pt>
+File: ../figures/he05rel.pdf Graphic file (type pdf)
+
+<use ../figures/he05rel.pdf>
+<../figures/he05teo.pdf, id=1655, 505.89pt x 361.35pt>
+File: ../figures/he05teo.pdf Graphic file (type pdf)
+
+<use ../figures/he05teo.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [85]
+[86 <../figures/he05rel.pdf>] [87 <../figures/he05teo.pdf>]
+Overfull \hbox (9.67267pt too wide) in paragraph at lines 186--187
+\T1/txr/m/n/12 solves the long-standing ques-tion about the coun-ter-parts of s
+picules on the disc ([][]Grossmann-
+ []
+
+<../figures/espicules.pdf, id=1718, 2116.71663pt x 1379.94525pt>
+File: ../figures/espicules.pdf Graphic file (type pdf)
+
+<use ../figures/espicules.pdf>
+<../figures/espicules2B.pdf, id=1719, 457.35452pt x 157.90291pt>
+File: ../figures/espicules2B.pdf Graphic file (type pdf)
+
+<use ../figures/espicules2B.pdf> Adding sideways figure on  right hand page
+<../figures/limbha.pdf, id=1720, 453.28146pt x 118.02797pt>
+File: ../figures/limbha.pdf Graphic file (type pdf)
+
+<use ../figures/limbha.pdf>
+<../figures/profha.pdf, id=1721, 505.89pt x 361.35pt>
+File: ../figures/profha.pdf Graphic file (type pdf)
+
+<use ../figures/profha.pdf>) [88 <../figures/espicules.pdf>] [89 <../figures/es
+picules2B.pdf>] [90 <../figures/limbha.pdf> <../figures/profha.pdf>]
+\openout2 = `Conclusions.aux'.
+
+
+(./Conclusions.tex
+ 6.
+[91
+
+
+
+]
+Overfull \hbox (0.64734pt too wide) in paragraph at lines 21--22
+[]\T1/txr/m/n/12 It is pos-si-ble to suc-cess-fully use multi-object multi-fram
+e blind de-con-vo-lu-tion meth-
+ []
+
+[92] [93]) [94] (./thesis.bbl [95
+
+
+] [96] [97]
+
+LaTeX Warning: Command \r invalid in math mode on input line 276.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 277.
+
+[98] [99] [100]) [101] [102
+
+]
+Overfull \hbox (14.80334pt too wide) in paragraph at lines 96--101
+\T1/txr/m/n/12 J. Blanco Ro-dríguez, and F. Kneer.  Spicule emis-sion pro-files
+ ob-served in He\T1/txr/m/sc/12 i \T1/txr/m/n/12 10830 Å.
+ []
+
+[103] [104]
+\openout2 = `acknowledgments.aux'.
+
+ (./acknowledgments.tex
+Overfull \hbox (6.10551pt too wide) in paragraph at lines 23--24
+[]\T1/txr/m/n/12 The Vac-uum Tower Tele-scope used for the ob-ser-va-tions is o
+p-er-ated by the Kiepenheuer-
+ []
+
+[105
+
+
+]) [106]
+Overfull \hbox (7.71582pt too wide) in paragraph at lines 211--211
+[]|\T1/txr/bx/n/12 Staatsangehörigkeit:| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 214--215
+[]|\T1/txr/m/n/12 Grundschule am \T1/txr/m/it/12 Cole-gio
+ []
+
+
+Underfull \hbox (badness 1769) in paragraph at lines 222--223
+[]|\T1/txr/m/n/12 Stipendium des Max-Planck-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
+\T1/txr/m/n/12 Instituts für Son-nen-sys-tem-
+ []
+
+
+Overfull \hbox (23.39243pt too wide) in paragraph at lines 198--224
+[][] 
+ []
+
+[107
+
+
+] (./thesis.aux (./firstpage.aux) (./Introduction.aux)
+(./Spectropolarimetry.aux) (./Observations.aux) (./HR.aux) (./Spicules.aux)
+(./Conclusions.aux) (./acknowledgments.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 6536 strings out of 94500
+ 88700 string characters out of 1174974
+ 156321 words of memory out of 1000000
+ 8976 multiletter control sequences out of 10000+50000
+ 90597 words of font info for 163 fonts, out of 500000 for 2000
+ 580 hyphenation exceptions out of 1000
+ 33i,12n,49p,1651b,480s stack positions out of 1500i,500n,5000p,200000b,5000s
+PDF statistics:
+ 1915 PDF objects out of 300000
+ 447 named destinations out of 131072
+ 644 words of extra memory for PDF output out of 65536
+
+! pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exi
+st, replaced by a fixed one
+
+! pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exi
+st, replaced by a fixed one
+
+! pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exi
+st, replaced by a fixed one
+
+! pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exi
+st, replaced by a fixed one
+
+! pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exi
+st, replaced by a fixed one
+
+! pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exi
+st, replaced by a fixed one
+
+</opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxi.pfb></opt/local/sh
+are/texmf-dist/fonts/type1/public/txfonts/rtxb.pfb></opt/local/share/texmf-dist
+/fonts/type1/bluesky/symbols/msbm10.pfb></opt/local/share/texmf-dist/fonts/type
+1/hoekwater/rsfs/rsfs10.pfb></opt/local/share/texmf-dist/fonts/type1/bluesky/sy
+mbols/msam10.pfb>{/opt/local/share/texmf-dist/fonts/enc/dvips/psnfss/8r.enc}</o
+pt/local/share/texmf-dist/fonts/type1/urw/times/utmbi8a.pfb></opt/local/share/t
+exmf-dist/fonts/type1/public/txfonts/txex.pfb></opt/local/share/texmf-dist/font
+s/type1/public/txfonts/rtxsc.pfb></opt/local/share/texmf-dist/fonts/type1/publi
+c/txfonts/rtxmi.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/txs
+y.pfb></opt/local/share/texmf-dist/fonts/type1/public/txfonts/rtxr.pfb></opt/lo
+cal/share/texmf-dist/fonts/type1/urw/times/utmri8a.pfb></opt/local/share/texmf-
+dist/fonts/type1/public/txfonts/t1xtt.pfb></opt/local/share/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></opt/local/share/texmf-dist/fonts/type1/urw/times/utm
+b8a.pfb>
+Output written on thesis.pdf (107 pages, 14265408 bytes).

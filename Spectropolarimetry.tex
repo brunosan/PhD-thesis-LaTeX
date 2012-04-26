@@ -1,0 +1,159 @@
+\chapter{Spectral lines}
+
+Most of the information from the extraterrestrial cosmos, also from the Sun, arrives as radiation from the sky. It comes encoded in the dependence of the intensity on direction, time and wavelength. Also, the polarization state of the light contains information. These characteristics of the light we observe from any object have their origin in the interaction of atoms and photons under the local properties (temperature, density, magnetic field, radiation field itself, \dots).
+
+To extract this encoded information from the recorded intensities it is important to understand how the radiation is created and transported in the cosmic plasmas and released into the almost empty space. 
+
+This Chapter describes in the following sections the basis of radiative transfer and spectral line formation. We continue discussing the special properties of the spectral lines used in this work: the hydrogen Balmer-$\alpha$ line (named H$\alpha$ for short) at 6563~\AA, and the \mbox{\ion{He}{i} 10830\, \AA}\, multiplet. %Since the polarization of light carries also important information we introduce the Stokes parameters which describe the polarization state of the light.
+
+
+\section{Radiative transfer and spectral line formation}
+Light, consisting of photons, interacts with the gas (of the solar atmosphere, in our case) via absorption and emission. Let  $I_{\lambda}(\vec{r},t,\vec{\Omega})$ be the specific intensity (irradiance) at the point $\vec{r}$ in the atmosphere, at time $t$, and into direction $\vec{\Omega}$, with   $|\vec{\Omega}|=1$. We further denote by $\kappa_{\lambda}$ and $\epsilon_{\lambda}$ as the absorption and emission coefficients, respectively. 
+
+Along a distance $\mathrm{d}s$ in the direction $\vec{\Omega}$, the change of $I_{\lambda}$ is given by
+\begin{equation}
+\mathrm{d}\,I_{\lambda}= -\kappa_{\lambda}I_{\lambda} \mathrm{d}s + \epsilon_{\lambda} \mathrm{d}s\, ,
+\end{equation}
+or
+\begin{equation}
+\frac{\mathrm{d}\,I_{\lambda}}{\mathrm{d}s}= -\kappa_{\lambda}I_{\lambda}+ \epsilon_{\lambda}\, .
+\label{radtran}
+\end{equation}
+ 
+ 
+ We define also the optical thickness between some points $1$ and $2$ in the atmosphere by
+\begin{eqnarray}
+\mathrm{d}\,\tau_{\lambda}= -\kappa_{\lambda} \mathrm{d}s &;& \tau_{\lambda,{1}}-\tau_{\lambda,{2}}=-\int_{2}^{1}\kappa_{\lambda}\mathrm{d}s \, ,
+\end{eqnarray}
+and the source function $S_{\lambda}$ of the radiation field as
+\begin{equation}
+S_{\lambda}= \frac{ \epsilon_{\lambda}}{\kappa_{\lambda}}\, .
+\end{equation}
+ 
+In the solar atmosphere, absorption and emission are usually effected by transitions between atomic or molecular energy levels, i.e. by bound-bound, bound-free and free-free transitions. If collisions among atoms and with electrons occur much more often than the radiative processes, the atmospheric gas attains statistical thermal properties such as Maxwellian velocity distributions and the population and ionization ratios according to the Boltzamnn and Saha formulae. These properties define locally a temperature $T$. It can be shown (e.g. \citealt{Chandrasekhar:1960lr})
+that in these cases, called \emph{Local Thermodynamic Equilibrium} (LTE), the source function is given by the Planck function or black body radiation
+\begin{equation}
+S_{\lambda}=B_{\lambda}=\frac{2hc^{2}}{\lambda^{5}}\frac{1}{e^{hc / \lambda k T}-1}\, .
+\end{equation}
+$S_{\lambda}$ varies much more slowly with wavelength than the absorption/emission coefficients across a spectral line. Thus, within a spectral line, $S_{\lambda}$ can be considered independent of $\lambda$.
+
+Generally, LTE does not hold, especially in regions with low densities (thus with only few collisions relative to radiation processes) and near the outer boundary of the atmosphere from where the radiation can escape into space. The solar chromosphere is a typical atmospheric layer where non-LTE applies. In this case, the population densities of the atomic levels for a specific transition depend on the detailed processes and routes leading to the involved levels.
+
+Equation \ref{radtran} has the following formal solution
+\begin{equation}
+I(\tau_{2})=I(\tau_{1})e^{-(\tau_{1}-\tau_{2})}+ \int_{\tau_{2}}^{\tau_{1}}S(\tau')e^{-(\tau'-\tau_{2})}\,d\tau' \, ,
+\end{equation}
+or, for the case when $\tau_{1} \rightarrow \infty$ (optically very thick atmosphere) and $\tau_{2}=0$ \,($I(\tau_{2}=0)  \Rightarrow$ emergent intensity), then 
+\begin{equation}
+I_{\lambda}(\tau_{\lambda}=0)=\int_{0}^{\infty}S_{\lambda}(\tau'_{\lambda})e^{-\tau'_{\lambda}}\,d\tau_{\lambda}' \, .
+\end{equation}
+A second order expansion of $S(\tau_{\lambda})$ leads to the Eddington-Barbier relation
+\begin{equation}
+I_{\lambda}(\tau_{\lambda}=0) \approx S_{\lambda}(\tau_{\lambda}=1)\,.
+\end{equation}
+ This says that the observed intensity $I_{\lambda}$ at a wavelength $\lambda$ is approximately given by the source function at optical depth $\tau_{\lambda}=1$ at this same wavelength. In LTE, the intensity then follows the Planck function $B_{\lambda}(T(\tau_{\lambda}=1))$.
+ 
+ In spectral lines, the opacity is much increased over the continuum opacity. Since the temperature decreases with height in the solar photosphere the intensity in spectral lines is decreased, and we probe higher and cooler layers. This explains the formation of absorption lines in LTE.
+ 
+ In non-LTE, when collisional transitions between atomic levels occur seldom and near the outer atmospheric border, photons can escape and are thus lost for the build-up of a radiation field in the specific transition. Then, the upper level of the transition becomes underpopulated and the source function has decreased below the Planck function at the local temperature. It follows that, even for constant temperature atmospheres, a strong absorption line can be observed.
+ 
+Outside the solar limb, in the visible spectral range, one observes spectral lines (and very weak continua) in emission. In spectral lines, high chromospheric structures are seen in front of a dark background.
+ 
+\section{Hydrogen Balmer-$\alpha$ line (H$\alpha$)}
+
+H$\alpha$ at $6563$ \AA\, is a strong absorption line in the solar spectrum for two reasons: 1) hydrogen is the most abundant element in the Sun, and in the Universe. 2) The Sun, as a G2 $\mathrm{V}$ star, has the appropriate effective temperature $T_{eff}\approx5\,800$ K to have the second level of hydrogen populated and thus to make absorptions in H$\alpha$ possible. 
+
+As all strong lines, H$\alpha$ possesses a so-called Doppler core and damping wings. The Doppler core of H$\alpha$ and of other Balmer lines is much broader than of other strong lines from metals (atomic species with $Z>2$). The reason is the large thermal velocity of hydrogen compared to that of metals, thus leading to large Doppler widths
+\begin{equation}
+\Delta\lambda_{D}=\frac{\lambda_{0}}{c}\sqrt{\frac{2\,\mathcal{R}\,T}{\mu}}\, ,
+\label{dopwi}
+\end{equation}
+where $\lambda_{0}$ is the rest wavelength, $c$ the speed of light, $\mathcal{R}$
+ the universal gas constant, $T$ the temperature and $\mu$ the atomic weight (H has the minimum value among the chemical elements of $\mu = 1.008$). An eventual ``microturbulent'' broadening has been omitted in Eq. \ref{dopwi}.
+ 
+ Another property of the Balmer transitions between the according hydrogen levels is the following: Chromospheric lines such as the \ion{Ca}{ii} H and K and the \ion{Mg}{i} h and k lines are weakly coupled to the local temperature through collisional transitions, effected by electrons, between the involved energy levels. Thus, these lines still contain information about the temperature of the electrons, although only in a ``hidden'' manner.
+ 
+ However, for the Balmer lines of hydrogen and here especially for H$\alpha$, there exist also the routes for level populations through radiative ionization to the continuum and radiative recombination. These routes are taken much more often than the collisional transitions between the involved levels. The ionizing radiation fields, i.e. the Balmer and Paschen continua, originate in the lower to middle photosphere and are fairly constant, irrespective of the chromospheric dynamics. Only when many high-energy electrons, as during a flare, are injected into the chromosphere the H$\alpha$ line reacts to temperature and gets eventually into emission.
+ 
+ Nonetheless, the chromosphere observed in H$\alpha$ exhibits rich structuring, due to absorption by gas ejecta, due to Doppler shifts of the H$\alpha$ profile in fast gas flows along magnetic fields, and due to channeling of photons around absorbing features.
+
+
+\section{\ion{He}{i} 10830 \AA\, multiplet \label{sec:limb:he}}
+Helium is the second most abundant element in the Universe, also in the Sun. It was first discovered in the Sun in 1868 (from where it was named after the greek word of Sun). 
+At the typical chromospheric temperatures there is not enough energy to excite electrons to populate the upper levels from where these transitions occur. In coronal holes  the helium lines are substantially weaker compared with the quiet Sun outside the limb. More information about recent advances in measuring chromospheric magnetic fields in the He I 10830 \AA\,  line can be found in \cite{2007AdSpR..39.1734L}.
+
+
+The energy levels that take part in the transitions of the \ion{He}{i} 10830 \AA\, multiplet are basically populated via an ionization-recombination process \citep{1994isp..book...35A}. The much hotter corona irradiates at high energies both outwards to space and inwards, to the chromosphere. The EUV coronal irradiation (CI)  at 
+wavelengths lambda $\lambda<504$~\AA\ ionizes the neutral helium, and subsequent recombinations of singly ionized helium with free electrons lead to an overpopulation of the upper levels of the \ion{He}{i} 10830 multiplet.
+
+Alternative theories suggest other mechanisms that may also contribute to the formation of the helium lines via the collisional excitation of the electrons in regions with higher temperature \citep[e.g.][]{1997ApJ...489..375A}.
+
+
+\begin{wrapfigure}[18]{r}{0.5\textwidth}
+\vspace{-1.1cm}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{../figures/diagrams005.png}
+\caption{Schematic Grotrian diagram for the \ion{He}{i} 10830~\AA\ multiplet emission lines.}
+\label{fig:he:levels}
+\end{center}
+\end{wrapfigure}
+
+The \ion{He}{i} 10830~\AA\ multiplet consists of the three transitions of the orthohelium (total spin of the electrons $S$=1) energy levels, from the upper term with angular momentum $L=1$ to the lower with $L=0$, in particular from  $^3$P$_{2,1,0}$, which has three sublevels ($J=2,1,0$),  to the lower metastable term $ ^3$S$_{1}$, which has one single level ($J=1$) (see Fig. \ref{fig:he:levels}). The two transitions from the J=2 and J=1 upper levels appear mutually blended, i.e. as merely one line, at typical chromospheric temperatures, and form the so-called red component, at 10830.3~\AA. The two red transitions are only 0.09~\AA\ apart.  The blue component, at 10829.1~\AA,  corresponds to the transition from the upper level with J=0  to the lower level with J=1. 
+
+
+The formation height of these lines is believed to be between 1\,500 and 2\,000 km,  (e.g. \citealt{Centeno06}) although, as we already mentioned, the chromosphere is strongly rugged. The Land\'e factors of the lines are not zero, meaning that they are sensitive to external magnetic fields.
+
+A more detailed description about the properties of the \ion{He}{i} 10830 multiplet, in particular related to the emission profiles 
+%and their polarization 
+observed in  spicules above the limb is given in Chapter~\ref{ch:spicules}.
+
+%tepper
+
+\begin{comment}
+\section{Stokes parameters}
+Only work on this if I make use of Q,U,V right?
+
+To fully describe the properties of a radiation field we need not only the intensity and its dependence with wavelength, but also the polarization status.  Light, being a electromagnetic transversal wave, has its plane of vibration perpendicular to the direction of propagation. The polarization state is the measurement of any preferred axis of the direction of vibration of the electric vector field.
+
+ Let us consider a photon propagating along the $\vec{z}$ direction.  We choose a set of $\{\vec{x},\vec{y}\}$, orthonormal vectors defining a plane perpendicular to $z$. The vibration of the electric field on this plane can be then described in the general case of an ellipse (see Fig. \ref{figstokesfig1}) as
+
+\begin{eqnarray}
+E_{x}(t)=\epsilon_{x}e^{-i\omega t}=A_{x}e^{i(\phi_{x}-\omega t)},\\
+E_{y}(t)=\epsilon_{y}e^{-i\omega t}=A_{y}e^{i(\phi_{y}-\omega t)},  
+\label{stokes1}
+\end{eqnarray}
+ where $\omega$ is the angular frequency and $\epsilon_{x},\epsilon_{y}$ are two complex numbers that can be written in terms of the real numbers $A_{x},A_{y},\phi_{x},\phi_{y}$. These values set thus the polarization status of the wave. On the general case where the vector describes an ellipse the direction of rotation of the vibration axis is defined as the sign of 
+ \begin{equation}
+\delta=\phi_{x} -\phi_{y}
+\end{equation}
+where $\delta>0$ means anti-clockwise (incoming radiation) and $\delta<0$ means clockwise rotation.
+
+Each plane wave constituting a radiation field, i.e. each photons, is fully polarized as parametrized by the complex numbers $\epsilon_{x},\epsilon_{y}$. However, in the Nature we always find a mixture of many different polarization signals, creating a superposition of polarization states. To measure the total polarization status we can then make use of 4 parameters as defined by Sir George Stokes, that characterize in a unique way the properties of the resulting polarization ellipse:
+\begin{eqnarray}
+I=\langle \epsilon_{x}^{*}\epsilon_{x}\rangle+\langle \epsilon_{y}^{*}\epsilon_{y}\rangle \\
+Q=\langle \epsilon_{x}^{*}\epsilon_{x}\rangle-\langle \epsilon_{y}^{*}\epsilon_{y}\rangle\\
+U=\langle \epsilon_{x}^{*}\epsilon_{y}\rangle+\langle \epsilon_{y}^{*}\epsilon_{x}\rangle \\
+V=i(\langle \epsilon_{x}^{*}\epsilon_{x}\rangle-\langle \epsilon_{y}^{*}\epsilon_{y}\rangle)
+\label{stokes2}
+\end{eqnarray}
+where the symbols $\langle\rangle$ mean statitical mean over all the photons constituting the incident light. 
+
+ Further, it is not possible to measure directly the amplitudes and phases of the electromagnetic vectors. We can instead measure the properties of the polarization ellipse by means of optical devices like polarizers or retarders. An adequate combination of measurements with these elements allows the direct measurement of the Stokes parameters. In Fig. ?? we represent the operation definition of the Stokes parameters in terms
+
+Natural or non-polarized light occurs when the direction of vibration of electromagnetic vector changes randomly. Totally polarized light is the extreme case when  this direction describes a certain trajectory in time, either fixed over a certain axis or rotating describing an ellipse on the plane perpendicular to the direction of propagation.
+
+
+\begin{wrapfigure}[15]{r}{0.5\textwidth}
+\vspace{-1.1cm}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{../figures/diagrams005.png}
+\caption{blablabla}
+\label{figstokesfig1}
+\end{center}
+\end{wrapfigure}
+
+For a more detailed ontro of th Soktes parameters we refeer to \cite[e.g.][]{Chandrasekhar:1960lr,Born:1999lr}.
+
+In absence of external magnetic fields or isotropic radiation, the selection rules populate equally all sub-levels, so the emitted radiation is unpolarized. However, an external magnetic field can split the sublevels, and therefore the energy transitions, no with different polarizations (Zeeman effect). Also the mere  anisotropic radiation pumping can produce population imbalances and therefore polarization signals (Hanle effect), as we will show in Sec. \ref{hanle}.
+\end{comment}
+

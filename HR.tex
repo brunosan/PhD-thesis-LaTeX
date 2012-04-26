@@ -1,0 +1,840 @@
+\chapter[High resolution imaging of the chromosphere]{High resolution imaging of the chromosphere\label{chapter:hr}\Large{\protect\footnote{Contents from this Chapter have been partially published as \citet{2005ESASP.600E..70S,sanchez07}}}}
+
+Since the discovery of the chromosphere 150 years ago, it has remained a lively and exciting field of research.  Especially the chromosphere of active regions exhibits a wealth of dynamic interaction of the solar plasma with magnetic fields. The literature on the solar chromosphere, and on stellar chromospheres, is numerous. We thus restrict here citations to the monographs by \citet{bray74} and \citet{athay76} and to the more recent proceedings from the conferences {\em Chromospheric and Coronal Magnetic Fields} \citep{2005ESASP.596.....I} and {\em The Physics of Chromospheric Plasmas} \citep{heinzel07}. With the latest technological advances we are able to scrutinize this atmospheric layer in great detail. The G-FPI in combination with post-processing techniques used in this work aims for the study of the temporal evolution  of the chromospheric dynamics with very high spatial, spectral and temoral resolution.
+
+In this Chapter we present our investigations with the G-FPI inside the solar disc. The first Section focusses on data set ``mosaic'' and the presence of fast moving clouds. The subsequent Section presents the results of the investigation of fast events and waves from dataset ``sigmoid''. Finally we make a comparison between SI+AO and BD methods.
+
+\section{Dark clouds\label{hr:darkclouds}}
+As already noted in Sec. \ref{intro:chromo}, the chromosphere is highly dynamic. Within and in the vicinity of active regions the interaction of the plasma with the strong magnetic fields gives rise to specially complex phenomena with fast flows.  As an example we refer to a recent observation of fast downflows from the corona, observed in the XUV and in H$\alpha$ by \citet{2007A&A...472..633T}. Fast horizontal, apparent displacements of small bright blobs with velocities of up to 240~km\,s$^{-1}$ were observed in H$\alpha$ by \citet{2006ApJ...648L..67V}.
+
+\subsubsection*{Observations and data processing}
+In this Section we use the data set ``mosaic'' (See Table \ref{table:obs:HRb}) recorded on May, 31, 2004 by K. G. Puschmann, M. S\'anchez Cuberes and F. Kneer. It consists of a wide mosaiqued FoV around the active region AR0621. For each single FoV a series of five consecutive scans was performed, spanning a total of 4 min to study the temporal evolution. The FoV of a single exposure was $\sim$\,33$^{\prime \prime}\times$23\arcsec. To study a wide area the telescope was pointed consecutively to 13 overlapping contiguous areas. The resulting mosaic covers a wide region with a total FoV of $\sim$\,103\arcsec$\times$94\arcsec. In Figs. \ref{fig:mos1} and \ref{fig:mos2} we present the broadband image and narrow-band line core filtergram, respectively. In all mosaics, both in broadband and in all the narrow-band images there is a blank central area, that just corresponds to a small non-covered area. After dark subtraction and flat fielding, the data were processed using the SI approach (see Sec. \ref{datared}).
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\textwidth]{../figures/mosbroad2.pdf}
+\caption{Mosaic of speckle reconstructed broadband images of the active region NOAA AR0621, at $\mu$\,=\,0.68. The achieved high resolution by means of the adaptive optics and {\em post factum} reconstruction is $\sim0.2\arcsec$. The total area covered is $\sim$\,103\arcsec$\times$94\arcsec. Limb is located to the left lower corner.}
+\label{fig:mos1}
+%\end{figure}
+%\begin{figure}[h]
+\centering
+\includegraphics[width=0.6\textwidth]{../figures/mosnarr2.pdf}
+\caption{H$\alpha$ line center filtergram. It corresponds to one of the 18 reconstructed images along the spectral line. The resolution in these narrow-band images is $<$\,0.5\arcsec. One notes the various chromospheric features: ubiquitous short fibrils with different orientation, a wide bright plage region full of facular grains on the lower central part, and dark fibrils packed together outlining the magnetic field lines between sunspots around the central data gap. White arrow indicates position and direction of the dark cloud in Fig. \ref{fig:cloud}}
+\label{fig:mos2}
+\end{figure}
+
+After the SI reconstruction, we have applied a destreching algorithm between the consecutive broadband images to remove residual \emph{seeing} effects. The deformation matrix for the destreching was calculated for the broadband channel using a mean image as reference. The same deformation matrix was then applied to the narrow-band spectrograms. To constrain the different frames of the mosaic of the broadband data, i.e. for connecting the individual subfields, a cross-correlation algorithm has been developed. The frames were smoothed by a boxcar of 5$\times$5 pixels to take into account only large structures for the destreching and to reduce noise. The overlapping regions between the individual subfields have been used to scale the intensities and the several areas have been connected after proper apodisation. The arrangement of the individual subfields inside the broadband mosaic have been directly applied to the narrow-band data. 
+
+\subsubsection*{Data analysis and interpretation}
+We report the observations of numerous fast moving dark clouds in the FoV. Dopplergrams reveal that these clouds correspond to downward motion. Here we show  a particular fast dark cloud. Neither the continuum image nor the line center exhibit strong activity. However, if we study the filtergram taken in the red wing of the H$\alpha$ line, a group of dark features becomes apparent (see panel 1 of Fig. \ref{fig:cloud}). 
+
+
+Successive spectrograms every 45 s of the same region (panels 2 to 5 of Fig. \ref{fig:cloud} ) reveal a fast differential motion of this dark cloud. The position and direction is marked by the white arrow in Fig. \ref{fig:mos2}. A horizontal surface velocity of $\sim90$ km/s is measured. Interestingly, the cloud has suddenly disappeared and was not longer seen in the last two observed frames.
+
+In Fig. \ref{fig:sp} we display the corresponding spectral profiles for the central part of one of the cloud members (marked by white crosses in Fig. \ref{fig:sp}) at different times. 
+
+We interpret the observed dark cloud, seen as a line depression in the red wing of the H$\alpha$ line, as a signature of the Doppler shifts related to the fast movement of the dark cloud. From the spectral distance between the line core of H$\alpha$ and the minimum position of the line depression we estimate a LOS downflow speed of $\sim$\,51 km/s. This, in combination with the observed horizontal velocity leads to an approximate total speed of $\sim103$ km/s directed downwards.  Further, the sudden disappearance of the cloud from the last 2 frames could be explained with a very strong related Doppler shift, thus the position of the line depression is displaced outside the scanned wavelength range.  
+
+
+\begin{sidewaysfigure}
+\centering
+\includegraphics[width=0.47\textwidth]{../figures/cloud.pdf}
+\includegraphics[width=0.5\textwidth]{../figures/fe-sp.pdf}
+\caption{\emph{Left}: Motion of dark feature seen in H$\alpha$ at +1 \AA\,off line center, presented in false color to increase contrast. Vertical red lines are separated by 3.15\arcsec ($\sim$\,2280 km). Time step between consecutive images $\sim$\,45 s. Horizontal tiles represent consecutive frames from the time sequence (from top to bottom). \emph{Right}: Spectral profiles, normalized to the quiet Sun spectrum at 6562 \AA, of the central part of one of the cloud members, marked by white crosses on the left image.  Black solid line is the mean profile of the surrounding quiet Sun.}
+\label{fig:cloud}
+\label{fig:sp}
+\end{sidewaysfigure}
+
+
+\clearpage
+
+\section{Fast events and waves}
+
+We continue investigating the active chromosphere on the disc of the Sun. We report on fast phenomena and waves observed in the H$\alpha$ line with high spatial, temporal, and wavelength resolution.
+
+
+
+\begin{figure}
+\centering
+%\sidecaption
+%\center
+%\includegraphics[width=14cm,bb= 10 0 608 750,clip]{ffxy.pdf} 
+\includegraphics[width=\textwidth]{../figures/Broad_overview.pdf} 
+\caption{Broadband image of part of the active region AR10875 on  April 26,
+  2006 at heliocentric angle $\vartheta=36\degr$. The rectangles, denoted by
+  A, B, B\arcmin, C, and D, are the areas of interest (AOIs) to be analyzed and discussed below. }%The field of view is 77\arcsec$\times$58\arcsec. Tickmarks are at a distance of 10?\arcsec.}  
+\label{fig1}
+\end{figure}
+
+
+
+%For theoretical treatments of waves in magnetized plasmas we refer to the textbooks by \citet{ferraro66} and \citet{priest84}. 
+
+
+
+
+%__________________________________________________________________
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Observations and data reduction\label{observations}\label{obser}\label{analysis}}
+
+\begin{figure}
+\centering
+%\sidecaption
+%\center
+%\includegraphics[width=14cm,bb= 10 0 608 750,clip]{ffxy.pdf} 
+\includegraphics[width=\textwidth]{../figures/Line_right500.pdf} 
+\caption{Narrow-band image corresponding to Fig.~\ref{fig1} in H$\alpha$ at +0.5\AA\ off line center. The same areas of interest are indicated as in Fig.~\ref{fig1} by the rectangles.}  
+\label{fig2}
+\end{figure}
+ 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\subsection{Observations\label{obser} and data analysis\label{analysis}}
+
+
+The observations correspond to dataset ``sigmoid'' in Table \ref{table:obs:HRb}. They consist of a time sequence of 55\,min duration of H$\alpha$ scans with a mean cadence of 22\,sec from the  active region AR\,10875. The observations were supported by the Kiepenheuer Adaptive Optics system (KAOS, \citealt{2003SPIE.4853..187V}) under extremely good seeing conditions. 
+
+
+Due to a technical problem, an increasing delay between successive scans was noticed during the observations. When the accumulative delay reached around seven  seconds  a new scanning procedure was restarted to avoid higher gaps between frames. This operation needs around one minute. During the 55 minutes of this series, such an interrupt occurred  twice, at  08:10:19~UT and 08:29:46~UT. This programming bug was corrected afterwards for future observations.
+
+
+%\subsection{Data analysis\label{analysis}}
+
+The reduction process with SI+AO  is explained in Sec. \ref{datared}. We achieve a spatial resolution of $\sim$0\farcs25 for the broadband images at 630~nm and better than 0\farcs5 for each of the 21 narrow-band filtergrams.  Further, to follow the temporal evolution in time, both broadband and narrow-band images where cropped to the same common FoV, removing overall image shifts due to residual seeing effects. Afterwards, the speckle reconstructed broadband images were co-aligned to spatially and temporally smoothed images via a destretching code provided by \citet{1992lest.rept....1Y}. The destretching matrix from the broadband image was also applied to the simultaneous narrow-band scan.  To minimize the effects of the irregular sampling rate, the time sequences were interpolated to equidistant times with the cadence that leads to a minimum shift in time for each frame. This corresponds to a regular time step of 22~s. The data gaps at the times when observation was interrupted were filled by linear interpolation between closest observed images.
+
+
+\vspace{2cm}
+\pagebreak
+Figures \ref{fig1} and \ref{fig2} give the broadband scenery at $t=40.9$ minutes during the series and the associated H$\alpha$ image at $+$0.5~\AA\ off line center, respectively. The whole region was very active with a flare during the observation of the time sequence \citep{2007msfa.conf..273S}. The data set is certainly rich of information on the dynamics of the active chromosphere, especially since the spatial resolution is high throughout the sequence. For the present study, we restrict further analyses and discussions to few regions. The areas of interest (AOIs) are indicated by rectangles and denoted by A, B, B\arcmin, C, and D. In the presentations below the images from the AOIs were rotated to have their long sides parallel to the spatial co-ordinate in space-time images. AOI A contains a region where a long fibril developed twice during our observations. It has the appearance of a small surge \citep{1977ASSL...69...97T}. AOIs B and B\arcmin\ show a simultaneous fast event, possibly `sympathetic' mini-flares with strong, small-scale brightenings in the H$\alpha$ line core which last only few tens of seconds. AOIs C and D, with their long fibrils, are suitable for the study of magnetoacoustic waves along magnetic field lines. Area C contains in its right part a region from which H$\alpha$ fibrils stretch out to both sides and which, at the beginning of the time sequence, contained a small pore that disappeared in the course of the observations. Note also from Fig.~\ref{fig1} that the fibrils on the upper left side of area D originate in the penumbra of a small sunspot. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsection{Physical parameters\label{physpar}}
+The possibility to extract information from a good part of the H$\alpha$ line profile in two dimensions and along the time series is highly valuable.
+We are {interested} in the physical {parameters} of the H$\alpha$ structures. The line-of-sight velocities $v_\mathrm{LOS}$ can be retrieved using the lambdameter method, while also many other parameters like the temperature and the mass density can be inferred by means of the cloud model.
+%\subsubsection*{Lambdameter method}
+
+The lambdameter method \citep{1993A&A...271..574T} is a common procedure to measure line of sight (LOS) velocities. It compares the Doppler shift of a spectral line with the position of the quiet Sun profile. We measure the profile bisector at several line widths. The method consists in measuring the displacement between the bisectors of the spectral profile and the reference quiet Sun profile. As pointed out by \cite{1990A&A...230..200A} the resulting velocities give systematically lower LOS velocities than the cloud model (see below) by a factor of approximately $3$. However, the qualitative behavior of both methods are the same. The lambdameter method is therefore a fast method for a qualitative description of the velocity pattern of a region.
+
+%\subsubsection*{Cloud model}
+The cloud model yields a non-LTE inversion technique. The formation of line profiles is the result of a complex interaction between the plasma and the radiation. Among others, the formation of a spectral line depends on the local  temperature, velocity, chemical composition, magnetic fields, radiation fields, \dots Inversion techniques aim at retrieving this set of parameters from a given spectral profile.  These techniques modify, in an iteration scheme, the starting guesses of parameters based on certain assumptions until a converged solution, with modeled radiation and observations in close agreement, is obtained. We assume then that the calculated parameters producing the synthetic profile are the same as in the observed structure, as long as the assumptions are considered valid.
+
+\pagebreak
+%\newpage
+\begin{wrapfigure}[19]{r}{0.4\textwidth}
+%\vspace{-0.5cm}
+\begin{center}
+\includegraphics[width=0.5\textwidth]{../figures/diagrams006.png}
+\caption{Geometry of the cloud model.}
+\label{cloud:geo}
+\end{center}
+\end{wrapfigure}
+
+The cloud model allows the application of an inversion technique in cases when one can describe  the radiation transfer through structures located high above the unperturbed solar photosphere. This method was first described by \citet{1964PhDT........83B} and has been extensively used afterwards, e.g. by \citet{tsiropoula97,2004A&A...424..279T,2004A&A...423.1133T,2004A&A...418.1131A}. See also the recent review by \citet{2007ASPC..368..217T}. 
+
+
+Figure \ref{cloud:geo} depicts the geometry of the cloud model. The considered ``cloud'' is located above the underlying photosphere at a height $H$ and moving  at a speed $\vec V$. From the observer's position we can measure the projected proper motion relative to the background and the LOS velocity ($V_{los}$ in Fig. \ref{cloud:geo}) as Doppler shifts. The observed intensity $I(\Delta \lambda)$ is the combination of the absorption of the background intensity $I_{0}(\Delta \lambda)$ with the emission from the cloud, dependent on the optical thickness of the cloud $\tau(\Delta \lambda)$:
+\begin{equation}
+I(\Delta \lambda)= I_{0}(\Delta \lambda)\cdot e^{-\tau(\Delta \lambda)}+ \int_{0}^{\tau(\Delta \lambda)}  S_{t}e^{-t(\Delta \lambda)}dt \,,
+\label{eq:cloud1}
+\end{equation}
+where $S$ is the source function, which depends on the optical thickness along the cloud. In the model we make the following assumptions:
+\begin{enumerate}
+\item The structure is well above the underlying unperturbed chromosphere.
+\item Within the cloud, the source function $S$, velocity and  Doppler width are constant along the LOS.
+\item The background intensity profiles entering the cloud from below and in the surroundings are the same.  
+\end{enumerate}
+
+These assumptions simplify Eq. \ref{eq:cloud1} to
+\begin{equation}
+I(\Delta \lambda)= I_{0}(\Delta \lambda)\cdot e^{-\tau(\Delta \lambda)}+  S \, (1-e^{-\tau(\Delta \lambda)}) \,.
+\label{eq:cloud2}
+\end{equation}
+
+This, in terms of the \emph{contrast profile},
+\begin{equation}
+C(\Delta \lambda):= \frac{I(\Delta \lambda)-I_{0}(\Delta \lambda)}{I_{0}(\Delta \lambda)}\,,
+\label{eq:contrast}
+\end{equation}
+can be rewritten as
+\begin{equation}
+C(\Delta \lambda)=\Bigg (\frac{S}{I_{0}(\Delta \lambda)}-1\Bigg ) \, \Big(1-e^{-\tau(\Delta \lambda)}\Big)\,.
+\label{eq:contrast}
+\end{equation}
+Further, neglecting collisional and radiative damping of the H$\alpha$ absorption profile within the cloud, the optical depth can be given by a Gaussian profile, i.e.
+\begin{equation}
+\tau(\Delta \lambda)=\tau_{0}\,e^{-\Big(\frac{\Delta \lambda-\Delta \lambda_{I}}{\Delta \lambda_{D}}\Big)^2}\,,
+\label{eq:cloud:gausian}
+\end{equation} 
+where $\tau_{0}$ is the line center optical thickness. Also, the  central wavelength of the profile can be displaced due to a LOS velocity $v$ of the cloud with a Doppler shift, $\Delta \lambda_{I}=\lambda_{0}v/c$, where $\lambda_{0}$ is the rest central wavelength and $c$ is the speed of light. The width of the profile $\Delta \lambda_{D}$ depends on the temperature $T$ and the microturbulent velocity $\xi_{t}$ trough the relation 
+\begin{equation}
+\Delta \lambda_{D}=\frac{\lambda_{0}}{c}\sqrt{\frac{2kT}{m}+\xi_{t}^{2}}\, ,
+\label{eq:cloud:width}
+\end{equation} 
+where $m$ is the atom rest mass.
+
+With these assumptions we end up with an inversion problem with 4 parameters: $S$, $\Delta \lambda_{D}$, $\tau_{0}$ and $v_{LOS}$. $\Delta \lambda_{D}$ is, in turn, the combination of 2 physical parameters (temperature and microturbulent velocity).  
+
+More complex cloud models have recently been developed. These mainly focus on the nature of the source function $S$, allowing the parameters to vary along the LOS or multi-cloud models. However, as pointed out by \cite{1990A&A...230..200A}, a simple Beckers cloud model like the one described above and used here provides useful, reasonable estimates for a large number of optically not too thick structures, $\tau_{0} \lesssim 1$, for which the assumptions are adequate.
+
+In this work we also used the inversion in H$\alpha$ structures where possible. The undisturbed reference profile $I_0(\lambda)$ is taken from a nearby area with low activity outside the FoV shown in Fig.~\ref{fig1}. As the region under study was `clouded out' in H$\alpha$, i.e. covered with {structures} to a large extent, the cloud model inversion failed often. In these latter cases, instead, the LOS velocity maps were determined with the lambdameter method or from difference images at H$\alpha\pm$0.5\,\AA\ off line center with appropriate scaling. Calibration curves to estimate from such Doppler-grams the true velocities were calculated by \citet{1990SoPh..129..277G}. From these we obtained that the velocities from the difference images were lower by a factor 2--4 than the true velocities, in agreement with those parts in the FoV where the cloud model inversion was successfully applied and with the results by \citet{2004A&A...423.1133T}.
+
+With the application of the cloud model and the inferred values of $S$, $\Delta \lambda_{D}$, $\tau_{0}$ and $v_{LOS}$ we can derive other physical parameters. Following the approach by e.g. \cite{tsiropoula97} we can calculate the population densities of the hydrogen levels 1, 2, 3 ($N_{1}$,$N_{2}$,$N_{3}$), the total hydrogen density ($N_{H}$, including protons), the electron density ($N_{e}$), the total particle density ($N_{t}$) the electron temperature ($T_{e}$), gas pressure ($p_{g}$), total column mass ($M$), mass density ($\rho$) and degree of ionization of hydrogen ($x_{H}$):
+
+\begin{eqnarray}
+N_{1}=& \frac{N_{t}-(2+\alpha)N_{e}}{1+\alpha} & \\
+N_{2}= & 7.26~10^{7}\frac{\tau_{0}\Delta\lambda_{D}}{d} & \mbox{ cm}^{-3} \\
+N_{3}=& \frac{g_{3}}{g_{2}}N_{2}\Big ({\frac{2h\nu^{3}}{Sc^{2}}+1}\Big )^{-1}&  \\
+N_{e}=& 3.2~10^{8}\sqrt{N_{2}} & \mbox{ cm}^{-3} \\ 
+N_{H}=& 5~10^{8}\sqrt{N_{2}}&  \\
+N_{t}=& N_{e}+(1+\alpha)N_{H}  & \\
+p_{g}=& kN_{t}T_{e}\\
+M=& (N_{H}m_{H}+0.0851N_{H}\cdot3.97m_{H})d& \\
+\rho=& M/d& \\
+x_{H}=& N_{e}/N_{H}
+\end{eqnarray}
+where $d$ is the path length along the LOS through the structure, $\alpha$ is the abundance ratio of helium to hydrogen ($\approx 0.0851$), $g_{2},g_{3}$ are the statistical weights of the hydrogen levels 2 and 3 respectively, $h$ is the Planck constant, $\nu$ is the frequency of H$\alpha$, $c$ the speed of light  and $k$ the Boltzmann constant.
+
+ Table \ref{tabla} summarizes average results from the cloud model and derived quantities for the long fibril in Fig.~\ref{fig3}:
+\begin{table}[h]
+ \begin{center}
+  \normalsize
+ \begin{tabular}{|c|c||c|c|}
+ \hline
+ \hline
+Parameter & Av. value & Parameter & Av. value \cr
+% \hline
+ \hline
+v [km/s] &     11.7 & $\Delta\lambda_{D}$ [\AA]  &   0.34\cr
+$S/I_{c}$ &     0.154 & $\tau$    &  1.05 \cr
+\hline
+N$_{2}$ [cm$^{-3}$]  &    $4.5\cdot10^{4}$ & N$_{e}$ [cm$^{-3}$]  & $6.8\cdot10^{10}$  \cr
+N$_{H}$ [cm$^{-3}$]  & $1.1\cdot10^{11}$ & N$_{1}$ [cm$^{-3}$] & $3.8\cdot10^{10}$ \cr
+N$_{3}$ [cm$^{-3}$]  &    $4.2\cdot10^{2}$ & $T_{e}$  [K]&    $1.51\cdot10^{4}$ \cr
+$p$ [dyn cm$^{-2}$] & $0.38$ & M [g cm$^{-2}$] & $1.39\cdot10^{-4}$ \cr
+$\rho$ [g cm$^{-3}$] & $2.3\cdot10^{-13}$ & $x_{H}$ &    0.64 \cr
+$c_{s} [km/s]$  &  14.4 & & \cr
+ \hline
+ \hline
+ \end{tabular}
+\vspace{0.2cm}
+\caption{Several derived parameters from the cloud model for the lower half section of the long fibril in Fig.~\ref{fig3} at $t=25$ min. We assume a LOS thickness equal to the width of the fibril ({cylindrical} shape) of $590$ km and a micro-turbulent velocity of  $10$ km/s. First two rows result from the inversion technique while the others are parameters derived from them.}
+\label{tabla}
+ \end{center}
+ \end{table}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Fast events and waves\label{anal_results}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Fast events in H$\alpha$\label{fast}}
+\begin{figure}[]
+\center 
+%\includegraphics[width=0.5\textwidth]{longfibril.pdf} 
+\includegraphics[width=\textwidth]{../figures/longfibril.pdf}
+\caption{Space-time image of surge in AOI A at H$\alpha$ + 0.5~\AA\ off line
+  center, starting at 14.7~min after the beginning of the sequence. The spatial axis runs along the minima of the surge intensities at this wavelength.}  
+\label{fig3}
+\end{figure}
+
+
+\subsubsection*{Small recurrent surge\label{surge}}
+Ejecta from low layers of active regions, called {surges}, have been observed in time sequences of H$\alpha$ filtergrams since many decades \citep[e.g.,][]{1977ASSL...69...97T}.
+
+In AOI A, a small surge occurred during the observed time series. It started near the pore at the upper right end of region A (cf. Figs.~\ref{fig1} and \ref{fig2}). It was straight and thin, with a projected length at its maximum extension of at least 15~Mm and with widths of approximately 2\arcsec\ at its mouth and 1\arcsec\ at its end. Figure~\ref{fig3} shows the temporal evolution of the surge in H$\alpha$ +0.5\AA\ off line center. The space-time image starts 14.7~min after the beginning of the series and goes to the end of it. Along the spatial axis in Fig.~\ref{fig3}, the minimum intensities along the surge are represented. 
+
+
+
+
+
+The surge consisted of very thin fibrils, at the resolution limit $<0$\farcs5, being ejected in parallel. It started with several small elongated clouds lasting for 1--2~min. Afterwards, it rose, reaching a projected length of around 14~Mm, and fell back after $\sim7$min. Then it suddenly rose again after two min reaching lengths out of the FoV (more than 15\,400 km) and lasted another five min before retreating again. And finally, the process recurred a third time, yet with lower amplitude in extension and velocity than for the first two times. The (projected) proper motion of the tip of the surge reaches a maximum velocity of approximately 100~km\,s$^{-1}$, for both the ascent and the descent phases. Especially the second rise and fall showed large velocities. It is unlikely that the rapid rise and appearance of the surge in H$\alpha$ are caused by cooling of coronal gas to chromospheric temperatures. The cooling times are much too long, of the order of hours \citep{hildner74}. Thus, the proper motions represent gas motions. The LOS velocities measured from Doppler-grams and corrected with the calibrations described above in Sect.~\ref{physpar}, amounted to +15~km\,s$^{-1}$ during the ascent of the surge and reached $-$45~km\,s$^{-1}$ at the mouth during retreat. These latter velocities are lower than the proper motions. It thus appears that the chromospheric gas is ejected obliquely into the direction towards the limb. %\pagebreak
+Average physical parameters in the surge obtained with the cloud model inversion are listed in Table~\ref{tabla}. They are very similar to those of other chromospheric structures \mbox{\citep[see e.g.][]{tsiropoula97}.}
+
+Surges are known to show a strong tendency for recurrence, but on time scales of $\sim$1~h. \citet{1989ApJ...343..985S} have treated numerically rebound shocks in chromospheric fibrils and presented results in which a single impulse at the base of the involved magnetic flux tube drives a series of shocks on time scales of approximately 5~min. This appears to be a viable mechanism for the small surge observed here, apart from the initial conditions. The small `firings' at the beginning of this surge suggest magnetic field dynamics that ultimately do cause a strong impulsive force, after some minor events.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{sidewaysfigure}[t]
+\center 
+\includegraphics[width=\textwidth]{../figures/flash.pdf} 
+\caption{Simultaneous flash event on AOIs B and B\arcmin\ with projected distance $\approx$13.7 Mm. A pair of simultaneous, short, brightening was recorded at $t=52.2$ min. Top row from B\arcmin, bottom row from B. The tiles from left to right correspond to two successive H$\alpha$ scans. Upper x-axis is scaled to the wavelength of each 2-D filtergram tiles. Scanning time is numbered on the lower x-axis. $t=0$ corresponds to the beginning of the scan at 08:44 UT.  The integration time for each spectral position is $\approx 1$s, while the delay between two scans is $\approx 3$s (vertical dashed line). Each spectrogram on B is normalized with the background profile  (see Fig. \ref{fig5}) to emphasize the flash event. Neither the previous nor the following scan to the two presented exhibited any emission. The second scan (right half size of the figure) still shows some emission on the same positions. White arrows correspond to the position of the three different profiles in Fig. \ref{fig5}.}  
+\label{fig4}
+\end{sidewaysfigure}
+
+
+\subsubsection*{Synchronous flashes\label{mini-flare}}
+In the AOI pair (B, B\arcmin) with a projected distance of $\sim$14~Mm,
+brightenings occurred 52.2~min after the start of the series in both sites at
+least as simultaneously as we can detect with the observational mode of
+scanning the H$\alpha$ line. AOI B\arcmin\ is located in the umbra of a small spot with a complex penumbra and AOI B next to a pore. In between the two AOIs the sigmoidal filament ended while more structures of the extended and active filament system crossed the region between the two AOIs. Figure~\ref{fig4} shows the temporal evolution of the brightenings. 
+
+The upper row of this figure is from AOI  B\arcmin, the lower from B. Two scans through the H$\alpha$ profile are presented, of course without interpolation of the images to an identical time. The horizontal axes contain the run in both time and wavelength. 
+
+The flash-like brightenings lasted only for less than 45~s, they were present neither in the scans before nor after the two scans shown in Fig.~\ref{fig4}. The simultaneity of the two flashes, or mini-flares, suggests a relation between them. Possibly, one sees here a kind of sympathetic flares. These were discussed earlier in the context of synchronous flares excited by activated filaments \citep{1977ASSL...69...97T}. Another interpretation is that one sees a mini-version of two-ribbon flares with a common excitation in the corona above them and simultaneous injection of electrons into the chromosphere.
+
+In AOI B, the flash exhibited sub-structure and apparently moved during the first presented scan with speeds up to 200~km\,s$^{-1}$. This strong brightening between 15 and 22~s has disappeared in the following scan. 
+
+Figure \ref{fig5} depicts the recorded H$\alpha$ profiles at the positions of the flash in AOI B, as indicated by the arrows on the left side of Fig.~\ref{fig4}. The profiles are compared with those from the quiet Sun and from the average background. The profile from the isolated bright blob at 3.7~Mm (see inset in Fig.~\ref{fig5}) shows a blue shifted emission above the background profile. This emission is still present in the following scan. At 2.8~Mm the line core is filled resulting in a contrast profile with strong emission (cf. Eq.~\ref{eq:contrast}). The profile at 1.1~Mm exhibits a strong emission beyond the continuum intensity in the red wing while the whole profile is enhanced above the background profile. the position of the emission peak would indicate a down flow with LOS velocity of 35~km\,s$^{-1}$. It was shown by \citet{2004A&A...418.1131A} that such emission (contrast) profiles can be understood if one assumes an injection, likely from the corona, of much energy and electrons to obtain a response of the H$\alpha$ line to temperature. These last two emissions at 2.8~Mm and 1.1~Mm have disappeared at the time of the following scan.
+
+Obviously, such fast events as in AOIs B and B\arcmin\ lie beyond the observing capabilities of our consecutive scanning method. We could however retrieve high spatial resolution filtergrams at several wavelengths to follow the temporal evolution at time scales of few seconds. With the present data set at our hand, we cannot decide whether the apparent proper motion of the flashing structure in AOI B is indeed as high as 200~km\,s$^{-1}$ or whether the temporal resolution is too fast for the consecutive scanning. For example, the H$\alpha$ profile from 1.1~Mm could have been in emission over the whole profile, but only for few seconds. 
+%One can {interpret} emission in the line core as results from injection of high `temperature' electrons into the chromosphere \citep[e.g.,][]{2004A&A...418.1131A}.
+ It is, however, possible to design adequate observing sequences with duration of few seconds per scan, on the expense of taking filtergrams at fewer wavelength positions.
+\clearpage
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\subsection{Magnetoacoustic waves in long H$\alpha$ fibrils\label{waves1}}
+\begin{figure}[t!]
+\center 
+\includegraphics[width=0.7\textwidth,angle=0]{../figures/flashprof.pdf} 
+\caption{H$\alpha$ profiles from the flash event. Each profile corresponds to an average over three pixels around the three selected points where the emission is highest in the blue wing, at central wavelength, and in the red wing respectively, corresponding to the white arrows in Fig. \ref{fig4} (left half) at x=[3.7, 2.8, 1.1]~Mm, respectively. For comparison the quiet Sun profile is also shown. Background profile corresponds to the mean from previous and following scans, where no brightening  was found. The emission profile at 1.1~Mm reaches an intensity of 1.1 of the quiet Sun continuum intensity.}  
+\label{fig5}
+\end{figure}
+
+\subsection[Magnetoacoustic waves]{Magnetoacoustic waves\label{waves1}\label{waves2} \label{mhdapprox}}
+In this Section, for the investigation waves in the chromosphere, we first refer to previous observations of magnetoacoustic waves and then outline the magnetohydrodynamic (MHD) approximation \citep{ferraro66,kippenhahn75,priest84}. From this, dispersion relations for sound waves, atmospheric waves, Alfv\'en waves, and magnetosonic, or magnetoacustic, waves are derived by linearization. We continue discussing the observations of waves in long H$\alpha$ fibrils. Finally we try an interpretation in the framework of waves in thin magnetic flux tubes.
+
+\subsubsection*{Previous observations of magnetoacoustic waves}
+Apart from oscillations in sunspot umbrae \citep{beckers69,wittmann69} and
+running penumbral waves \citep[e.g.,][and references therein]{uexkuell83},
+waves in the chromosphere were observed by many authors. E.g.,
+\citet{1975SoPh...44..299G} describes waves along H$\alpha$ mottles and fibrils with
+speeds of 70~km\,s$^{-1}$ and interprets them as Alfv\'en waves in magnetic
+flux tubes with approximately 10~Gauss field strength. \citet{2006A&A...449L..35K},
+from time sequences in H$\alpha$ off the limb, found kink waves in spicules
+with periods of 35--70~s. \citet{hansteen06}, and \citet{rouppe07} observed
+spicules and fibrils in the quiet Sun and in active regions with high spatial
+and temporal resolution observations. They succeeded via numerical simulations
+in explaining the dynamics of these chromospheric small-scale structures by
+magnetoacoustic shocks, excited mainly by the solar 5-min {oscillations}
+(see also the simulations by \citealt{1989ApJ...343..985S} and the review by \citealt{carlsson05}). 
+
+Waves in the corona have as well been observed: E.g., \citet{robbrecht01} report on slow magnetoacoustic waves in coronal loops observed in high-cadence images from SoHO/EIT and TRACE. The speeds amount to 100~km\,s$^{-1}$. \citet{2002A&A...387L..13D}, also from high-cadence 171~\AA\ TRACE images, find that 3- and 5-min oscillations are common in coronal loops. They are also interpreted as magnetoacoustic waves. \citet{2007msfa.conf..265T}, from SoHO/SUMER data, study Doppler shift oscillations identified as slow mode standing waves in hot coronal loops. Fast-mode, transverse, incompressible Alfv\'en waves, with speeds of 2~Mm\,s$^{-1}$, in the solar corona were reported by \citet{2007Sci...317.1192T}.
+
+\subsubsection*{Magnetohydrodynamic (MHD) approximation}
+We use here the Gauss system of units. The MHD approximation is obtained from Maxwell's equations and the equation of mass conservation, the equation of motion, and an equation of state, under the following conditions:
+%
+\begin{enumerate}
+\item
+The gas velocities $v$ are small compared to the speed of light $c$, $v\ll c$.
+\item
+Any changes are slow, such that phase velocities $v_{ph}=L/t\ll c$, where $L$ is a typical length scale and $t$ a typical time scale.
+\item
+The electrical conductivity $\sigma$ is always very high such that the electric field is very small compared to the magnetic flux density, $\vert\vec E\vert\ll\vert\vec B\vert$. 
+\item
+One usually adopts in addition, to a good approximation, $\vec D=\vec E$ and $\vec B=\vec H$, i.e. magnetic flux density and magnetic field have the same strength, in Gauss units.
+\end{enumerate}
+
+With $\vec j$\, electrical current density, Maxwell's equations are then reduced to
+\begin{equation}
+\nabla\times\vec B = {4\pi\over c}\vec j\,,
+\label{mhd1}
+\end{equation}
+%
+\begin{equation}
+\nabla\times\vec E = -{1\over c}{\partial\vec B\over\partial t}\,,
+\label{mhd2}
+\end{equation}
+\begin{equation}
+\nabla\cdot\vec B=0\,.
+\label{mhd3}
+\end{equation}
+%
+
+Ohm's law, conservation of mass, and the equation of motion read as
+\begin{equation}
+\vec j = \sigma\left(\vec E + {1\over c}\vec v\times\vec B\right)\,,
+\label{mhd4}
+\end{equation}
+\begin{equation}
+{\partial\rho\over\partial t} = \nabla\cdot\left(\rho\vec v\right)\,,
+\label{mhd5}
+\end{equation}
+\begin{equation}
+\rho{\partial\vec v\over\partial t} + \rho\left(\vec v\cdot\nabla\right)\vec v = \rho\vec g - \nabla p +{1\over c}\vec j\times\vec B\,.
+\label{mhd6}
+\end{equation}
+Here, $\rho$ is the mass density, $p$ the gas pressure, and $\vec g$ the gravitational acceleration vector. The viscous, centrifugal, and Coriolis forces were omitted in the equation of motion, Eq.~\ref{mhd6}. The equation of state relating the gas pressure $p$ with mass density $\rho$ and temperature $T$, is
+\begin{equation}
+p = p\left(\rho,T\right)\,.
+\label{mhd7}
+\end{equation}
+Furthermore, we assume for simplicity adiabatic motion
+\begin{equation}
+{\mathrm d\over\mathrm dt}\left({p\over\rho^\gamma}\right) = 0\,,
+\label{mhd8}
+\end{equation}
+with the ratio of specific heats $\gamma=5/3$ for monoatomic gases.
+%
+
+The current density $\vec j$ can be eliminated by means of Ohm's law, Eq.~\ref{mhd4} which yields the equation of motion
+\begin{equation}
+\rho{\partial\vec v\over\partial t} + \rho\left(\vec v\cdot\nabla\right)\vec v = \rho\vec g - \nabla p +{1\over4\pi}\left(\nabla\times\vec B\right)\times\vec B\,,
+\label{mhd9}
+\end{equation}
+and the induction equation
+\begin{equation}
+{\partial\vec B\over\partial t} = - \nabla\times\left({1\over\sigma}\nabla\times\vec B\right) + \nabla\times\left(\vec v\times\vec B\right)\,,
+\label{mhd10}
+\end{equation}
+where the last term on the {\em rhs} of Eq.~\ref{mhd9} contains Maxwell's stress tensor.
+
+In an atmosphere with constant temperature and with the gravitational acceleration opposite to the vertical direction ($\vec g=-g\vec e_z$, $\vec e_z$ unity vector into $z$ direction, $\vert\vec e_z\vert=1$) the hydrostatic equilibrium is 
+\begin{equation}
+{\mathrm{d}p_0\over\mathrm{d}z} = -\rho_0 g\,,
+\label{mhd11}
+\end{equation}
+with the solution
+\begin{equation}
+p_0 = const1\cdot\mathrm{e}^{-z/\Lambda}\,;~~~\rho_0 = const2\cdot\mathrm{e}^{-z/\Lambda}\,,
+\label{mhd12}
+\end{equation}
+where the scale height is $\Lambda=p_0/(\rho_0\cdot g)$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{Magnetoacoustic gravity waves\label{mhdwaves}}
+
+We consider now, to arrive at a dispersion relation for magnetoacoustic gravity waves, small perturbations from the equilibrium
+%
+\begin{equation}
+\vec B = \vec B_0 + \vec B_1\,;~~~\vec E = \vec E_0 + \vec E_1\,;~~~\vec j = \vec j_0 + \vec j_1\,;
+\label{mhd13}
+\end{equation}
+\begin{equation}
+p = p_0 + p_1\,;~~~\rho = \rho_0 + \rho_1\,;~~~\vec v = \vec v_0 + \vec v_1\,.
+\nonumber
+\label{mhd14}
+\end{equation}
+
+Assuming further that $\vec B_0$ is homogeneous, $\vec v_0=0$, and the conductivity is infinite, $\sigma\rightarrow\infty$, one obtains 
+%\begin{equation}
+%\vec B = \vec B_0 + \vec B_1\,;~~~\vec E = \vec E_0 + \vec E_1\,;~~~\vec j = \vec j_0 + \vec j_1\,;
+%\label{mhd15}
+%\end{equation}
+%From $\vec B_0$ homogeneous follows that
+\begin{equation}
+\nabla\times\vec B_0 = {4\pi\over c}\vec j_0=0\,~~~\mathrm{and}~~~\sigma\vec E_0=0\,,~~~\mathrm{i.e.}~~~\vec E_0 = 0\,.
+\label{mhd16}
+\end{equation}
+%
+
+Inserting then the perturbed quantities from Eqs.~\ref{mhd13} and \ref{mhd14} 
+%and with $\vec B_0$ homogeneous and $\vec v_0=0$ 
+into the MHD equations and neglecting quadratic terms and terms of higher order we obtain the linearised MHD equations
+\begin{equation}
+{\partial\rho_1\over\partial t}+\left(\vec v_1\cdot\nabla\right)\rho_0+\rho_0\left(\nabla\cdot\vec v_1\right) = 0\,,
+\label{mhd17}
+\end{equation}
+\begin{equation}
+\rho_0{\partial\vec v_1\over\partial t} = -\nabla p_1 + {1\over4\pi}\left(\nabla\times\vec B_1\right)\times\vec B_0 - \rho_1g\vec e_z\,,
+\label{mhd18}
+\end{equation}
+\begin{equation}
+{\partial p_1\over\partial t}+\left(\vec v_1\cdot\nabla\right)p_0 -c_s^2\left[{\partial\rho_1\over\partial t}+\left(\vec v_1\cdot\nabla\right)\rho_0\right]=0\,,
+\label{mhd19}
+\end{equation}
+\begin{equation}
+\rho_0{\partial\vec B_1\over\partial t} = \nabla\times\left(\vec v_1\times\vec B_0\right)\,,
+\label{mhd20}
+\end{equation}
+\begin{equation}
+\nabla\cdot\vec B_1 = 0\,.
+\label{mhd21}
+\end{equation}
+with the sound speed $c_s=[(\gamma p_0)/\rho_0]^{1/2}$. From these one arrives, after some algebra, at the wave equation for the velocity
+\begin{eqnarray}
+ \frac{\partial^2\vec v_1}{\partial t^2} = &c_s^2\nabla\left(\nabla\cdot\vec v_1\right)-\left(\gamma-1\right)g\, \vec e_z\left(\nabla\cdot\vec v_1\right) -g\nabla v_{1,z}\cr
+&+{1\over\rho_0}\left[\nabla\times\{\nabla\times\left(\vec v_1\times\vec B_0\right)\}\right]\vec B_1/\left(4\pi\right)\,.
+\label{mhd22}
+\end{eqnarray}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\subsubsection*{Wave modes\label{wavemodes}}
+
+With Eq. \ref{mhd22} we make the {\em ansatz} 
+\begin{equation}
+\vec v_1(\vec r,t)=\vec v_1\exp\left[i\left(\,\vec k\cdot\vec r-\omega t\right)\right]\,,
+\label{mhd23}
+\end{equation}
+with wavevector $\vec k$.
+
+For $\vec B_0=0$ and $\vec g=0$ one gets pure sound waves with phase velocity $v_{ph}=\omega/k=c_s$. With $\vec B_0=0$ and $g>0$ one obtains atmospheric waves \citep{bray74}.
+
+When the gas pressure is negligible, $p=0$, and with $g=0$, but $\vert\vec B_0\vert>0$, the dispersion relation results
+\begin{equation}
+\omega^2\vec v_1/v_A^2=k^2\cos^2\hspace{-0.5mm}\alpha\,\vec v_1
+-(\vec k\cdot\vec v_1)\,k\cos\alpha\,\vec{\hat{B}}_0+\left[(\vec k\cdot\vec v_1)-k\cos\alpha\,(\vec{\hat{B}}_0\cdot\vec v_1)\right]\vec k\,.
+\label{mhd24}
+\end{equation}
+Here, $\vec{\hat{B}}_0$ is a unity vector parallel to $\vec{{B}}_0$, $\alpha$ is the angle between the wavevector $\vec k$ and $\vec B_0$, and $v_A$ is the Alfv\'en velocity with 
+\begin{equation}
+v_A^2={B_0^2\over4\pi\rho_0}=2{P_{m,0}\over\rho_0}\,,
+\label{mhd25}
+\end{equation}
+where the magnetic pressure is $P_{m}=B^2/(8\pi)$. Scalar multiplication of Eq.~\ref{mhd24} with $\vec{\hat{B}}_0$ shows that $\vec{\hat{B}}_0\cdot\vec v_1=0$. This means that the (perturbed) velocity is perpendicular to $\vec B_0$ (since the Lorentz force on the perturbed gas is perpendicular to $\vec B_0$). 
+
+Scalar multiplication of Eq.~\ref{mhd24} with $\vec k$ yields
+\begin{equation}
+\left(\omega^2-k^2v_A^2\right)\left(\vec k\cdot\vec v_1\right) = 0\,.
+\label{mhd26}
+\end{equation}
+From this equation one can derive two magnetic wave modes:
+\begin{itemize}
+\item[(1)] Assuming $\nabla\cdot\vec v_1=0$ gives the so-called incompressible mode and from  the {\em ansatz} Eq.~\ref{mhd23} one gets $\vec k\cdot\vec v_1=0$. Thus, this mode is a transversal mode with the velocity perpendicular to the direction of propagation. From Eq.~\ref{mhd24} we have $\omega=\pm\cos\alpha\,v_A$. The waves are also called shear Alfv\'en waves. For $\alpha=0\degr$ one derives that $\vec B_1$ and $\vec v_1$ are parallel and the propagation is along $\vec B_0$.\\
+\item[(2)] Another solution of Eq.~\ref{mhd26} is $\omega=kv_A$, independent of $\alpha$. These waves are compressional Alfv\'en waves, and for $\alpha=90\degr$ the velocity $\vec v_1$ is parallel to $\vec k$, i.e. we have longitudinal waves.
+ 
+\end{itemize}
+
+
+Finally, admitting that the gas pressure is not negligible, $p>0$, the phase velocity comes out as 
+\begin{equation}
+v_{ph}={\omega\over k}=\left[{1\over2}\left(c-s^2+v_A^2\right)\pm\left(c_s^4+v_A^4-2c_sv_a^2\cos2\alpha\right)^{1/2}\right]^{1/2}\,.
+\label{mhd27}
+\end{equation}
+The `+' sign above gives the so-called `fast magnetoacoustic waves' and the `$-$'~sign the `slow magnetoacoustic waves'. Their phase speeds depend on $\alpha$ \citep[see the hodographs in][]{ferraro66,kippenhahn75,priest84}. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsubsection*{Observational results\label{obswaves}}
+\begin{figure}[t]%b
+\center 
+% \resizebox{\hsize}{!}width=8.95\textwidth
+\includegraphics[width=\textwidth]{../figures/power_vel.pdf} 
+\caption{Average temporal power spectra of velocity from AOI C in Figs.~\ref{fig1} and \ref{fig2} before filtering (dashed) and after pass-band filtering (solid).}  
+\label{fig6}
+\end{figure}
+
+The LOS velocities of the structures contain variations on long time scales of 10~min and longer as well as fluctuations with shorter time scales. To {distill} the latter, among them possibly magnetoacoustic waves, we applied a high-pass temporal filter and removed some high-frequency noise at the same time. The quantities then fluctuate about zero. Figure~\ref{fig6} depicts the average power spectra of the LOS velocities in AOI C in Fig. \ref{fig2} before and after filtering. We note that the 5-min oscillations are filtered out, while some oscillations at the acoustic cutoff (corresponding to periods of approximately 200~s) are partially retained. Yet the unfiltered and filtered power spectra in Fig.~\ref{fig6} do not show any predominant period.
+
+
+
+Figures \ref{fig7}--\ref{fig10} show examples of space-time slices from AOIs C and D. The {\em fluctuations} of several quantities are shown: 
+\begin{enumerate}
+\item
+LOS velocities determined from differences of H$\alpha$ intensities at $\pm$0.5~\AA\ off line center, henceforth referred to as Doppler-gram slices (bright indicates velocity towards observer);
+\item
+H$\alpha$ line center intensities, henceforth LC slices;
+\item
+in Figs.~\ref{fig7}--\ref{fig9} differences of intensities at +0.5~\AA\ off line center $I_{0.5}(t_{i+1})-I_{0.5}(t_{i})$ with cadence $\Delta t=t_{i+1}-t_{i}$\,= 22~s, henceforth referred to as $\Delta I_{0.5}$ slices;
+\item 
+in Fig.~\ref{fig10} differences of intensities at line center $I_{LC}(t_{i+1})-I_{LC}(t_{i})$, henceforth referred to as $\Delta I_{LC}$ slices.
+\end{enumerate}
+Time runs from bottom to top with $t=0$ at the start of the series. The interruptions/interpolations at $t\approx$ 18.0--19.6~min and 37.5--38.5~min are obvious.
+
+\begin{figure}[]
+\center 
+% \resizebox{\hsize}{!}width=8.95\textwidth
+%\includegraphics[width=8.95cm,angle=-0,bb=0 0 395 395,clip]{figure.pdf} 
+%\includegraphics[width=8.45cm,angle=-0,bb=0 0 303 745,clip]{Fig_Stripes1.pdf}
+\includegraphics[height=0.9\textheight,angle=0]{../figures/Fig_Stripes1.pdf} 
+\caption{Example of space-time slices, of 1\farcs1 width, from AOI C in Figs.~\ref{fig1} and \ref{fig2}. From left to right: LOS velocity, H$\alpha$ line center intensity, and intensity differences at H$\alpha$~+0.5\AA\ off line center: $I_{0.5}(t_{i+1})-I_{0.5}(t_{i})$ with cadence of $\Delta t=t_{i+1}-t_{i}$\,= 22~s. The intensity differences in the right column are shifted up by 11~s. They are referred to as $\Delta I_{0.5}$ slices in the text.}  
+\label{fig7}
+\end{figure}
+\begin{figure}[]
+\center 
+% \resizebox{\hsize}{!}width=8.95\textwidth
+%\includegraphics[width=8.95cm,angle=-0,bb=0 0 395 395,clip]{figure.pdf} 
+\includegraphics[width=0.67\textwidth,angle=0]{../figures/Fig_Stripes2.pdf} 
+%\includegraphics[width=18.6cm,angle=-0,bb=0 0 316 702,clip]{Fig_Stripes2.pdf} 
+\caption{Example of space-time slices, of 1\farcs1 width, from AOI D. Same ordering as in Fig.~\ref{fig7}.}  
+\label{fig8}
+\end{figure}
+
+\begin{figure}
+\center 
+% \resizebox{\hsize}{!}width=8.95\textwidth
+%\includegraphics[width=8.95cm,angle=-0,bb=0 0 395 395,clip]{figure.pdf} 
+\includegraphics[width=0.85\textwidth,angle=0]{../figures/Fig_Stripes3.pdf} 
+\caption{Selected part of space-time slices from AOI D with slice width of 2\farcs2. Same order as in Fig.~\ref{fig7}.}  
+\label{fig9}
+\end{figure}
+
+
+\begin{figure}
+\center 
+% \resizebox{\hsize}{!}width=8.95\textwidth
+%\includegraphics[width=8.95cm,angle=-0,bb=0 0 395 395,clip]{figure.pdf} 
+%\includegraphics[width=8.95cm,angle=-0,bb=3 10 420 427,clip]{../figures/Fig_Stripes4.pdf} 
+\includegraphics[width=0.85\textwidth,angle=-0]{../figures/Fig_Stripes4.pdf} 
+\caption{Selected part of space-time slices from AOI D with slice width of 2\farcs2. Left column: H$\alpha$ line center intensity fluctuations; right column: intensity differences at H$\alpha$ line center: $I_{LC}(t_{i+1})-I_{LC}(t_{i})$ with cadence of $\Delta t=t_{i+1}-t_{i}$\,= 22~s, referred to as $\Delta I_{LC}$ slices in the text.}  
+\label{fig10}
+\end{figure}
+
+We focus attention to the oblique stripes in Figs.~\ref{fig7}--\ref{fig10}. These are the signatures of magnetoacoustic waves. From their slopes we can measure phase velocities projected on the plane {perpendicular} to the LOS. In Fig.~\ref{fig7} from AOI C, the waves appear to originate near the right edge of the AOI. This is one side at which the fibrils are rooted. Presumably, the waves are excited by the {buffeting} of motions at the photospheric foot points of the magnetic fields. As seen especially well in the Doppler-gram slices of Fig.~\ref{fig7}, but also in the LC slices, steep stripes originate from both sides of this region. The projected phase speeds are of the order of 8~km\,s$^{-1}$.
+
+The stripes are often bent in the course of the temporal evolution, e.g. the wave parallel to the dashed line `1' in the $\Delta I_{0.5}$ slices of Fig.~\ref{fig7}. This wave starts off with a phase velocity of 14~km\,s$^{-1}$ and speeds up to approximately 40~km\,s$^{-1}$, one of the highest velocities measured.
+
+
+
+
+A prominent period is not detected. Sometimes, the waves appear to be {repetitive}, with two or three, at most, wave trains in sequence with periods between 90~s and 180~s. An example of consecutive wave trains is indicated by the three dashed lines `2' in the LC slices of Fig.~\ref{fig7}. Yet most time, the waves are solitary, with one single wave package traveling across the FoV. Many of the waves appear to spread out along the direction of propagation and to fade after having traveled a distance of 5--10~Mm.
+
+The amplitudes of the LOS velocities in the Doppler-gram slices are measured to approximately 1~km\,s$^{-1}$, be it in the waves with low phase speeds or in those with high phase speeds. With the calibration discussed above in the context of the cloud model (see Sect.~\ref{physpar}) these amplitudes have to be multiplied with a factor of approximately 3. The resulting {amplitudes} are thus of the order of 3~km\,s$^{-1}$, which is not a small perturbation compared with the sound speed (c.f. below the discussion on the magnetoacoustic waves).
+
+
+Figure~\ref{fig8} from AOI D shows similar space-time slices as those from
+AOI~C in Fig.~\ref{fig7}. Yet here, the waves are excited at both sides and
+travel into the AOI, {sometimes} crossing from left and right
+and possibly colliding as in {the example} parallel to the dashed lines `1' in
+the Doppler-gram. The long lasting (more than 7~min), solitary wave train
+(parallel to dashed line `2' in Fig.~\ref{fig8}) has a phase velocity of
+approximately 13~km\,s$^{-1}$, a typical speed of the `slow' waves in this
+AOI. A correction for foreshortening, i.e. that we see only the projection of
+the phase speed on the plane perpendicular to the LOS is to be excluded since
+the fibrils in AOI~D, as well as those in AOI~C, are oriented almost perpendicularly to the direction to the limb (see Fig.~\ref{fig2}), thus perpendicularly to the LOS. The wave parallel to the dashed line `3' in the $\Delta I_{0.5}$ slices of Fig.~\ref{fig8} gives a phase speed of 30~km\,s$^{-1}$, again not to be corrected for foreshortening. This is a typical phase speed of the fast waves. 
+
+
+
+
+
+Figure~\ref{fig9} gives another example of space-time slices from AOI~D, with wider slices of 2\farcs2 width and shorter time span of 13 min duration than in Figs.~\ref{fig7} and \ref{fig8}. The long lasting wave train in the Doppler-gram slices (parallel to dashed line `1') gives again the typical phase speed of 13.3~km\,s$^{-1}$ with (calibrated) LOS velocity amplitudes of approximately 2~km\,s$^{-1}$. These LOS velocities are transversal, in the sense that they are perpendicular to the propagation and to the H$\alpha$ fibrils. The `fast' wave in the $\Delta I_{0.5}$ slices (parallel to dashed line `2') exhibits also the typical phase speed of 32~km\,s$^{-1}$ with calibrated LOS velocities of approximately 1.5~km\,s$^{-1}$. 
+
+
+
+
+Figure~\ref{fig10} gives a 7.25~min long section of the temporal development of fluctuations in AOI C with slice widths of 2\farcs2, but this time the LC slices and the $\Delta I_{LC}$ slices only. Note that dark and bright features in H$\alpha$ LC indicate increased and decreased absorption, {respectively}, {\em not} enhanced and reduced temperature \citep[see][]{2004A&A...418.1131A,2006ApJ...648L..67V}. The two solitary waves between the pairs of horizontal dashed lines (a, a\arcmin) and (b, b\arcmin) have phase speeds of approximately 25~km\,s$^{-1}$. Inspection of the LC slices shows that the waves consist of elongated, thin blobs with length of 1\arcsec--2\arcsec\ and width of approximately 0\farcs5. Apparently, the waves do not travel in the spatial direction along straight lines, but along sinuous lines with deviations  from straight lines of approximately 0\farcs5 in amplitude. This suggests that on these small scales the magnetic field is not straight and homogeneous but entangled. 
+
+The presentation of the difference slices $\Delta I_{LC}$ in Fig.~\ref{fig10} is prepared to study temporal displacements of absorption features. These are only seen if the displacements have a strong component perpendicular to the LOS. The bright and dark small-scale features, lying parallel and next to each other, in the upper part of the $\Delta I_{LC}$ slices, between the dashed line pair (b, b\arcmin) are suggestive of such displacements perpendicular to the direction of propagation.
+
+
+We summarize in short the observational findings on magnetoacoustic waves:
+\begin{enumerate}
+\item
+Generally, we find two kinds of waves: slow waves with phase velocities of 12--14~km\,s$^{-1}$ and fast waves with phase velocities of 25--33~km\,s$^{-1}$ (maximum velocity found 42~km\,s$^{-1}$). The waves appear to develop from low phase speed to high phase speed waves and vanish after having traveled a distance of 5--10~Mm.
+\item
+Irrespectively of the wave mode, the LOS gas velocities are of the order of 2--4~km\,s$^{-1}$.
+\item
+The waves are mainly solitary. They consist of short (1\arcsec--2\arcsec) and thin ($\approx0\farcs5)$ blobs of compressed gas.
+\item
+The waves appear to follow wiggly, entangled magnetic field lines with possible lateral displacements. 
+\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\subsubsection*{Interpretation -- waves in thin magnetic flux tubes\label{tubewaves}}
+
+For the interpretation of the observations from AOI C and D, we adopt the picture of waves in thin magnetic flux tubes, whose radius is small compared to the pressure scale height. The propagation of waves in magnetic flux tubes were treated by, among others, \citet{defouw76}, \citet{wentzel79}, \citet{1982SoPh...75....3S}, and recently by \citet{mousielak07}. Spruit assumes a thin, cylindrical magnetic flux tube parallel to the $z$ axis, with radius $R$, magnetic field along the tube of strength $B$, gas pressure $p$, mass density $\rho$, and temperature $T$. The gravity is neglected. The tube is embedded in an external medium with properties $B_e$, $p_e$, $\rho_e$, and $T_e$. Inside and outside the tube the magnetic and atmospheric parameters are constant. In Spruit's \citeyearpar{1982SoPh...75....3S} work, the MHD equations are linearized and a mode analysis is performed, with proper conditions at the {interface} between flux tube and surrounding medium.
+
+Incompressible Alfv\'en waves ($\nabla\cdot\vec v_1=0$, with small velocity perturbation $v_1$) are also possible in flux tubes. They are torsional Alfv\'en waves. The compressive solutions lead to 
+\begin{equation}
+\nabla\cdot\vec v_1=A\,{\cal B}_m(nr)\exp[i\,(\omega t+m\phi+kz)]\,,
+\label{mhd28}
+\end{equation}
+with amplitude $A$, ${\cal B}_m(nr)$ Bessel functions of order $m$, $r$ the distance from the axis of the tube, and $\phi$ the azimuthal angle. Inside the tube, the waves propagate along the $z$ direction. For $n$ the relation holds
+\begin{equation}  
+n^2 = (\omega^2-v_A^2k^2)\,(\omega^2-c_s^2k^2)/[(\omega^2-c_t^2k^2)\,(v_A^2+c_s^2)]\,.
+\label{mhd29}
+\end{equation}
+\begin{comment}
+Here, the sound velocity and the Alfv\'en velocity are given by
+\begin{equation}
+c_s^2=\gamma\frac{p}{\rho}~~~\mathrm{and}~~~v_A^2=\frac{B^2}{4\pi\rho}\,,
+\label{mhd30}
+\end{equation}
+respectively, with magnetic field strength $B$ in Gauss, mass density $\rho$ in g\,cm$^{-3}$, and gas pressure $p$ in dyn\,cm$^{-2}$. $B$, $\rho$ and $p$ are the unperturbed quantities. In Eq.~\ref{mhd29}, 
+\end{comment}
+Here, the tube speed $c_t$ is introduced with
+\begin{equation}
+c_t^2={v_A^2c_s^2\over v_A^2+c_s^2}\,,
+\label{mhd31}
+\end{equation}
+ which shows that the tube speed is smaller than both the Alfv\'en and the sound velocity.
+
+\citet{1982SoPh...75....3S} showed that in the limit $k\,R\rightarrow0$ the mode with $m=0$ is a longitudinal mode with $v_{ph}=c_t$, which is {approximately} the sound speed $c_s$ for $v_A\gg c_s$. This mode is often referred to as the `sausage mode', with velocity inside the tube parallel to the magnetic field.
+
+In the same limit and for $m>0$ one obtains the so-called `kink waves', with phase speeds related to the magnetic fields and densities through
+\begin{equation}
+v_{ph}^2={\rho v_A^2+\rho_e v_{A,e}^2\over\rho+\rho_e} = {1\over4\pi}\cdot{B^2+B_e^2\over\rho+\rho_e}\,.
+\label{mhd32}
+\end{equation}
+These waves are transversal waves, and Spruit's \citeyearpar{1982SoPh...75....3S} analysis takes into account the dragging by the ambient medium. The phase speeds are obviously $v_{ph}^2=v_A^2$ for $\rho_e=\rho,\,\,B_e=B$; $v_{ph}^2=v_A^2/2$ for $\rho_e=\rho,\,\,B_e=0$, and $v_{ph}^2=2\cdot v_A^2$ for $\rho_e=0,\,\,B_e=B$.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+We now compare the observations of waves with the expectation from this linear wave theory. We adopt that the waves propagate along the magnetic field and that the influence of gravity on the wave properties is {negligible}. The period at the acoustic cutoff of 200~s is longer than the periods, actually seen only rarely, in our data. Likewise, the period for the cutoff of kink waves \citep{spruit81,choudhuri93} is approximately 400~s, for small plasma $\beta$, which is the ratio of gas pressure to magnetic pressure, $\beta=(8\pi p)/B^2$.
+
+With the parameters in Table~\ref{tabla} for the surge discussed above in Sect.~\ref{surge}, i.e. with gas pressure $p=0.38$~dyn\,cm$^{-2}$ and mass density $\rho=2.3\times10^{-13}$~g\,cm$^{-3}$, the sound velocity is $c_s=16.6$~km\,s$^{-1}$. From the determination of parameters in a wide range of chromospheric H$\alpha$ structures by \citet{tsiropoula97}, \citet{tsiropoula00}, and  \citet{2004A&A...424..279T} we obtain values of the sound speed in the range of 13.5--16.7~km\,s$^{-1}$. The widely found temperatures of $T=10^4$~K and the mean molar mass of 0.8 from the ionization equilibrium of hydrogen found from Table~\ref{tabla} and from the above works give a sound velocity of 14.4~km\,s$^{-1}$. The phase velocities of the slow waves observed here are compatible with these values, if one accounts for possible small projection effects and for a small reduction for the velocity of tube waves (cf. Eq.~\ref{mhd31}).
+
+\citet{2004Natur.430..536D} adopted magnetic field strengths of the order of 100~Gauss in the chromosphere of active regions. With this value and the commonly found mass densities of 0.8--2.3$\times10^{-13}$~g\,cm$^{-3}$, the Alfv\'en velocity is $v_A=1\,000\dots600$~km\,s$^{-1}$, much higher than the velocities of the fast waves in the present observations. We believe, that 100~Gauss is an upper limit of the field strengths in the chromosphere of AOIs C and D. From high spatial resolution (approximately 0\farcs35) data from a plage region by \citet{Gonzalez:2007fk} we find an average field strength in the photosphere of 60--90~Gauss. This may possibly be reduced by a factor of 2 in chromospheric fibrils as in AOIs C and D by spreading out of the field lines over areas which possess little field in the photosphere. Otherwise the fibrils would not be so elongated. Yet still this yields to Alfv\'en velocities of $v_A\approx200$~km\,s$^{-1}$, as a minimum value.
+
+\citet{1975SoPh...44..299G} has measured velocities of 70~km\,s$^{-1}$ in chromospheric H$\alpha$ structures. With a magnetic field strength of 10~Gauss and with reasonable particle densities he arrived at the Alfv\'en velocity in agreement with these measured phase velocities. In the present work, one would need field strengths as low as 5~Gauss for an Alfv\'en velocity of 32~km\,s$^{-1}$ as observed. We note that even with 5~Gauss the motions are still dominated by the magnetic field, i.e. $\beta\ll1$ holds.
+
+We estimate the maximum phase speed measurable from our data to 250--300~km\,s$^{-1}$. Such velocities would still be detectable. The phase speeds found here are in the range 25--35~km\,s$^{-1}$. (The highest measured speed amounts to 42~km\,s$^{-1}$). These are obviously incompatible with Alfv\'en waves in a homogenous magnetic field with 30--100~Gauss. We mention several {possibilities} to reconcile our measurements with the picture of fast mode magnetoacoustic waves along the magnetic field, i.e. of Alfv\'en waves.
+\begin{enumerate}
+\item
+The magnetic field strength in the fibrils of AOIs C and D is indeed as low as 5~Gauss, which is not very probable considering the very high activity in the whole area observed. AOIs C and D are not especially located at the outskirts of this activity.
+\item
+Propagation of a fast mode wave in a flux tube surrounded by a medium with low or zero field strength but with high gas density would reduce the phase speed (cf. Eq.~\ref{mhd32}).
+\item
+Apparently, the waves start as slow mode waves with phase velocities of the order of 10--14~km\,s$^{-1}$ and then are transformed into fast mode waves propagating with Alfv\'en velocity. Yet the transformation does not occur immediately. Examples are seen in Fig.~\ref{fig7}. While the solitary waves evolve into fast mode waves their wave packages get dispersed and they decay by spreading out along the direction of propagation.
+\item
+We do not measure phase velocities but group velocities of solitary wave packages. We have calculated for the slow mode the cusped surface of the wave front according to \citet[][cf. their Fig.~13]{ferraro66}, which is rotationally symmetric about the direction of the magnetic field. The adopted Alfv\'en and sound velocities were 200~km\,s$^{-1}$ and 16~km\,s$^{-1}$, respectively. The maximum velocity of this surface is only marginally larger than the sound speed by 3.2\%, and the maximum deviation from the direction of the magnetic field is 0\fdg01. Thus, the propagation of such slow mode pulses is practically along the magnetic field with the sound velocity. 
+
+\item
+The picture is actually more complicated: The waves with low phase speed seen here are not pure longitudinal waves. The gas velocities of the waves have a strong transversal component of the order of 3~km\,s$^{-1}$. Furthermore, the propagation of the fast waves deviates from straight lines, their motion appears more wiggly, possibly because the magnetic fields are entangled. Under the aspect of these observations the linear theory of small perturbations of straight flux tubes appears to be not sufficient.
+\end{enumerate}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\subsection{Summary on some properties of the active chromosphere\label{conclusions}}
+
+\begin{comment}
+We have analysed a time sequence of two-dimensional spectrograms in H$\alpha$ from AR\,10875 at $\vartheta\approx36\degr$. The observations were taken with the G\"ottingen Fabry-Perot spectrometer at the Vacuum Tower Telescope at the Obsrvatorio del Teide/Tenerife. The series of 55~min duration, with a cadence or 22~s, shows high spatial resolution of better than 0\farcs5\ in H$\alpha$ and $\sim$0\farcs25 in the accompanying broadband images at 630~nm. 
+\end{comment}
+Thanks to the good resolution, we could follow the evolution of small-scale chromospheric structures of an active region. From the rich dynamical processes in the observed, very active, flaring region some areas were selected for detailed investigation in the present work:
+\begin{enumerate} 
+\item
+A small surge: It showed repetitive occurrence with a rate of some 10 minutes. The surge developed from initial small active fibrils to a straight, thin stucture of approximately 15~Mm length, then retreated back to its mouth to reappear again two times. The gas velocities reach approximately 100~km\,s$^{-1}$. The rebound shock model by \citet{1989ApJ...343..985S} seems to be a viable explanation.
+\item
+Two small-scale, synchronous, possibly sympathetic flashes, or mini-flares: In
+a pair of small areas, two brightenings occurred simultaneously and
+disappeared during two H$\alpha$ scans with total duration of
+45~s. Presumably, the evolutionary time scale is much shorter, few to
+10~s. Yet we could follow the evolution with a temporal resolution of 2~s by analysing H$\alpha$ filtergrams at different wavelengths. One of the two flashes showed an apparent proper motion with a speed up to 200~km\,s$^{-1}$, while it was developping a high emission, above the continuum intensity, in the red part of the H$\alpha$ profile. However, the cadence of the scanning was too slow to decide whether the temporal evolution consisted in a rapid horizontal proper motion with a final fast down flow or in a rapid change of emission at fixed local postitions.
+\item
+Magnetoacoustic waves in long fibrils: In two areas with long fibrils, the structures exhibited many magnetoacoustic waves running parallel to the fibrils, thus presumably also parallel to the magnetic field. The waves are mostly solitary. Few times, two or three repetitive wave trains could be seen with periods of 100--180~s. The waves start at the footings of the fibrils with a speed of 12--14~km\,s$^{-1}$, which is not much lower than the sound speed estimated for such structures and similar to the tube speed. Most of the waves get accelerated to reach phase speeds of approximately 30~km\,s$^{-1}$. Then they spread out along the fibrils and fade. The final phase speed is much lower than the Alfv\'en speed of $\ge200$~km\,s$^{-1}$, estimated from reasonable magnetic field strengths in the active region chromosphere of 30--100~Gauss and reasonable mass densities in the fibrils of 2$\times10^{-13}$~g\,cm$^{-3}$. Furthermore, we observe that the slow waves have strong transversal (LOS) velocity components with $\sim$3~km\,s$^{-1}$, i.e. are not purely longitudinal, and that the fast waves consist of short (1\arcsec--2\arcsec), thin ($\sim$0\farcs5) blobs and apparently move along sinuous lines. We conlude from these findings that a linear theory of wave propagation in straight magnetic flux tubes is not sufficient. 
+\end{enumerate}
+\begin{comment}
+The information contained in the H$\alpha$ profile in two spatial co-ordinates and along the time turned out to be highly valuable. One can retrieve physical atmospheric parameters in all spatial positions and follow the chromospheric structures during their evolution. Beyond the examples presented above, many more dynamic phenomena in the active solar chromosphere can be studied with the present data set.
+
+Yet: ``The opportunity makes the thief''. We have learned that the sequential
+scanning with cadence of 22~s is not fast enough in some cases. Temporal
+resolutions of few secons, 2--3~seconds say, are sometimes needed. For future
+observations, we can design scanning modes of this resolution with images at fewer wavelength positions. Furthermore, future developments of telescopic instrumentation, of adaptive optics, detectors, and  data analysis including image restoration will give the required spatial and temporal information about the processes in the solar chromosphere.
+\end{comment}
+
+\clearpage
+
+
+\section{Comparison between speckle interferometry and blind deconvolution \label{sec:comp}}
+
+In Sec. \ref{seeing} we introduced the image degradation problem due to atmospheric distortions for all ground based solar observations and astronomical observations on general. In Sec. \ref{obs:kaos} we explained the adaptive optics approach used at the VTT to reduce the image distortions in real time. Finally, in Sec.  \ref{datared} we described the basis of two different \emph{post factum} image reconstruction techniques,  the Speckle Imaging (SI) and one type of Blind Deconvolution (BD) with  simultaneous Multiple Objects and Multiple Frames (MOMFBD).
+ 
+In the case of data from the G-FPI, the SI approach reconstructs separately the broadband images and uses both the original recorded frames (after dark subtraction and flat fielding) and the reconstructed image from this channel to obtain the reconstructed narrow-band images at the various positions along the spectral line.
+
+The MOMFBD code applied to our G-FPI data uses at the same time, for each spectral position, the various (15) pairs of simultaneously recorded broadband and narrow-band frames. Thus, at 21 wavelength positions along the spectral line, two different objects were observed and their images were reconstructed with 15 frames per object.
+
+In this thesis work we used the SI method for fields of view on the solar disc. The last version of the code takes into account the field dependence of the PSF around the AO lockpoint, so we will refer to this version as SI+AO. However, data frames on and off the limb cannot be reconstructed with the current code. Near the limb the contrast is lower than near disc center, which makes any reconstruction more difficult. Moreover, KAOS can lock on the low-contrast structures near the limb only under very good seeing conditions.  Also, the limb darkening at large heliocentric angles makes it difficult to determine the STF on the rings around the lockpoint for the SI+AO. Beyond the problems inside the limb, off-the-limb emission features seen in the narrow-band images lack broadband counterparts, and therefore there exist no simultaneous data from which we could apply the second part of the SI to reconstruct the off-limb parts of the images.
+
+Dataset \emph{limb}  (results in Sec. \ref{sec:limb:ha}) was recorded under very good seeing conditions, with KAOS locked on a nearby facula correcting 27 (Zernike polynomial) modes most of the time. For the {\em post factum} image reconstruction we used the MOMFDB, for which the limb darkening presents no problems. Spicules above the limb do not posses a simultaneously observed  broadband object, so it is expected that their spatial resolution is lower, since there are no multiple objects, just the multiple frames for each spectral position in the narrow-band channel.
+
+In order to compare results from both approaches we have reconstructed with both methods the same field of view on the disc, a frame of the \emph{sigmoid} data set. In this Section we present the comparison. As we show, for the BD case we made two different reconstructions with different limits of the expansion of the aberration in Karhunen-Loeve (K-L) modes. In the first case the expansion of the wavefront aberration is done until de $17^{th}$ K-L polynomial, while on the second run we expanded to the first 100 modes. The running time of the code is highly sensitive to the number of modes, being slower with more modes. 
+
+
+
+\begin{figure}[p]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{../figures/comp-ima-ccd1.pdf}
+\caption{Results for different image reconstruction techniques. Axes are in arcseconds. White rectangles enclose the region where the RMS contrast is calculated. \emph{Upper left}: Best speckle raw image, contrast is 5.9\%. \emph{Upper right}: SI+AO result, contrast is 11.1\%. \emph{Lower left}: MOMFBD running 17 modes, contrast is 6.7\%. \emph{Lower right}: MOMFBD running 100 modes, contrast is 10.0\%.}
+\label{com:ima1}
+\end{center}
+%\end{figure}
+%\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.85\textwidth]{../figures/compccd1.pdf}
+\caption{Comparison of the power spectra (in arbitrary units) of the same image for different  image reconstruction techniques.} 
+\label{com:pow1}
+\end{center}
+\end{figure}  
+
+\begin{figure}[p]
+\begin{center}
+\includegraphics[width=0.9\textwidth]{../figures/comp-ima-ccd2.pdf}
+\caption{Results for different image reconstruction techniques for the line center narrow-band filtergram. Scales on the axes are in arcseconds. \emph{Upper left}: Best speckle raw image.\,\emph{Upper right}: SI+AO result. \emph{Lower left}: MOMFBD running 17 modes. \,\emph{Lower right}: Image difference. In this case the differences reach 45\% of the fluctuations in the reconstructed frames.}
+\label{com:ima2}
+\end{center}
+%\end{figure}    
+%\begin{figure}[h]
+\vspace{-1cm}
+\begin{center}
+\includegraphics[width=0.9\textwidth]{../figures/compccd2.pdf}
+\caption{Comparison of the power spectra of the same image for different image reconstruction techniques.}
+\label{com:pow2}
+\end{center}
+\end{figure}  
+
+\subsubsection*{Broadband}
+
+Figure \ref{com:ima1} compares the full FoV image, while Fig.  \ref{com:pow1} shows the corresponding power spectra. The speckle frame corresponds to the one with highest rms contrast (5.9\% inside the white rectangle). The SI+AO reconstruction shows a much higher resolution, with more power at all frequencies than the speckle frame for angular scales larger than  $\sim 0\farcs32$. The reconstructed image has also less noise than the speckle frame (small-scale end of the power spectra). The rms contrast of granulation for this image is 11.1\%. In the case of the MOMFBD with 17 modes the power of the reconstructed image is significantly lower than for SI+AO, albeit having a lower noise level (comparable even with the burst average). We have to run up to 100 modes to arrive at a similar contrast as for SI+AO. The noise threshold for the last run, coincides with that of the SI+AO approach. The rms contrast of granulation for these images are 6.7\% with 17 modes and 10.0 \% with 100 modes.
+
+
+
+Figure \ref{com:pow1} shows also the power spectrum of the difference between SI+AO and MOMFBD$_{100}$ (green line), which is many orders magnitude lower than one of the power spectra themselves. Only at scales smaller than $\sim0\farcs4$, the difference becomes of the same order as the power spectra. Taking the differences of the reconstructed images shows that $99.8\%$ of the pixels in the FoV have intensity fluctuations lower than $15\%$ of the intensities in the images themselves. 
+%While some small structure could be seen all over the field the biggest differences are mainly with higher contrast and far from the lockpoint.
+%
+%\begin{wrapfigure}[18]{r}{0.4\textwidth}
+%%\begin{figure}[h!]
+%\begin{center}
+%\includegraphics[width=0.4\textwidth]{../figures/comp-ima-ccd1-2.pdf}
+%\caption{arcserc.}
+%\label{com:ima12}
+%\end{center}
+%\end{wrapfigure}
+%\end{figure}  
+
+
+\subsubsection*{Narrow-band}
+\begin{figure}[b]
+%\begin{wrapfigure}[22]{r}{0.4\textwidth}
+%\vspace{-2.3cm}
+\begin{center}
+%\includegraphics[width=0.4\textwidth]{../figures/comp-idet-ccd2-2a.pdf}
+%\includegraphics[width=0.4\textwidth]{../figures/comp-idet-ccd2-2b.pdf}
+\includegraphics[width=\textwidth]{../figures/comp-idet-ccd2.pdf}
+%\vspace{-0.8cm}
+\caption{Close-up subfield from the narrow-band spectrogram at the H$\alpha$ core. Axes are in arcseconds.}
+\label{com:ima2b}
+\end{center}
+%\end{wrapfigure} 
+\end{figure}
+
+The narrow-band images have lower intensities than the broadband images, especially at the core of the H$\alpha$ line. Much less images are used for reconstruction, so a lower resolution is expected. Figure \ref{com:ima2} compares the images at the H$\alpha$ line center, while Fig.  \ref{com:pow2} shows the corresponding power spectra. The SI + AO reconstruction shows a higher resolution than the speckle frame, with more power at scales  larger than  $\sim 0\farcs5$. At smaller scales, the speckle frame is dominated by noise. The MOMFBD with only 17 modes gives already a similar resolution than the SI+AO and better treatment of the noise. Fig \ref{com:ima2b} shows a close-up region where the better noise treatment of the MOMFBD is clearly visible.
+
+The difference between the methods is bigger than in the broadband case, as expected since the intensity and resolution are lower. Nonetheless the agreement is very high, 92.8\% of the pixels in the difference image have amplitudes smaller than $0.15$ of the average intensity in the reconstructed images (similar results are found for other spectral position, reaching 99\% in the wings, at wavelengths $\pm 1 $ \AA\, off the line center).
+%\newpage
+
+
+
+\subsubsection*{Conclusions}
+In this Section we have shown the good convergence  of both post-processing approaches. Using different techniques we arrive at similar results and spectral profiles. The amplitudes of the difference images are lower than $0.15$ of the average image intensity in more than 99\% of the broadband and above $\sim90$\% for the narrow-band images. In the case of the broadband reconstruction it was necessary to use 100 modes for the MOMFBD method to reach similar results as for SI+AO, while, in the narrow-band case, already with 17 modes the MOMFBD gives better images than SI+AO.
+
+The main disadvantage of BD methods is the computational load. The reconstruction of the single data set from broad and narrow-band and only 17 modes takes $\sim7$ hours to process with 20 CPU cores of $3.2$GHz. For the 100 modes run, given the limited resources, we only used the broadband frames (Multi Frame BD). If the data set ``sigmoid'' were reconstructed with BD methods, even with only 17 modes, it would have taken around 130 days on our computing resources.
+
+The main advantage of the BD is its ability to reconstruct an image even with only few frames. This is of special importance when observing fast evolving targets. The SI needs much more frames. The property of reconstructing \emph{simultaneously} recorded images from different ``objects'' (e.g. broadband and the H$\alpha$ narrow-band) leads to a perfect sub-alignment of the results, which avoids spurious signals in derived quantities. Note however that, not simultaneously observed objects, like in the several consecutive scans with the G-FPI, are not aligned since they are not recorded under identical \emph{seeing} conditions.
+
+The SI+AO method is considerably much faster, around 10 and 15 minutes for the broadband and narrow-band images, respectively, with the same computers used for the MOMFBD reconstruction and gives better results for the broadband reconstruction, even using 100 modes in the latter method. However, with MOMFBD, the resolution and treatment of the noise is better in the narrow-band case. The main current advantage of the BD methods for our work and data is the possibility of reducing narrow-band limb and off-the-limb data scans.
+
+
+Anisoplanatism is an issue common to both approaches. In both cases the large FoV is divided into smaller subfields, where the assumption of isoplanatism is valid. It is therefore important to address this point for both cases. The image difference does not show any subfield pattern. However, there can still be some small effects. For this reason we have used the integrated contrast profile of the difference, defined as
+\begin{equation}
+\mathbb{CI}=\sum_{\lambda} \Big | \frac{I_{SI+AO}(\lambda)-I_{MOMFBD_{17}}(\lambda)}{I_{SI+AO}(\lambda)} \Big|\, ,
+\end{equation}
+where $I_{SI+AO}(\lambda)$ and  $I_{MOMFBD_{17}}(\lambda)$ correspond to the reconstructed images using the SI+AO method, and  to the images using MOMFBD with 17 modes, respectively.
+
+$\mathbb{CI}$ qualitatively measures the total difference between the profiles. If they were equal, then $\mathbb{CI}$ would be 0, while an increasing difference in the profiles increases the value of $\mathbb{CI}$. Since the subfield locations are the same for all the spectral positions, this information is added along the scan, while the intensities of the structures at each position are essentially subtracted out. The subfield pattern does not disappear with the subtraction of images reconstructed with different methods since they do not necessarily coincide.
+
+Figure \ref{com:prof} shows the calculated $\mathbb{CI}$. The weak subfield pattern is revealed, especially in regions where the difference is low (dark background). The mean edge length of the squares is approximately around 32 pixels. 
+
+The amplitude of the grid pattern is very low, only revealed after the calculation of $\mathbb{CI}$. Presumably this comes from the apodization. When joining common regions on overlapping subfields, the common parts are overlaid in the final image. This, while preserving the structures, reduces the noise, which leads to slightly smaller noise levels in these overlapping lanes. This grid is common for all wavelength positions. The difference between the methods is low enough to reveal this small decrease of the noise level (leading to darker areas in Fig. \ref{com:prof}) when the total effect is calculated, by using the $\mathbb{CI}$ parameter. Therefore, regions with more contrast, where the difference between SI and BD is bigger, the presence of this pattern is masked, as shown in the figure. 
+\begin{figure}[]
+\begin{center}
+\includegraphics[width=\textwidth]{../figures/comp-prof.pdf}
+\caption{Isoplanatic subfield array pattern when calculating $\mathbb{CI}$. The mean edge length of the squares is approximately 32 pixels. Axis scale is in arcseconds.}
+\label{com:prof}
+\end{center}
+\end{figure} 
+

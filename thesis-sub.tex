@@ -1,0 +1,224 @@
+\documentclass[goettingen,print,hyper]{thesis}
+\usepackage{microtype}
+%\usepackage[protrusion={true, compatibility}, expansion=false]{microtype}
+\usepackage{txfonts}
+\usepackage{natbib}
+\usepackage{fancybox}
+\usepackage{multirow} 
+\usepackage{mathrsfs}
+\usepackage{wrapfig}
+\usepackage{subfig}
+\usepackage{setspace}
+\usepackage{verbatim} 
+\usepackage[figuresright]{rotating}
+
+%\hypersetup{colorlinks=false, linkcolor=blue,  citecolor=red,  bookmarksopen=true,  bookmarksnumbered=true,  pdfstartpage={1},   pdftitle = {},  pdfsubject = {PhD thesis }, pdfauthor = {Bruno S\'anchez-Andrade Nu\~no} ,  pdfkeywords = {}, pdfproducer = {LaTeX with hyperref}}
+
+\title{Observations, analysis and interpretation with non-LTE of chromospheric structures of the Sun}
+\author{Bruno S\'anchez-Andrade Nu\~no}
+\town{Oviedo, Asturias, Spanien}
+
+\refereea{Prof. Dr. F. Kneer}
+\refereeb{Prof. Dr. W. Kollatschny}
+\submitteddate{Januar}
+\submittedyear{2008}
+\examinationdate{15 Februar, 2008}
+\publicationyear{2008}
+\isbn{ 978-3-936586-81-7 }
+
+
+%\def\thechapter{\Roman{chapter}}
+\def\thesubsubsection {\thesubsection .\alph{subsubsection}}
+
+
+%\doublespacing
+\begin{document}
+\setstretch{1}
+\maketitle
+\include{firstpage}
+\tableofcontents
+
+
+
+
+\chapter*{Summary\markboth{Summary}{Summary}}
+\addcontentsline{toc}{chapter}{Summary}
+%? on .tex files to see comments. Consistency. Use THIS: Chapter Section broadband diffraction $\times$ Sun timescales center 
+
+%Follow ToC
+
+%1 y 2 intro and spectral lines
+\begin{comment}
+{\textbf{Remove this paragraph?} The first scientific work about the chromosphere of the Sun can be trace back 150 years. Since then it has remained an exciting field of research. The chromosphere is best seen in spectral lines with strong absorption like H$\alpha$ and \ion{Ca}{II} K 3934 \AA\, or with special conditions of formation as the  \ion{He}{i} 10830\, \AA\,line. Its wealth of dynamic phenomena includes an overall field of short fibrils covering much of the Sun, spicule ejecta seen outside the solar limb, bright plage regions associated with magnetic activity, dark filaments across the disc, prominences standing high above the photosphere or complex structures outlining the magnetic field in the solar atmosphere. The chromosphere owes its existence ti highly dynamic processes which occur in a wide range of temporal scales, a consequence of the special  physical conditions in this solar atmospheric layer. In the much denser photosphere below the chromosphere the dynamics are dominated by the plasma motion, while higher up in the corona the gas pressure has decreased and the magnetic fields and their variation determine the plasma motions. In the chromosphere, the physical parameters are found to be between the two regimens.}
+\end{comment}
+
+%3 Observations
+This thesis is based on observations performed at the \emph{Vacuum Tower Telescope} at the \emph{Observatorio del Teide}, Tenerife, Canary Islands. We have used an infrared spectropolarimeter (Tenerife Infrared Polarimeter -- TIP) and a Fabry-Perot spectrometer (``G\"ottingen'' Fabry-Perot Interferometer -- G-FPI). Observations were obtained during several campaigns from 2004 to 2006. We have applied methods to reduce the atmospheric distortions both during the observations and afterwards in the case of the G-FPI data using image processing techniques. 
+
+%4 HR in the chr.
+We have studied chromospheric dynamics inside the solar disc. The G-FPI provides means to obtain very high spatial, spectral and temporal resolution. We observe at several wavelengths across the H$\alpha$ line. With different post-processing techniques, we achieve spatial resolutions better than $0\farcs5$. We present results from the comparison of the different image reconstruction methods.  A time series of 55~min duration was taken from AR\,10875 at $\vartheta\approx36\degr$. From the wealth of structures we selected areas of interest to further study in detail some ongoing processes. We apply non-LTE inversion techniques to infer physical properties of a recurrent surge. We have studied the occurrence of simultaneous sympathetic mini-flares. Using temporal frequency filtering on the time series we observe waves along fibrils. We study the implications of their interpretations as wave solutions from a linear approximation of magneto-hydrodynamics. We conlude that a linear theory of wave propagation in straight magnetic flux tubes is not sufficient. 
+
+%5 infrared polar.
+Furthermore, emission above the solar limb is investigated. Using infrared spectroscopic measurements in the \ion{He}{i} 10830\,\AA\ multiplet
+ we have studied the spicules outside solar disc. The analysis shows the variation of the  off-limb emission profiles as a function of the distance to the visible solar limb. The 
+ratio between the intensities of the blue and the red components of this triplet $({\cal R}=I_{\rm blue}/I_{\rm red})$ is an observational signature of the optical thickness along the light path, which is related to the intensity of the coronal irradiation. The observable ${\cal R}$ as a function of the distance to the visible limb is given. We have compared the observational ${\cal R}$ with the intensity ratio obtained from \citet{Centeno06}, using detailed radiative transfer calculations in semi-empirical models of the solar atmosphere assuming spherical geometry
+%FRANZ we? add cite to rebe
+. The agreement is purely qualitative. We argue that this is a consequence of the limited extension of current models. With the observational results as constraints, future models should be extended outwards to reproduce our observations. To complete our analysis of spicules we report observational properties from high-resolution filtergrams in the H$\alpha$ spectral line taken with the G-FPI. We find that spicules can reach heights of 8 Mm above the limb. We show that spicules outside the limb continue as dark fibrils inside the disc.
+\nopagebreak 
+
+One and a half centuries after the hand-drawings by Secchi, the chromosphere is still a  source of unforeseen and exciting new discoveries. 
+
+
+\include{Introduction}
+\include{Spectropolarimetry}
+\include{Observations}
+\include{HR}
+\include{Spicules}
+\include{Conclusions}
+
+%\appendix
+%\chapter{Apendix 1}
+
+\bibliographystyle{thesis}
+\bibliography{thesis}
+
+
+\chapter*{Publications\markboth{Publications}{Publications}}
+\addcontentsline{toc}{chapter}{Publications}
+
+%\thispagestyle{empty}
+
+\begin{enumerate}
+\item[] \emph{Refereed papers}
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, R.~{Centeno}, K.~G. {Puschmann},
+  J.~{Trujillo Bueno}, J.~{Blanco Rodr{\'{\i}}guez}, and F.~{Kneer}.
+\newblock {Spicule emission profiles observed in \ion{He}{i}~10830~\AA}.
+\newblock {\em \aap}, 472:L51--L54, Sept. 2007.
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}},  N.~Bello Gonz\'alez, J.~{Blanco Rodr{\'{\i}}guez}, F.~{Kneer},   and K.~G. {Puschmann}.
+%\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}},  N.~Bello Gonz\'alez, J.~{Blanco Rodr{\'{\i}}guez}, and F.~{Kneer}.
+\newblock {Fast events and waves in an active region of the Sun
+       observed in H$\alpha$ with high spatial resolution}.
+\newblock {\em \aap}, submitted, Dec. 2007.
+
+\item
+J.~{Blanco Rodr{\'{\i}}guez}, O.~V. {Okunev}, K.~G. {Puschmann}, F.~{Kneer},
+  and \textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}.
+\newblock {On the properties of faculae at the poles of the Sun}.
+\newblock {\em \aap}, 474:251--259, Oct. 2007.
+
+\item[]  \emph{Conference contributions}
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, R.~{Centeno}, K.~G. {Puschmann},
+  J.~{Trujillo Bueno}, and F.~{Kneer}.
+\newblock {Off-limb spectroscopy of the He I 10830 {\AA} multiplet:
+  observations vs. modelling}.
+\newblock In F.~{Kneer}, K.~G. {Puschmann}, and A.~D. {Wittmann}, editors, {\em
+  Modern solar facilities - advanced solar science},
+  pages 177--180, 2007.
+
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, K.~G. {Puschmann}, and F.~{Kneer}.
+\newblock {Observations of a flaring active region in H$\alpha$}.
+\newblock In F.~{Kneer}, K.~G. {Puschmann}, and A.~D. {Wittmann}, editors, {\em
+  Modern solar facilities - advanced solar science},
+  pages 273--276, 2007.
+
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, K.~G. {Puschmann}, M.~{S{\'a}nchez Cuberes},
+  J.~{Blanco Rodr{\'{\i}}guez}, and F.~{Kneer}.
+\newblock {Analysis of a Wide Chromospheric Active Region}.
+\newblock In D.~E. {Innes}, A.~{Lagg}, S.~A. {Solanki}, and D.~Danesy, editors, {\em
+  Chromospheric and Coronal Magnetic Fields}, volume 596 of {\em ESA Special
+  Publication}, Nov. 2005.
+
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, K.~G. {Puschmann}, M.~{S{\'a}nchez Cuberes},
+  J.~{Blanco Rodr{\'{\i}}guez}, and F.~{Kneer}.
+\newblock {Chromospheric Dynamics of a Solar Active Region}.
+\newblock In {\em The Dynamic Sun: Challenges for Theory and Observations},
+  volume 600 of {\em ESA Special Publication}, Dec. 2005.
+\item
+\textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}. 
+\newblock {Study case: Solar Science Communication}.
+\newblock  In L.~Lindberg Christensen, and M.~Zoulias, editors, {\em
+  Communicating Astronomy with the Public 2007}. An IAU/Nat. Obs. of Athens/Eugenides Foundation Conference,  {\em } Oct. 2007.
+  
+
+\item
+J.~{Blanco Rodr{\'{\i}}guez}, \textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, K.~G.
+  {Puschmann}, and F.~{Kneer}.
+\newblock {Study of Polar Faculae}.
+\newblock In {\em The Dynamic Sun: Challenges for Theory and Observations},
+  volume 600 of {\em ESA Special Publication}, Dec. 2005.
+
+\item
+J.~{Blanco Rodr{\'{\i}}guez}, \textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, K.~G.
+  {Puschmann}, and F.~{Kneer}.
+\newblock {Study of Polar Faculae}.
+\newblock In D.~E. {Innes}, A.~{Lagg}, S.~A. {Solanki}, and D.~Danesy, editors, {\em
+  Chromospheric and Coronal Magnetic Fields}, volume 596 of {\em ESA Special
+  Publication}, Nov. 2005.
+
+\item
+F.~{Kneer}, K.~G. {Puschmann}, J.~{Blanco Rodr{\'{\i}}guez},
+  \textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, and A.~D. {Wittmann}.
+\newblock {Magnetic Structures on the Sun: Observations with the New
+  ''G{\"O}TTINGEN'' Two-Dimensional Spectrometer on Tenerife}.
+\newblock In D.~E. {Innes}, A.~{Lagg}, and S.~A. {Solanki}, editors, {\em
+  Chromospheric and Coronal Magnetic Fields}, volume 596 of {\em ESA Special
+  Publication}, Nov. 2005.
+
+\item
+L.~{Valdivielso Casas}, N.~{Bello Gonz{\'a}lez}, K.~G. {Puschmann},
+  \textbf{B.~{S{\'a}nchez-Andrade Nu{\~n}o}}, and F.~{Kneer}.
+\newblock {Analysis of Polarimetric Sunspot Data from Tesos/vtt/tenerife}.
+\newblock In D.~E. {Innes}, A.~{Lagg}, S.~A. {Solanki}, and D.~Danesy, editors, {\em
+  Chromospheric and Coronal Magnetic Fields}, volume 596 of {\em ESA Special
+  Publication}, Nov. 2005.
+\item
+C.~Denker, A.P.~Verdoni, F.~W\"oger, A.~Tritschler, T.R.~Rimmele, F.~Kneer,
+K.~Reardon, \textbf{B.~S\'anchez-Andrade Nu\~no}, I.~Dom\'inguez Cerde\~na and K.G.~Puschmann
+\newblock {Speckle Interferometry of Solar Adaptive Optics Imagery}
+\newblock {DFG-NSF Astrophysics Research Conference ``Advanced Photonics in Application to Astrophysical Problems'', June 2007}%, Washington, DC }
+  
+  \thispagestyle{empty}
+\end{enumerate}
+
+\include{acknowledgments}
+%\chapter*{Acknowledgements\markboth{Acknowledgements}{Acknowledgements}}\addcontentsline{toc}{chapter}{Acknowledgements}
+
+\chapter*{Lebenslauf\markboth{Lebenslauf}{Lebenslauf}}
+\addcontentsline{toc}{chapter}{Lebenslauf}
+%\thispagestyle{empty}
+\begin{table}[htdp]
+\begin{tabular}{p{.23\linewidth}lp{.35\linewidth}}
+\textbf{Name:} & \multicolumn{2}{l}{Bruno S\'anchez-Andrade Nu\~no}  \\
+\\
+\textbf{Geburtsdatum:} &   \multicolumn{2}{l}{6. Mai 1981}   \\
+\\
+\textbf{Geburstort:} &   \multicolumn{2}{l}{Oviedo, Asturias, Spanien}   \\
+\\
+\textbf{Familienstand:} &  \multicolumn{2}{l}{Ledig}  \\
+\\
+\textbf{Eltern:} &  \multicolumn{2}{l}{Julio Miguel S\'anchez-Andrade Fern\'andez}  \\
+ &  \multicolumn{2}{l}{Concepci\'on Nu\~no L\'opez }  \\
+ \\
+ \\
+ \textbf{Staatsangeh\"origkeit:} &   \multicolumn{2}{l}{Spanisch}   \\
+ \\
+ \\
+  \textbf{Schulbildung:} &  September 1987 - Juni 1995 & Grundschule am \emph{Colegio P\'ublico ``R\'io Piles''} in {Gij\'on}, Asturias   \\
+  & September 1995 - Juni 1999 & Weiter f\"uhrende Schule am \emph{I. B. ``R\'io Piles''} in {Gij\'on}, Asturias
+  \\
+  \textbf{Studium:} &  September 1999 - September 2003 & Physikalische Fakult\"at  der Universit\"at Oviedo, Asturias  \\
+  &  September 2003 - September 2004 & Physikalische Fakult\"at  der Universit\"at La Laguna, Teneriffa (Fachrichtung Astrophysik)  \\
+  \\
+  
+    \textbf{Promotion:} &  Januar 2005 - Januar 2008 & Promotion an der Universit\"ats-Sternwarte G\"ottingen (seit Juni 2005 Institut f\"ur Astrophysik  G\"ottingen, IAG)   \\
+ &  Januar 2005 - Januar 2008 & Stipendium des Max-Planck-Instituts f\"ur Sonnensystemforschung    \\   
+  \end{tabular}
+\end{table}
+
+\end{document}
