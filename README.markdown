@@ -1,5 +1,11 @@
-This is the LaTeX source files that compiles my PhD thesis book. 
-===============================================================
+LaTeX source files for my PhD thesis book. 
+==========================================
+
+This is the LaTeX source that compiles my [PhD](brunosan.eu/PhD) with references, images and all.
+
+You are free to use it:
+* Thesis content can be used under the Creative Commons Attribution License.
+* LaTeX code is released has no copyright claims of any kind.
 
 
 Why I am doing this
